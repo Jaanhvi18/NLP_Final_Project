@@ -43,11 +43,10 @@ def classify_line(text, threshold=80):
     "pressured", "crushed", "dominated", "suffocated", "frustrated", "tired", "exhausted", 
     "low morale", "loss of momentum", "doubtful", "discouraged", "nervous", "tried"
     ]
-    
-    # Convert text to lowercase
+
     text = text.lower()
     
-    # Check for good keywords using a combination of exact and fuzzy matching
+    # Check for good keywords 
     for phrase in good_phrases:
         if fuzz.partial_ratio(text, phrase.lower()) >= threshold or phrase in text:
             return 1  # Good play
@@ -61,18 +60,30 @@ def classify_line(text, threshold=80):
     return ""
 
 def label_transcript(transcript_df, threshold=80):
-    # Apply the classification function to each line in the transcript
-    transcript_df['Outcome'] = transcript_df['Text'].apply(lambda text: classify_line(text, threshold))
+    transcript_df['label'] = transcript_df['Text'].apply(lambda text: classify_line(text, threshold))
     return transcript_df
+
+def fill_empty_labels(df):
+    future_label = None
+    # Iterate backward through the labels
+    for i in range(len(df) - 1, -1, -1):
+        if df.loc[i, 'label'] == "":
+            df.loc[i, 'label'] = future_label
+        else:
+            # Update future_label if we encounter a non-empty label
+            future_label = df.loc[i, 'label']
+    return df
 
 def main():
     transcript_file = "transcript.tsv"
     transcript_df = pd.read_csv(transcript_file, sep='\t')
     
     # Classify each line as Good (1) or Bad (0) with the updated matching criteria
-    labeled_transcript = label_transcript(transcript_df, 80)
-    
-    # Save the labeled transcript to a new TSV file
+    labeled_transcript = label_transcript(transcript_df, 75)
+
+    # Fill empty labels based on the next upcoming non-empty label (going backwards)
+    labeled_transcript = fill_empty_labels(labeled_transcript)
+
     output_file = "labeled_transcript_with_outcomes.tsv"
     labeled_transcript.to_csv(output_file, sep='\t', index=False)
     print(f"Labeled transcript saved to {output_file}")
