@@ -8,7 +8,7 @@ def classify_line(text, threshold=80):
         "quad kill", "ace", "clutch", "secured kill", "dominant kill", "clean shot", "takedown", 
         "won the round", "victory", "secured the round", "flawless", "dominated the round", 
         "round win", "picked up the round", "secured match point", "clinched the round", 
-        "defused", "detonated", "spike planted", "spike detonated", "bomb down", "spike down successfully",
+        "defused", "detonated", "spike planted", "spike detonated", "bomb down","plant goes down", "spike down successfully",
         "advantage", "controlling the map", "strong hold", "perfect retake", "successful push", 
         "overwhelming", "executed perfectly", "perfect setup", "outplayed", "popped off", "on fire", 
         "unstoppable", "insane shot", "clutched up", "highlight play", "carried the team", 
@@ -17,7 +17,10 @@ def classify_line(text, threshold=80):
         "strong economy", "economy control", "perfect flash", "well-placed smoke", "abilities forced them out",
         "hit with flash", "controlled site with utility", "great use of ult", "locked down the site", 
         "held strong crossfire", "team support", "good trades", "excellent coordination", "backed each other up", 
-        "covered angles well", "strong map control", "secure flank", "held strong", "teamwork on point"
+        "covered angles well", "strong map control", "secure flank", "held strong", "teamwork on point", "good", "great", "excellent", "strong", "effective", "impactful", "successful", "flawless", "dominant", 
+    "solid", "secure", "strategic", "clean", "brilliant", "clutch", "controlled", "sharp", "on point", 
+    "skilled", "victory", "win", "advantage", "gain", "lead", "synergy", "backup", "support", "teamwork", 
+    "unstoppable", "overwhelming", "confident", "focused", "momentum", "ambitious", "resilient", "powerful"
     ]
     
     bad_phrases = [
@@ -32,7 +35,13 @@ def classify_line(text, threshold=80):
         "flash didn’t connect", "ultimate poorly timed", "missed flash", "abilities mistimed", 
         "smoke didn’t block vision", "caught in molly", "flashed and pushed", "cut off by utility", 
         "poor utility buy", "wasted credits on abilities", "no utility left for retake", "couldn’t afford abilities", 
-        "bad timing on ability use", "knifed"
+        "bad timing on ability use", "knifed in the back","no dont do it too him", "no team support", "lost crossfire", 
+        "poor cover", "failed trades", "disorganized", "caught without cover", "lost mid control", 
+        "no map control", "split positioning", "poor map awareness", "caught without rotation", "bad", "poor", "weak", "ineffective", "unsuccessful", "sloppy", "messy", "exposed", "vulnerable", 
+    "flawed", "disorganized", "struggle", "loss", "defeat", "setback", "mistake", "error", "gap", 
+    "isolated", "unsupported", "uncoordinated", "miscommunication", "outmatched", "overwhelmed", 
+    "pressured", "crushed", "dominated", "suffocated", "frustrated", "tired", "exhausted", 
+    "low morale", "loss of momentum", "doubtful", "discouraged", "nervous", "tried"
     ]
     
     # Convert text to lowercase
@@ -61,7 +70,7 @@ def main():
     transcript_df = pd.read_csv(transcript_file, sep='\t')
     
     # Classify each line as Good (1) or Bad (0) with the updated matching criteria
-    labeled_transcript = label_transcript(transcript_df, 75)
+    labeled_transcript = label_transcript(transcript_df, 80)
     
     # Save the labeled transcript to a new TSV file
     output_file = "labeled_transcript_with_outcomes.tsv"
