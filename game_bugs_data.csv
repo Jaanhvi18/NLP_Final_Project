@@ -1,1976 +1,876 @@
-post_id,title,text,score,upvote_ratio,num_comments,author,author_karma,subreddit,timestamp,url,severity,is_resolved,platforms,potential_games,bug_keywords,sentiment_polarity,sentiment_subjectivity
-1gh69sx,There's a bug in the Monster Hunter Wilds Beta that causes your character to have a super angry face when they hold a shield,,22285,0.94,596,IcePopsicleDragon,679860.0,gaming,2024-11-01T10:08:52,https://i.imgur.com/mqRjh2Y.png,unspecified,False,unspecified,,bug,-0.08333333333333334,0.8333333333333333
-1g91k2r,Stuck on this boss quite often,,5595,0.97,218,Antalus-2,2912.0,gaming,2024-10-21T17:36:27,https://i.redd.it/se5kbj5jh6wd1.png,high,False,unspecified,,stuck,0.0,0.0
-1gf2pit,"Got a bug playing Black Ops 6 campaign, now I’m rich!",,4640,0.95,312,Scapadap,3609.0,gaming,2024-10-29T15:09:41,https://i.redd.it/ect22543vqxd1.jpeg,unspecified,False,unspecified,Black Ops 6 campaign,bug,0.15104166666666669,0.5916666666666667
-1g8yv91,Starcraft 2 just got it's biggest patch in recent history,,4403,0.96,391,Outrageous-Laugh1363,15208.0,gaming,2024-10-21T15:47:01,https://news.blizzard.com/en-us/starcraft2/24150098/starcraft-ii-5-0-14-ptr-patch-notes,unspecified,False,unspecified,,patch,0.0,0.25
-1gh629y,"Horizon Zero Dawn's questionable remaster launches to Mixed reviews as players lament a new mandatory PSN sign-in that wasn't in the original, visual glitches, and audio bugs",,4320,0.92,837,Turbostrider27,14426736.0,pcgaming,2024-11-01T09:59:48,https://www.pcgamer.com/games/action/horizon-zero-dawns-questionable-remaster-launches-to-mixed-reviews-as-players-lament-a-new-mandatory-psn-sign-in-that-wasnt-in-the-original-visual-glitches-and-audio-bugs/,medium,False,playstation,,"bug,glitch",0.002272727272727271,0.4909090909090909
-1g7hdvf,Star Citizen demo crashes live on stage during presentation,,3031,0.9,820,milkasaurs,57626.0,pcgaming,2024-10-19T16:03:23,https://www.youtube.com/clip/UgkxlRWP7thH0T3xWcnmyFp-4kxfCuO6BhXe,critical,False,unspecified,,crash,0.13636363636363635,0.5
-1gkls0v,Ubisoft's NFT dumpster fire flares up as a matchmaking bug leaves every player connecting and losing to the same unkillable guy,,1846,0.97,140,Shezzerino,,pcgaming,2024-11-05T19:24:33,https://www.pcgamer.com/games/strategy/ubisofts-nft-dumpster-fire-flares-up-as-a-matchmaking-bug-leaves-every-player-connecting-and-losing-to-the-same-confused-unkillable-guy/,unspecified,False,unspecified,,bug,0.0,0.125
-1gcpwa3,"Valve giveth, and Valve taketh away: Team Fortress 2's BLU Scout is once again wearing the 'wrong' pants after a 17 years-in-the-making fix was reversed a day later",,1246,0.93,47,Lord_Clavicus_Vile,860.0,pcgaming,2024-10-26T13:12:41,https://www.pcgamer.com/games/fps/valve-giveth-and-valve-taketh-away-team-fortress-2s-blu-scout-is-once-again-wearing-the-wrong-pants-after-a-17-years-in-the-making-fix-was-reversed-a-day-later/,unspecified,False,unspecified,,fix,-0.25,0.45
-1gbsmee,SilentPatch for Grand Theft Auto goes open source!,,569,0.97,35,CookiePLMonster,6674.0,pcgaming,2024-10-25T08:04:46,https://cookieplmonster.github.io/2024/10/25/silentpatch-goes-open-source/?utm_source=Reddit&utm_medium=social&utm_campaign=Self+Post,unspecified,False,unspecified,,patch,0.25,0.75
-1gbu63o,"Ubisoft Management To Blame For Prince of Persia: The Lost Crown Sales Issues, Baldur's Gate 3 Exec Says",,1117,0.91,267,Turbostrider27,14426737.0,PS5,2024-10-25T09:23:47,https://insider-gaming.com/ubisoft-management-to-blame-for-prince-of-persia-the-lost-crown-sales-issues-baldurs-gate-3-exec-says/,unspecified,False,unspecified,,issue,0.0,0.0
-1gmdhsh,PS5 Pro Impressions ,"Just thought I’d leave my review of the PS5 Pro as someone who games on a 4090. 
+post_id,title,text,label,score,upvote_ratio,num_comments,author,subreddit,timestamp,severity,is_resolved,platforms,potential_games,bug_keywords,sentiment_polarity,sentiment_subjectivity
+1fj27i2,It's been 11 Years today since release,,Other,63520,0.92,953,Skynetdyne,gaming,2024-09-17T11:29:43,unspecified,False,unspecified,,,0.0,0.0
+1f83qls,CONCORD will be taken offline Sept 6. Sales will cease and refunds will be issued🚀 ,,Bug,60561,0.91,9475,RinoTheBouncer,gaming,2024-09-03T12:06:29,unspecified,False,unspecified,,issue,0.0,0.0
+1ber5b3,"5 years after the original post, showing my Grandma playing Wii Fit every morning for 10 years, Im excited to update you that she is still going!! She wakes up every morning and does excercises to stay fit!! Almost at 16 years!!",,Question,58551,0.97,880,gperk69,gaming,2024-03-14T13:45:11,unspecified,False,unspecified,,,0.584375,0.575
+18iqn67,Valve hands out gift wrapped bans in DotA2,,Other,57570,0.96,1593,RainStoryGames,gaming,2023-12-14T22:26:58,unspecified,False,unspecified,,,0.0,0.0
+18ax6og,GTA 6 TRAILER DROPPED NOW,,Other,56361,0.86,6685,Skullghost,gaming,2023-12-04T18:09:30,unspecified,False,unspecified,,,0.0,0.0
+1b2b9mb,"Sony PlayStation’s CEO Jim Ryan was at PlayStation London Studios 6 days ago. Yesterday, he announced the studio is being closed.",,Other,53448,0.93,3305,iminiki,gaming,2024-02-28T12:08:53,unspecified,False,playstation,PlayStation,,-0.1,0.1
+1e5p2k8,Xbox revealed an official Deadpool controller with butt cheeks on the back,,Other,52311,0.9,1525,121jigawatts,gaming,2024-07-17T14:10:16,unspecified,False,xbox,,,0.0,0.0
+1cla2cc,PlayStation cancels plans to force Helldivers 2 players to link a PSN account,,Other,52105,0.93,2828,Gustavo1047,gaming,2024-05-06T00:06:47,unspecified,False,playstation,PlayStation,,0.0,0.0
+194760i,Opinion: The change of tone in Call of Duty was a disgrace,,Other,48413,0.6,4439,Lazy-Vulture,gaming,2024-01-11T12:28:10,unspecified,False,unspecified,,,0.0,0.0
+1bokmut,Y'all have no idea the level of nostalgia which just hit me rn,This was PEAK and I mean PEAK,Other,47722,0.94,1165,[deleted],gaming,2024-03-26T18:05:33,unspecified,False,unspecified,,,-0.3125,0.6875
+1gdo0wo,"Revive me please bro, I have the Raygun!",Just showing off my Call of Duty World at War Marine Halloween costume!,Question,47407,0.94,266,Rhinooo373,gaming,2024-10-27T19:14:53,unspecified,False,unspecified,,,0.0,0.0
+1glxpi0,I modded RDR2 so all wagons/horses go supersonic speed. It's now a horror game.,,Other,47172,0.92,680,Blurbss,gaming,2024-11-07T13:42:20,unspecified,False,unspecified,,,-0.4,0.4
+1akekfw,"Henry Cavill says heading up the Warhammer 40,000 cinematic universe is 'the greatest privilege of my professional career'",,Other,46751,0.93,2300,Remorse_123,gaming,2024-02-06T12:00:45,unspecified,False,unspecified,,,0.3666666666666667,0.43333333333333335
+1ddsc8w,when the game respects you and your time.,,Other,46594,0.94,1041,matolandio,gaming,2024-06-11T19:25:42,unspecified,False,unspecified,,,-0.4,0.4
+1emutvr,"In 2015, these two people became close friends on gta online, then met up in real life and took a picture in their favorite in-game location.",,Other,45587,0.88,664,TympannelPoppy,gaming,2024-08-07T22:39:24,unspecified,False,unspecified,,,0.35,0.65
+1gdzvr0,I made the ebony axe from Skyrim,"Before you ask, sorry I don't do commissions currently (Skyrim subreddit was asking a lot)
+It is made out of steel and weights between 5 and 6 lbs. ",Other,44954,0.96,588,TheRaimundCosplay,gaming,2024-10-28T07:40:02,unspecified,False,unspecified,Skyrim,,-0.25,0.7
+17yv7ph,This new walking dead game should be illegal,How a team created this and thought 'yup this looks shippable' is beyond me,Question,44748,0.92,2855,Embo1,gaming,2023-11-19T06:29:31,unspecified,False,unspecified,,,-0.2409090909090909,0.4386363636363636
+1ff9pok,Capture the flag days :(,,Bug,44367,0.92,712,huss2120,gaming,2024-09-12T14:30:07,unspecified,False,unspecified,,lag,-0.75,1.0
+1azzjv8,"Found at my parents house, my Pokemon Red cartridge with legit Mew with 14 y/o batteries still working in my Game Boy Pocket",Got the Mew at Nintendo's Pokemon tour in the US around Feb 2000.,Other,42398,0.92,1132,BrwnSuperman,gaming,2024-02-25T16:30:15,unspecified,False,switch,Pokemon Red,,-0.2,0.2
+1fq26fc,The Simpsons: Tapped Out is being sunsetted after 12 years,,Other,42007,0.92,1759,EfoDom,gaming,2024-09-26T13:43:05,unspecified,False,unspecified,,,0.0,0.0
+1b5or5v,Battlefield 1 almost 8 years old and still looks better than most games released today,,Other,41108,0.83,1730,BobMama,gaming,2024-03-03T13:55:38,unspecified,False,unspecified,,,0.3666666666666667,0.39999999999999997
+1fyxlbf,"Thanks to r/gaming, after 4 years of work, I finally found a publisher for my nostalgic helicopter game! (Cleared Hot)",,Other,40870,0.9,2885,cfinger,gaming,2024-10-08T07:34:58,unspecified,False,unspecified,,,-0.11000000000000001,0.6900000000000001
+1f6ggv1,How to start world war 3,,Question,40784,0.9,803,Hoppy_Doodle,gaming,2024-09-01T10:59:22,unspecified,False,unspecified,,,0.0,0.0
+1fzuuw2,Silent Hill 2 on PS2 (emulated at 8K) vs the remake,,Other,40654,0.95,1435,robbiekhan,gaming,2024-10-09T11:59:21,unspecified,False,unspecified,,,0.0,0.1
+1fkhay5,Nintendo: stop copying us! ,,Other,40464,0.72,2391,AI2cturus,gaming,2024-09-19T06:11:30,unspecified,False,switch,,,0.0,0.0
+1ckiez6, Helldivers 2 Has Been Delisted From Over 100 Countries on Steam ,,Other,39999,0.92,4510,IcePopsicleDragon,gaming,2024-05-04T23:48:37,unspecified,False,pc,,,0.0,0.0
+1aoi9qq,Starfield has lost 97% of its Steam players in less than six months,,Other,39672,0.82,6135,PrinceDizzy,gaming,2024-02-11T15:55:28,unspecified,False,pc,,,-0.16666666666666666,0.06666666666666667
+1gaci8g,"Netflix Closes Its All-Star AAA Video Game Studio, Which Made Zero Games",,Other,39513,0.96,1634,Roids-in-my-vains,gaming,2024-10-23T10:53:44,unspecified,False,unspecified,,,-0.4,0.4
+19faz9c,Just Palworld things,,Other,39333,0.85,1770,IdiotoftheEast,gaming,2024-01-25T09:46:38,unspecified,False,unspecified,,,0.0,0.0
+1b3z8tb,"On this day 10 years ago, Twitch Plays Pokemon successfully beat its first Pokemon run.",,Other,39001,0.93,1180,thepkmncenter,gaming,2024-03-01T11:58:46,unspecified,False,unspecified,,,0.5,0.6416666666666666
+1eul176,"2K removes its pointless launcher from Civilization 6, while also announcing that Civilization 7 players will never have to suffer launching the game twice for no reason",,Other,38901,0.95,920,boomshiki,gaming,2024-08-17T11:57:59,unspecified,False,unspecified,,,-0.325,0.45
+1f44zau,I drew a NES exploded view,,Other,38789,0.95,829,Poire_,gaming,2024-08-29T11:15:06,unspecified,False,unspecified,,,0.0,0.0
+1dnikxs,A bunch of 40 year olds just playing games at my house,,Other,38081,0.92,1451,Mohawk200x,gaming,2024-06-24T13:03:54,unspecified,False,unspecified,,,0.0,0.0
+1ejht99,South Park The Fractured but Whole still has the funniest difficulty setting in any game. ,,Other,37777,0.85,765,Justapersonmaybe,gaming,2024-08-03T20:03:53,unspecified,False,unspecified,,,-0.1,0.4
+1fki8o1,"Palworld developers respond, says it will fight Nintendo lawsuit ‘to ensure indies aren’t discouraged from pursuing ideas’ ",,Other,37762,0.93,3735,IcePopsicleDragon,gaming,2024-09-19T07:13:26,medium,False,switch,,,0.0,0.0
+1eed99k,I just realized I basically have a 120GB poker game installed on my PC.,,Other,37702,0.93,773,5xad0w,gaming,2024-07-28T13:50:41,unspecified,False,pc,,,-0.4,0.4
+1bnxta7,"Dragon Age creator says that if crunch is ""the only way"" to make massive games, ""maybe the industry deserves to die""",Well.... Yeah.,Other,37379,0.93,2511,bentsea,gaming,2024-03-25T23:21:20,unspecified,False,unspecified,,,0.0,1.0
+1fw22hy,This is a $70 game ladies and gentlemen...,It's no secret the EA UFC games are a buggy mess but during a match today I turned into a runner from The Last Of Us,Bug,37344,0.9,2603,BBQ_Boi,gaming,2024-10-04T11:34:35,unspecified,False,unspecified,The Last Of Us,"bug,buggy",-0.09375,0.3354166666666667
+1fsbl57,Never buying another Ubisoft game again.,,Other,37301,0.89,1979,Kragwulf,gaming,2024-09-29T14:48:05,unspecified,False,unspecified,,,-0.4,0.4
+1fvv80f,They always come back,,Other,37287,0.93,1031,Hoppy_Doodle,gaming,2024-10-04T05:38:41,unspecified,False,unspecified,,,0.0,0.0
+1ffwmz6,"Back to the good ol’ days :,)",,Other,36839,0.91,801,zProxy420,gaming,2024-09-13T10:50:42,unspecified,False,unspecified,,,0.35,0.30000000000000004
+1gcgyvj,"Publishers are absolutely terrified ""preserved video games would be used for recreational purposes,"" so the US copyright office has struck down a major effort for game preservation",,Other,36482,0.96,1850,VanFTMan,gaming,2024-10-26T05:06:59,unspecified,False,unspecified,,,-0.0732638888888889,0.5222222222222223
+1fhx6n5,Life. Is. Good.,,Other,36433,0.8,877,SobigX,gaming,2024-09-16T01:32:41,unspecified,False,unspecified,,,0.7,0.6000000000000001
+18mfcn0,Popular YouTuber and fallout/elder scrolls fan “Mitten Squad” has passed away at 27,"Probably one of the most shocking things today. It genuinely sucks, especially since his most recent community update was that he slowly getting better with his drinking habits.
+
+If you have an alcohol problem, please seek help, there are people out there who are willing to assist you.
+
+Rest in peace man",Bug,36329,0.9,1343,pplazzz,gaming,2023-12-19T18:09:06,medium,False,unspecified,Mitten Squad,problem,0.075,0.61
+1ggm1wg,My Piper cosplay (Fallout 4),Happy Halloween y’all 🎃 ,Other,36239,0.93,324,Dragu_nova,gaming,2024-10-31T14:54:58,unspecified,False,unspecified,,,0.8,1.0
+18b7pts,The GTA trailer was nice but remember...,,Other,36014,0.78,3604,Michaluck,gaming,2023-12-05T03:44:28,unspecified,False,unspecified,,,0.6,1.0
+1gouhpt,I miss the mid/late 2000s piss filter in video games ,Last time we saw that filter was in Max Payne 3. Truly an iconic era that ended too soon ,Other,35927,0.84,1733,Crylose,gaming,2024-11-11T10:15:28,unspecified,False,unspecified,,,0.25,0.2833333333333333
+1ahxm5v,I gotta say video game studios seems to have competitions to see who can make the best debra wilson model,"Not hating or anything, just a little fun post I made. I definitely like her also she's gonna be in Insomniac Wolverine too!",Other,35785,0.9,1508,Alisalard1384,gaming,2024-02-03T09:42:51,unspecified,False,unspecified,,,0.1425,0.38
+185xp4s,First image from Fallout TV series,,Other,35600,0.92,3862,nesatzuke,gaming,2023-11-28T09:45:49,unspecified,False,unspecified,,,0.25,0.3333333333333333
+1f53pi4,How to Enter a Room,,Question,35297,0.9,1102,Infinite-Ad5464,gaming,2024-08-30T15:22:30,unspecified,False,unspecified,,,0.0,0.0
+1avslue,Friend gifted me Helldivers 2 on Steam but this popped up when I accepted,,Other,35297,0.94,937,tangatalaga,gaming,2024-02-20T15:56:10,unspecified,False,pc,,,0.5,1.0
+1amz9bc,Flappy Bird was removed from the App Store exactly 10 years ago...,,Other,35143,0.92,1246,RefrigeratorHot3959,gaming,2024-02-09T16:32:01,unspecified,False,unspecified,,,0.25,0.25
+1cc4mj2,Cake I put together today for my sons birthday. ,,Other,34857,0.92,871,string1986,gaming,2024-04-24T13:46:32,unspecified,False,unspecified,,,0.0,0.0
+1b7eeyl,This thing is sick!,,Other,34676,0.93,1097,N7Preston,gaming,2024-03-05T14:41:12,unspecified,False,unspecified,,,-0.8928571428571429,0.8571428571428571
+1e6oic2,'Halo' Canceled After Two Seasons at Paramount+,,Other,34567,0.94,5248,IcePopsicleDragon,gaming,2024-07-18T18:50:21,unspecified,False,unspecified,Two Seasons,,0.0,0.0
+1cemsqk,Very sneaky Bethesda,"No really, I don’t get it. Why did they say it’s free and then proceed to backtrack on this? This because of the PS Plus issue that’s going on right now?",Bug,33792,0.92,936,PoppinOff81,gaming,2024-04-27T15:31:15,unspecified,False,unspecified,,issue,0.19642857142857142,0.45892857142857146
+1awejrt,"50,000 People Used to Live Here. Now It's a Ghost Town.",,Other,33792,0.92,1702,DeadgrounD,gaming,2024-02-21T10:18:20,unspecified,False,unspecified,,,0.13636363636363635,0.5
+1aifufv,Same developer. Same character. Same costume. 9 YEARS LATER. Batman Arkham Knight (2015) and Suicide Squad: Kill The Justice League (2024),,Other,33743,0.76,3283,WhyPlaySerious,gaming,2024-02-03T23:56:13,medium,False,unspecified,,,0.0,0.09375
+1dlo57o,Oh how the times have changed!,,Question,33229,0.94,1148,romulan267,gaming,2024-06-22T01:13:10,unspecified,False,unspecified,,,0.0,0.0
+1c9m5nu,"Cities Skylines 2 rushes to delete “Worst Rated DLC on Steam”, proceeds to break base game.",Players booting up the game this weekend find their cities full of missing assets.,Other,32755,0.95,1891,erbdylo,gaming,2024-04-21T12:31:18,unspecified,False,pc,Worst Rated DLC on Steam,,-0.4083333333333334,0.5666666666666665
+199wn73,Big W PlayStation,,Other,32739,0.9,2139,farrerj32,gaming,2024-01-18T13:15:10,unspecified,False,playstation,,,0.0,0.1
+1djem27,Counter-Strike turns 25 today,,Other,32586,0.95,1791,Bj_Hokey_Lange,gaming,2024-06-19T05:02:43,unspecified,False,unspecified,,,0.0,0.0
+1bdoffy,"Since they're remastering and re-releasing OG Star Wars Battlefronts, they should also do the same with ""Return Of The King""",,Other,32385,0.91,1162,Alisalard1384,gaming,2024-03-13T06:45:27,unspecified,False,unspecified,Return Of The King,,0.0,0.125
+1f0axbq,The most useless button ever,,Other,32329,0.96,532,HeyLetsRace,gaming,2024-08-24T13:37:11,unspecified,False,unspecified,,,0.0,0.35
+1esc6np,Until Dawn Original vs. Remaster ,,Other,32286,0.88,1385,Crylose,gaming,2024-08-14T16:43:17,unspecified,False,unspecified,,,0.375,0.75
+1cmesec,"""Just make great game and money will be pouring in!""",,Other,30694,0.87,3213,beam05,gaming,2024-05-07T11:35:04,unspecified,False,unspecified,,,0.15000000000000002,0.575
+1g33kf7,My friend got me a carpet for my birthday ,,Other,30699,0.96,346,Fraughty12,gaming,2024-10-13T20:10:40,unspecified,False,unspecified,,,0.0,0.0
+1ept9l6,"‘Borderlands’ Movie Bombs With $8.8 Million Weekend, A Fourth Place Debut",,Other,30474,0.94,3412,DemiFiendRSA,gaming,2024-08-11T15:30:58,unspecified,False,unspecified,,,0.0,0.0
+1duqw4n,When the dead pixel on your game boy isn’t exactly dead…,"Saw what I thought was a dead pixel on my Gameboy Micro. Prayed it was dust or something inside the screen shell. So I popped that off, gave it a wipe, then I noticed the dead pixel was moving. Pulled out a jewelers loupe I had and lo and behold it’s a bug of some sort in between the layers of the screen. ",Bug,30438,0.95,482,FroggyNight,gaming,2024-07-03T18:16:08,unspecified,False,unspecified,,bug,-0.15,0.37
+1e1u9zi,AAA games have lost any and all creativity,,Other,30433,0.8,3306,JTP709,gaming,2024-07-12T18:17:57,unspecified,False,unspecified,,,0.0,0.0
+1cnpczy,Someone nuked Phil Spencers camp in Fallout 76,,Other,30414,0.91,1205,brotherlymoses,gaming,2024-05-09T01:10:51,unspecified,False,unspecified,,,0.0,0.0
+1fphmlv,Heard a loud clunk and she finally gave out. So many hours spent playing.,,Other,30013,0.91,1015,sivablue,gaming,2024-09-25T18:49:27,unspecified,False,unspecified,,,0.125,0.6
+1fei28j,Why did vehicular combat as a genre die out. I miss Twisted Metal!,,Other,29546,0.95,3482,boredelon,gaming,2024-09-11T14:57:02,unspecified,False,unspecified,,,-0.625,1.0
+1fwlfxo,Highly rates games created in the small Swedish city of Skövde was awarded plaques embedded in street.,"During a game conference here in Sweden this week a few well-rated games that was made in the city was awarded plaques that was put into a street. Supposedly called ‘Walk of Game’.
+
+Source for more reading: https://skovde.com/en/skovde-walk-of-game/",Other,29086,0.96,539,Zahhibb,gaming,2024-10-05T04:02:18,unspecified,False,unspecified,,,-0.09833333333333331,0.38999999999999996
+1f2bkax,"On this day 22 years ago, Mafia was released",,Other,28988,0.92,1299,Redas17,gaming,2024-08-27T03:57:51,unspecified,False,unspecified,,,0.0,0.0
+1g90iyx,"Valve says its 'not really fair to your customers' to create yearly iterations of something like the Steam Deck, instead it's waiting 'for a generational leap in compute without sacrificing battery life'",,Other,28411,0.96,1033,TylerFortier_Photo,gaming,2024-10-21T16:53:32,unspecified,False,pc,,,-0.35,0.9
+184e4zj,"I averaged 14 ""Best Games of All Time"" lists from the last five years together, and these are the results","# Explanation and methodology
+
+I compiled fourteen different ""best of all time"" lists to create one definitive list. It was originally going to be a top 100 but I ended up having enough data to make a consensus top 200. For each list I gave each game a score based on placement (i.e. one point for 100th place, two points for 99th place, all the way up to 100 points for 1st place). I also gave a certain amount of extra points for simply being on the list--otherwise games that ranked low would get basically no advantage over games that didn't rank at all. The amount differed based on whether the list was a top 50, top 100, top 200, and so on. Making it onto more exclusive lists obviously granted more points. 
+
+# Lists used
+
+I averaged together the following lists, with diverse perspectives and recent publication being a priority in which lists I chose: 
+
+**Media rankings**: Empire (UK, 2023), USA Today (US, 2022), Popular Mechanics (US, 2022), Looper (US, 2022) IGN (international, 2021), Slant magazine (USA, 2020) Game Informer (US, 2018) Games TM (UK, 2018)
+
+**Critic ratings**: Metacritic top 200 Metascores of all time (as of 2023)
+
+**Gamer ratings**: IMDB top 200 user ratings of all time (as of 2023), Ranker top 200 user ratings of all time (as of 2023)
+
+**Critic polls**: British GQ Industry Poll (UK, 2023)
+
+**Gamer polls:** TV Asahi viewer poll (Japan, 2021), Hobby Consolas reader poll (Spain/Latin America, 2021)
+
+# THE LIST
+
+Here is the final top 200 list:
+
+1. The Legend of Zelda: Ocarina of Time
+2. The Legend of Zelda: Breath of the Wild
+3. Grand Theft Auto V
+4. The Last of Us
+5. Tetris
+6. Resident Evil 4
+7. Metal Gear Solid
+8. The Witcher 3: Wild Hunt
+9. Super Mario 64
+10. BioShock
+11. Final Fantasy VII
+12. Super Mario Bros 3
+13. Half Life 2
+14. Minecraft
+15. Metal Gear Solid 3: Snake Eater
+16. Shadow of the Colossus
+17. The Legend of Zelda: A Link to the Past
+18. The Elder Scrolls V: Skyrim
+19. Portal 2
+20. Chrono Trigger
+21. Street Fighter II
+22. Pokemon Red/Blue
+23. Bloodborne
+24. Uncharted 2: Among Thieves
+25. God of War (2018)
+26. Red Dead Redemption 2
+27. Castlevania: Symphony of the Night
+28. Super Mario World
+29. Call of Duty 4: Modern Warfare
+30. Mass Effect 2
+31. World of Warcraft
+32. Dark Souls
+33. Halo: Combat Evolved
+34. DOOM (1993)
+35. Persona 5
+36. GoldenEye 007
+37. Super Metroid
+38. Silent Hill 2
+39. Fallout 3
+40. Portal
+41. Star Wars: Knights of the Old Republic
+42. Red Dead Redemption
+43. Journey
+44. Super Mario Kart 
+45. Batman: Arkham City
+46. Metroid Prime
+47. Disco Elysium
+48. Diablo II
+49. Super Mario Odyssey
+50. Super Mario Bros
+51. Undertale
+52. StarCraft
+53. Hades
+54. The Legend of Zelda: Majora’s Mask
+55. Super Smash Bros Melee
+56. Resident Evil 2
+57. The Legend of Zelda: The Wind Waker
+58. Final Fantasy VI
+59. The Sims
+60. Grand Theft Auto: San Andreas
+61. Assassin’s Creed II
+62. Half Life: Alyx
+63. EarthBound
+64. Pac Man
+65. Elden Ring
+66. Super Smash Bros Ultimate
+67. Grim Fandango
+68. System Shock 2
+69. Planescape: Torment
+70. Super Mario Galaxy
+71. Okami
+72. Super Mario Galaxy 2
+73. Inside
+74. Deus Ex
+75. Pokemon Gold/Silver
+76. Ms. Pac Man
+77. Resident Evil
+78. Batman: Arkham Asylum
+79. Halo 3
+80. Persona 4
+81. Uncharted 4: A Thief’s End
+82. Half Life
+83. Sonic The Hedgehog 2
+84. NieR: Automata
+85. Grand Theft Auto IV
+86. Dishonored 2
+87. Civilization IV
+88. SimCity
+89. Final Fantasy X
+90. League of Legends
+91. Left 4 Dead 2
+92. Fallout: New Vegas
+93. Animal Crossing
+94. Fortnite
+95. The Elder Scrolls IV: Oblivion
+96. The Last of Us Part II
+97. Grand Theft Auto III
+98. Grand Theft Auto: Vice City
+99. Outer Wilds
+100. Animal Crossing: New Horizons
+101. Hollow Knight
+102. Borderlands 2
+103. BioShock Infinite
+104. Sonic the Hedgehog
+105. Kingdom Hearts
+106. Halo 2
+107. Metal Gear Solid 5: The Phantom Pain
+108. Mega Man 2
+109. Donkey Kong
+110. Secret of Monkey Island
+111. Stardew Valley
+112. Mortal Kombat 2
+113. Super Mario RPG: Legend of the Seven Stars
+114. Suikoden II
+115. God of War (2005)
+116. Kingdom Hearts II
+117. Team Fortress 2
+118. The Oregon Trail
+119. DOOM (2016)
+120. Counter Strike
+121. Dragon Age: Origins
+122. Age of Empires II
+123. Divinity: Original Sin 2
+124. Final Fantasy IX
+125. Tekken 3
+126. Baldur’s Gate 2: Shadows of Amn
+127. Return of the Obra Dinn
+128. Fire Emblem: Three Houses
+129. Horizon: Zero Dawn
+130. Final Fantasy XIV
+131. Braid
+132. Fable II
+133. Starcraft II: Wings of Liberty
+134. The Legend of Zelda
+135. Galaga
+136. Tony Hawk’s Pro Skater 2
+137. Spelunky
+138. Psychonauts
+139. Overwatch
+140. Ghost of Tsushima
+141. Dragon Quest VIII: Journey of the Cursed King
+142. Max Payne
+143. Final Fantasy Tactics
+144. Thief: The Dark Project
+145. Katamari Damacy
+146. Phoenix Wright: Ace Attorney
+147. Tom Clancy’s Splinter Cell Chaos Theory
+148. Gears of War
+149. The Legend of Zelda: Twilight Princess
+150. Marvel vs Capcom 2: New Age of Heroes
+151. Tomb Raider (1996)
+152. Xenoblade Chronicles
+153. God of War II
+154. Rock Band
+155. Shenmue 2
+156. Wii Sports
+157. Assassin’s Creed 4: Black Flag
+158. XCOM: Enemy Unknown
+159. The Elder Scrolls III: Morrowind
+160. Viewtiful Joe
+161. DOTA 2
+162. Donkey Kong Country
+163. Burnout 3: Takedown
+164. Gran Turismo 3: A-Spec
+165. Gone Home
+166. Call of Duty: Modern Warfare 2
+167. It Takes Two
+168. Dead Space
+169. Myst
+170. NBA Jam
+171. Celeste
+172. Pokemon Diamond/Pearl
+173. Star Fox 64
+174. Quake 3
+175. Civilization II
+176. Metal Gear Solid 2: Sons of Liberty
+177. The Walking Dead
+178. Hotline Miami
+179. Super Smash Bros. Brawl
+180. Apex Legends
+181. Paper Mario: The Thousand Year Door
+182. Eternal Darkness: Sanity’s Requiem
+183. Alien: Isolation
+184. Uncharted 3: Drake’s Deception
+185. Dark Souls III
+186. Kentucky Route Zero
+187. Marvel’s Spider-Man
+188. Prince of Persia: Sands of Time
+189. FTL: Faster Than Light
+190. Mother 3
+191. Secret of Mana
+192. Day of the Tentacle
+193. Yakuza 0
+194. Battlefield 2
+195. Mike Tyson’s Punch-Out!!
+196. Super Mario World 2: Yoshi’s Island
+197. Teenage Mutant Ninja Turtles (1989)
+198. Kirby Super Star
+199. Final Fantasy VIII
+200. LittleBigPlanet
+
+&#x200B;
+
+# Statistical analysis
+
+Here are some charts showing some interesting data breakdowns of the top 200
+
+**Entry distribution by decade:**
+
+https://preview.redd.it/fl94ptgqqp2c1.png?width=1200&format=png&auto=webp&s=ee061746b1007a61888c103e4d19647947bccca6
+
+**Entry distribution by country of development:**
+
+https://preview.redd.it/z32pukzerp2c1.png?width=1200&format=png&auto=webp&s=e31ee20d7c591c81c038e887f775658eab5f618a
+
+**Entry distribution by console type:**
+
+https://preview.redd.it/9qhw8sgrrp2c1.png?width=1200&format=png&auto=webp&s=82b2346f66274a2db92a3fddfb63bc79e69cee38
+
+**Top franchises:** 
+
+1. Mario
+2. The Legend of Zelda
+3. Grand Theft Auto
+4. Final Fantasy
+5. Metal Gear Solid
+6. Resident Evil
+7. Half Life
+8. Halo
+9. Portal
+10. Red Dead Redemption
+11. Pokemon
+12. The Elder Scrolls
+13. Metroid
+14. Uncharted
+15. God of War
+
+**Top developers:**
+
+1. Nintendo
+2. Square Enix 
+3. Valve
+4. Capcom
+5. Rockstar
+
+**Top indie games**
+
+1. Journey
+
+2. Disco Elysium
+
+3. Undertale
+
+4. Hades
+
+5. Inside
+
+6. Outer Wilds
+
+7. Hollow Knight
+
+8. Stardew Valley
+
+9. Return of the Obra Dinn
+
+10. Braid
+
+(Note: though games like Tetris and Minecraft were originally developed independently, in their modern playable forms they have undergone much more development and are supported by non-indie companies, so I am not classifying them as indie)
+
+# Highest ranking game of each year
+
+1980: Pac Man
+
+1981: Donkey Kong
+
+1982: Ms. Pac Man
+
+1983: *none*
+
+1984: Tetris
+
+1985: Super Mario Bros
+
+1986: The Legend of Zelda
+
+1987: Mike Tyson's Punch Out!!
+
+1988: Super Mario Bros. 3
+
+1989: SimCity
+
+1990: Super Mario World
+
+1991: The Legend of Zelda: A Link to the Past
+
+1992: Super Mario Kart
+
+1993: DOOM
+
+1994: Super Metroid
+
+1995: Chrono Trigger
+
+1996: Super Mario 64
+
+1997: Final Fantasy VII
+
+1998: The Legend of Zelda: Ocarina of Time
+
+1999: Planescape: Torment
+
+2000: Diablo II
+
+2001: Halo: Combat Evolved
+
+2002: Metroid Prime
+
+2003: Star Wars: Knights of the Old Republic
+
+2004: Half Life 2
+
+2005: Resident Evil 4
+
+2006: Okami
+
+2007: BioShock
+
+2008: Fallout 3
+
+2009: Uncharted 2: Among Thieves
+
+2010: Mass Effect 2
+
+2011: Minecraft
+
+2012: Journey
+
+2013: Grand Theft Auto V
+
+2014: Alien Isolation
+
+2015: The Witcher 3: Wild Hunt
+
+2016: Inside
+
+2017: The Legend of Zelda: Breath of the Wild
+
+2018: God of War
+
+2019: Disco Elysium
+
+2020: Hades
+
+2021: It Takes Two
+
+2022: Elden Ring
+
+# Misc fun facts
+
+Most popular genre: First Person Shooter
+
+Least popular genre: Rhythm
+
+Number of games with female protagonist: 17
+
+Number of games with explicitly (stated in-game) LGBT protagonist: 3 (Disco Elysium, Hades, The Last Of Us Pt. 2)
+
+Number of games based on preexisting/licensed properties: 15
+
+Number of games with content in Super Smash Bros: 74
+
+Most popular settings: United States, Outer Space, Japan, Hyrule, Mushroom Kingdom, and Hell
+
+Best selling game on the list: Minecraft
+
+Worst selling game on the list: Harder to determine but possibly Shenmue 2
+
+Year with most entries on the list: 2001 (11)
+
+# Notable games not on the list that I think deserve a shout out:
+
+Banjo Kazooie, Crash Bandicoot, SoulCalibur, Zork, Sekiro: Shadows Die Twice, Titanfall 2, Cuphead, Ico, Devil May Cry 3: Dante’s Awakening, The Stanley Parable, Dance Dance Revolution, Angry Birds, Black and White, What Remains of Edith Finch, Blood, Snake, Baba Is You, Elite, Ridiculous Fishing, Mirror's Edge, Jet Set Radio, Rocket League, L.A. Noire, Cave Story, The Legend of Heroes: Trails in the Sky, Terraria, Pong, Subnautica, Ratchet & Clank: Rift Apart, Bayonetta 2
+
+Edit: forgot about Runescape, Wolfenstein 3D, Factorio and Unreal Tournament until commenters pointed them out but definitely think they deserve mention too.
+
+
+Hope you guys find this interesting and let me know if you have any feedback!",Bug,28317,0.94,3092,Scdsco,gaming,2023-11-26T11:14:22,critical,False,"pc,switch","Gran Turismo 3,The Legend of Zelda: Breath of the Wild
+
+2018,Asahi,The Legend of Zelda: A Link to the Past
+
+1992,The Stanley Parable,Best Games of All Time,Tetris,The Legend of Zelda
+
+,The Legend of Heroes,The Legend of Zelda: Ocarina of Time
 
-I have to say this console is really good for what you are getting I’m quite enjoying my time with the system. 
+","crash,lag",0.0941720119311583,0.5128081775947633
+1ehg9uy,"I’m happy to show you my Borderlands 3 Moxxi cosplay, which took me 350 hours to make💔",,Question,28208,0.86,708,DariaRooz,gaming,2024-08-01T09:09:31,unspecified,False,unspecified,,,0.8,1.0
+1ay1mc6,Best selling games on each Nintendo console,,Other,28133,0.94,2217,TomCyberfire,gaming,2024-02-23T09:21:41,unspecified,False,switch,,,1.0,0.3
+1cwc957,This is what one of the prototype of Sea Of Thieves looked like,,Question,28077,0.95,512,LucasBouyoux,gaming,2024-05-20T06:26:34,unspecified,False,unspecified,,,0.0,0.0
+1btuqui,Tekken director asks why Americans want Waffle House to be a stage in Tekken 8,,Other,27947,0.95,1385,MyNameCannotBeSpoken,gaming,2024-04-02T05:52:34,unspecified,False,unspecified,,,0.0,0.0
+1eg8jw4,This is a paid skin from Suicide Squad ,,Other,27882,0.89,787,Antifa-Slayer01,gaming,2024-07-30T19:46:17,medium,False,unspecified,,,0.0,0.0
+1fqmpef,It sure seems like the times have changed...,,Other,27854,0.84,1659,Kay-San-TheNorthStar,gaming,2024-09-27T08:37:38,unspecified,False,unspecified,,,0.5,0.8888888888888888
+1fa0og5,"John ""Totalbiscuit"" Bain homage in the W40k: Space Marine 2 Credits",,Other,27839,0.92,1491,Tiucaner,gaming,2024-09-05T19:24:05,medium,False,unspecified,,,0.0,0.0
+1ebteam,"Activision Blizzard is reportedly already making games with AI, and has already sold an AI skin in Warzone. And yes, people have been laid off.",,Other,27224,0.92,2464,TheReiterEffect_S8,gaming,2024-07-25T08:16:17,unspecified,False,unspecified,,,0.0,0.0
+1flxwp8,No Man’s Sky 2016 vs 2024 Graphics Comparison,,Other,27110,0.91,1076,TheLogame,gaming,2024-09-21T03:53:20,medium,False,unspecified,,,0.0,0.0
+1c1y7h3,"Ubisoft revoking licenses for The Crew, preventing owners who paid for the game from installing it.",,Other,27086,0.95,2652,[deleted],gaming,2024-04-11T22:46:51,unspecified,False,unspecified,,,-0.4,0.4
+1bbj5gw,Dragon’s Dogma 2 has the craziest Character Creation I’ve ever seen!!,,Other,27017,0.92,917,killingjoke619,gaming,2024-03-10T15:48:03,unspecified,False,unspecified,,,0.0,0.0
+1en4qq8,Borderlands is failing already.,Who woulda thought that the Borderlands movie would be failing already when Eli was okay with moving away from canon and not making a movie for gamers ….when it’s about Video Games. I don’t know why Hollywood struggles with this so much. Just because you slap big names actors on it ≠  blockbuster. ,Other,27008,0.89,3884,Scatter865,gaming,2024-08-08T08:31:59,unspecified,False,unspecified,,,0.2333333333333333,0.26666666666666666
+1cqv7nm,RTX before it was cool ,,Other,26578,0.92,603,LuNoZzy,gaming,2024-05-13T05:36:41,unspecified,False,unspecified,,,0.35,0.65
+1gmnr8b,Until Dawn but the wendigo is Kermit (mod) ,,Other,26279,0.94,212,Crylose,gaming,2024-11-08T12:18:38,unspecified,False,unspecified,,,0.2,0.4
+1fksare,The Bloodborne fans have been tested beyond measure,,Other,26180,0.93,1052,Caledor152,gaming,2024-09-19T14:43:01,unspecified,False,unspecified,,,0.0,0.0
+1fu2s09,"The games industry is undergoing a 'generational change,' says Epic CEO Tim Sweeney: 'A lot of games are released with high budgets, and they're not selling'","Tim Sweeney apparently thinks big budget games fail because... They aren't social enough? I personally feel that this is BS, but what do you guys think? Is there a trend to support his comments?",Question,26117,0.93,5501,CiabattaKatsuie,gaming,2024-10-01T19:51:07,unspecified,False,pc,,,-0.019583333333333335,0.31958333333333333
+196o3q9,PS5 Users Spent More Time Playing Single-Player Games Than Multiplayer Ones,,Other,25897,0.95,1964,TheAppropriateBoop,gaming,2024-01-14T14:36:55,unspecified,False,playstation,,,0.2,0.3
+1gkh2so,Steam now requires developers to tell people when their games have kernel mode anticheat,,Other,25691,0.96,644,TylerFortier_Photo,gaming,2024-11-05T15:55:18,medium,False,pc,,,0.0,0.0
+1aenvlj,Where it all went wrong,,Other,25638,0.86,1681,Status_Welder9824,gaming,2024-01-30T08:01:25,unspecified,False,unspecified,,,-0.5,0.9
+1bxhdzk,Metal case after 20 years,The limited collector's edition of Halo 2,Other,25601,0.95,920,Samilski87,gaming,2024-04-06T13:40:53,unspecified,False,unspecified,,,-0.07142857142857142,0.14285714285714285
+1ehxaxi,"Bungie CEO faces backlash after announcing 220 employees will be laid off|
+Pete Parsons has spent $2.4 million on classic cars since Sony acquired Bungie",,Other,25592,0.93,1326,esporx,gaming,2024-08-01T21:10:04,medium,False,unspecified,,,0.033333333333333326,0.13333333333333333
+1goc32o,Lack Of Interest In The PS5 Pro Is Forcing Scalpers To Sell Them For A Loss,,Other,25282,0.95,1518,ryhaltswhiskey,gaming,2024-11-10T16:56:34,unspecified,False,playstation,The PS5 Pro Is Forcing Scalpers To Sell Them For A Loss,,0.0,0.0
+1fk72oo,Nintendo sues Pal World,https://www.nintendo.co.jp/corporate/release/en/2024/240919.html,Other,25252,0.94,3895,Gas-Elegant,gaming,2024-09-18T19:42:11,unspecified,False,switch,,,0.0,0.0
+1evh9o6,found out riot gives vp for fan art wish me luck,,Other,9591,0.97,304,accidentalmistake12,VALORANT,2024-08-18T15:13:00,unspecified,False,unspecified,,,0.0,0.0
+1eufm4p,Skye's new ability,,Other,9548,0.97,146,mavcyh,VALORANT,2024-08-17T07:36:55,unspecified,False,unspecified,,,0.13636363636363635,0.45454545454545453
+1emiq04,Vice Presidential Candidate Tim Walz supports Valorant Esports.,,Other,9190,0.89,337,DarthEinstein,VALORANT,2024-08-07T14:01:14,unspecified,False,unspecified,,,0.0,0.0
+1f95wfz,i need 1VP for the oni vandal... fanart for VP?,,Other,6806,0.98,92,honjapiano,VALORANT,2024-09-04T18:00:06,unspecified,False,unspecified,,,0.0,0.0
+1fe8v3j,some interesting peek that i made,,Other,6200,0.96,152,p4ker_fps,VALORANT,2024-09-11T08:27:38,unspecified,False,unspecified,,,0.5,0.5
+1ewq95i,My boyfriend told me riot sometimes trades VP for fan-art so I gave it a try! wish me luck too :)) inspired by u/accidentalmistake12,,Other,6098,0.95,187,Puzzleheaded_Owl_707,VALORANT,2024-08-20T04:23:07,unspecified,False,unspecified,,,0.5,1.0
+1f4sh29,New redbull can,Perks of working for Redbull. I get first dibs to the new cans. This is definitely going to my collection. ,Other,5886,0.97,153,Limp_Ad1777,VALORANT,2024-08-30T07:04:29,unspecified,False,unspecified,,,0.13068181818181818,0.4356060606060606
+1eokog6,my teammate just had the best 1v1 in all of valorant,,Other,5655,0.95,250,Mysterious1_,VALORANT,2024-08-10T00:48:08,unspecified,False,unspecified,,,1.0,0.3
+1gcs84l,interesting strat you can try with your duo,,Other,5443,0.99,69,p4ker_fps,VALORANT,2024-10-26T14:59:13,unspecified,False,unspecified,,,0.5,0.5
+1fbg1up,"Got disconnected mid round, needless to say it was hilarious.",,Other,5281,0.99,34,Andinjoss,VALORANT,2024-09-07T16:13:02,unspecified,False,unspecified,,,-0.04999999999999999,0.6
+1f8t09q,"Horrorant - I was told the site is ""clear"" ",,Other,5279,0.98,99,rsva15,VALORANT,2024-09-04T09:13:37,unspecified,False,unspecified,,,0.10000000000000002,0.3833333333333333
+1f1t8nr,Would you guys use this ghost skin? (Made by me in krita),,Other,5269,0.96,247,Flying_Mantis001,VALORANT,2024-08-26T12:59:14,unspecified,False,unspecified,,,0.0,0.0
+1f3ohbb,is this a new way to gekko twerk? ,saw this on twitter and wanna know how to do it lol anyone know how to do this method? i am asking for a friend 🤔🫣,Question,5077,0.98,69,Upset_Safe_4895,VALORANT,2024-08-28T19:57:18,unspecified,False,unspecified,,,0.4681818181818182,0.5772727272727273
+17y9roh,Here's what happens when two Iso ult at the same time. :D,,Question,5038,0.99,99,BreakawayMeteor,VALORANT,2023-11-18T11:12:37,unspecified,False,unspecified,,,0.5,0.5625
+18tosq7,I made ION OPERATOR in real live out of EVA Foam,,Other,5009,0.95,128,manzaproject,VALORANT,2023-12-29T09:50:21,unspecified,False,unspecified,,,0.20454545454545453,0.75
+1exyxob,POV: You just bought a skin (by me),,Other,4861,0.98,104,Duskspiral_Gamer,VALORANT,2024-08-21T15:41:08,unspecified,False,unspecified,,,0.0,0.0
+1fnhjtd,Tried to make trash in blender,,Other,4813,0.99,102,Alternative-Emu4999,VALORANT,2024-09-23T06:51:58,unspecified,False,unspecified,,,0.0,0.0
+1auv3kf,We made an LED integration that shows you the stages of the spike on your RGB devices!,,Question,4804,0.96,128,DaKrazyKid,VALORANT,2024-02-19T13:49:14,unspecified,False,unspecified,,,0.0,0.0
+1fp6njp,"Soo, i got jumpscared... dont know how i did it",,Question,4670,0.99,95,FeRoGame,VALORANT,2024-09-25T11:04:12,unspecified,False,unspecified,,,0.0,0.0
+1frd6xb,Thrash replaced with knife in equip animation,,Other,4616,0.98,75,Saltiih,VALORANT,2024-09-28T08:28:44,medium,False,unspecified,,,0.0,0.0
+1f4ntwh,"Hot take: Bring back the old skin preview. Like if I want to see the knife, I will open the knife. If I want to see cool pre-aim headshots, I will go to YouTube. Just show me the gun and only the gun please...",,Question,4604,0.94,226,bunchabeatspho,VALORANT,2024-08-30T01:44:38,unspecified,False,unspecified,,,0.11666666666666665,0.5333333333333333
+1d30v9r,Reyna is a failure of game design,"Reyna is poorly designed in Valorant and doesn't teach players how to play the game properly, leading to a high amount of Reyna mains in mid-high elo with the game sense of a bronze player. In this essay i will... etc etc
 
-A lot of the games with the Pro update play really well & look sharp….they look & perform a lot closer to PC titles with these upgrades in my opinion. It’s obviously not close to high end PC level except Forbidden West that one looks almost similar to PC Ultra it’s stunning…..it’s a good step in the right direction 
+**The only lesson to be learned from your mistakes playing Reyna is that you didn't get the kill**
 
-Playing games like Final Fantasy Rebirth with fidelity& performance more tolerable than the PS5 version is very nice. 4K native 120 for GT7 is phenomenal has me wishing it was like that at launch because it plays a lot better now. Just waiting on the patch. 
 
-I’d say if you’re cool with your regular PS5 experience then not worth it but if you want to experience PlayStation games running closer to PC performance for a good price for what you get I’d say it’s worth it. ",973,0.85,708,R3KF4,1066.0,PS5,2024-11-08T02:56:25,https://www.reddit.com/r/PS5/comments/1gmdhsh/ps5_pro_impressions/,medium,False,"pc,playstation","the right direction 
 
-Playing",patch,0.3347619047619047,0.5001465201465201
-1g8jwka,All PS5 Exclusives not on PS4 (list),"**As of Oct 2024** — No PS4 games. Here is the real state of play (so to speak) as PS5 is headed into the 2nd half of the its lifecycle with PS5 Pro. Thanks to [Dekudeals](https://www.dekudeals.com/items?sort=release_date&filter[type]=game&filter[platform]=ps5&view=grid&filter[format]=digital&page=113) I was able to create this list, with occasional research.
+1. **Reyna does not teach players to position well**
 
----
+Imagine this scenario where, on round start, a defender runs it down B long on bind looking for a pick and runs into the entire enemy team.
 
-**PS5 true exclusives. (Some may come to PC later)**
 
-Astro Bot
 
-Astro's Playroom (Free with PS5)
+https://preview.redd.it/itb7rjtij93d1.png?width=256&format=png&auto=webp&s=014c7a78036772c02a4c5c31d116d240483ee359
 
-Demon's Souls (Remake)
+Your average scenario here with almost any agent is that you run out into a 1v5 and die. You'd probably think to yourself ""wow all 5 of them were there, that was a dumb spot to stand. I should play further back so I can escape or get a teammate to double peek with me and use util to secure.""
 
-Destruction AllStars (Free with PS Plus)
+Now let's swap that out for Reyna.
 
-Final Fantasy VII Rebirth
 
-Quantum Error (Announced to come to PC/Xbox)
 
-Marvel's Spider-Man 2 (Announced for PC)
+https://preview.redd.it/mj45oq5xj93d1.png?width=196&format=png&auto=webp&s=eebb66eab754fd9aa19c11a82baa085ad7b83709
 
-Metal Savior Black (Cancelled on PC a decade ago)
+Reyna runs out, sees 5 enemies and dies, but instead the lesson learned is
 
-Neptunia ReVerse (Remake)
+**""My aim was bad, I would've been fine if I got a kill.""**
 
-Rise of the Ronin
+Reyna will then try the same strategy again, and when she gets a kill she is rewarded and her behaviour is reinforced by dismissing and retreating back to site.
 
-Shines Over: The Damned
 
-Silent Hill: The Short Message (Free)
 
-Stellar Blade
+**2. Reyna does not teach players how to effectively use utility for anyone other than herself**
 
-Sticks Aim Trainer
 
----
 
-**PS5 console exclusives, also on PC**
+https://preview.redd.it/dyvll0njl93d1.png?width=292&format=png&auto=webp&s=eb8cb060f386c66c2cf894934bb6c329d58722f6
 
-Black Myth: Wukong
+Reyna's only situational piece of utility is a near-sight blind. She is the only character in the entire game that has a castable blind with **NO** downsides. Every single other ability in the game that blinds **affects your  teammates**. It's also one of 2 blinds in the entire game that **goes through walls**. If you throw a skye flash directly out into the middle of a fight or throw your omen blind from the backline you could blind your whole team and lose the fight.
 
-Bleak Faith: Forsaken
+Picture this scenario on Ascent A-site. Attacker team is doing a full push against 3 defenders on A.
 
-Blood Hunting
 
-Cypress Inheritance: The Beginning
 
-Deathtrap Dungeon: The Interactive Video Adventure
+https://preview.redd.it/0hmt91xsm93d1.png?width=375&format=png&auto=webp&s=39208c9ae239c788a6b611aeba6acc96c8302fa1
 
-Etera
+If omen misuses his blind here, he blinds the Jett playing dice, but also blinds his Deadlock and Clove. This puts the attackers at a massive disadvantage. Omen's team loses the push and Omen gets flamed for team flashing. Omen, who wants to avoid this in the future, learns from his mistake. He now knows that he needs to stand off to the side, or be aware of where his teammates are standing when he throws his blind.
 
-Fantavision 202X
+Now we swap omen out for Reyna
 
-Fate Seeker II
 
-Final Fantasy XVI
 
-Forspoken
+https://preview.redd.it/0o1eiqwin93d1.png?width=271&format=png&auto=webp&s=434d197e7ce86b471bdef99ea5e1ee5b2c590fe5
 
-Fort Solis
+Reyna can throw her blind anywhere, in any situation. It blinds anyone who can see it from any range. Reyna's team pushes the site, and if Reyna and her team dies her only lesson to be learned again is
 
-Gunhead
+**""My aim was bad, I would've been fine if I got a kill.""**
 
-Helldivers 2
+**3. Reyna does not teach players how to effectively use ultimate abilities**
 
-Honkai: Star Rail (Free)
+Every single ultimate ability in this game **except for Reyna's** has a set of use case scenarios, and a set of non-use case scenarios. For example, you wouldn't phoenix ult in the middle of site, you'd get punished. You wouldn't use your kj ult in mid, you'd get punished. Reyna's ultimate is the only ultimate in the entire game that can be used effectively on round start **every time it's available.** There is no downside to using the Reyna ult, you cannot disadvantage or kill your teammates with the Reyna ult, you cannot put yourself at a disadvantage with the Reyna ult. You cannot waste the Reyna ult by any measure other than inactivity. The only lesson to be learned from dying and losing the Reyna ult is, again:
 
-Hood Story: Kaito Yamazaki
+**""My aim was bad, I would've been fine if I got a kill.""**
 
-Jack Holmes: Master of Puppets
 
-Lempo
 
-Party Poppers
+**4. Reyna does not teach players about trade opportunities**
 
-Radikal Fighters
+Reyna's dismiss and heal mechanics effectively allow her to cancel or heavily mitigate any trade opportunities presented to her enemies.
 
-Ratchet & Clank: Rift Apart
+https://preview.redd.it/l54e3lr4q93d1.png?width=298&format=png&auto=webp&s=05edc1773df62f96f4a8e5f20c7658ab50469eea
 
-Returnal
+In this scenario on Split's mail/heaven area, lets pretend it's pistol round and everyone here has a ghost and no armor. Fade has swung into the Harbor. Fade gets the jump on Harbor and although Harbor manages to heavily tag the Fade, she secures the kill on him. As soon as this happens Gekko, who is nearby is able to quickly swing into position before the Fade is ready and secure the kill, trading out his teammate and securing the round. If Gekko is faster and both players are able to fight Fade together, she is very likely to still lose, even if she kills the Harbor. Fade has learned a valuable lesson in that if she is taking a fight, she needs to be prepared for someone else to swing her and take measures, such as backing off the angle and re-positioning, using dog to stop the trade, or playing a safer angle to begin with. If Fade takes damage in a fight, she's less likely to win the next fight and will likely be traded out. Now lets swap Fade out for Reyna:
 
-Rubber Hose Rampage
 
-Silent Hill 2
 
-Son and Bone
+https://preview.redd.it/atvodso5r93d1.png?width=301&format=png&auto=webp&s=50dafcbcfccb20ba05780b14cccfd2cec73ce700
 
-The Body Cam project
 
-The Last of Us Part I (Remake)
 
-The Silent Swan
+Again, lets pretend it's pistol round and all 3 players have a ghost. Reyna pushes and while Harbor manages to heavily tag her, Reyna secures the kill. Reyna immediately activates her heal and is suddenly swung by Gekko. She now has more health than she had when she was fighting Harbor, and is able to secure the kill on Gekko as well. Reyna does not have to worry about being tagged and easily traded out on low-hp, and therefore does not need to have a plan to disengage. If Gekko is able to swing before Harbor is killed, as long as Reyna gets the kill on Harbor, she is able to dismiss and disengage from the fight and cancel the trade for free. If Reyna loses this fight, the only lesson to be learned is, again:
 
-Tribe: Primitive Builder
+**""My aim was bad, I would've been fine if I got a kill.""**
 
-Until Dawn (Remake)
 
-Until Then
 
-V Rising
+So where does this leave players that only play Reyna? They've learned in almost every situation that their aim was poor and that they just needed to secure the kill to win. Every win condition in Valorant is getting the kill. There are no nuances or complex mechanics to interact with in this game **as long as you get the kill**. You do not need to perfect your utility usage and site takes **as long as you get the kill.** You don't need to worry about being traded **as long as you get the kill**.
 
-Vampire: The Masquerade - Bloodhunt
+**What are the consequences of this?**
 
-Wayfinder (Coming to Xbox)
+We've seen from the above examples that Reyna is far too easy and far too forgiving to players, and while other players using different agents are climbing the ranks learning a wide variety of skills such as effective utility usage, strategy, positioning, teamwork and other meta-knowledge, Reyna players are learning that their only mistake was not getting the kill.
 
-Zenless Zone Zero (Free)
+Thank you for listening to my TED talk
 
----
+**tl;dr reyna as an agent does not have to interact with almost any of the complex systems and strategies of Valorant and people that only play Reyna are not given equal learning opportunities to their peers, only developing their aim leaving their game sense in the gutter.**",Question,4484,0.88,855,IamPastry,VALORANT,2024-05-28T21:52:09,medium,False,unspecified,,,-0.005720298220298242,0.5350312650312651
+1dqpitm,My dad disowned me for getting the new bundle.,"I was playing valorant as usual, while dad was walking across my room he noticed the teddy bear reloading the ghost , he commented ""wtf is this gay shit"", i mistakenly admitted liking and buying the new  bundle, he said ""  is that what you spent my money on, get out of my house you f'ing  furry"". I am still  trying to get back to the house but i still can't convince my dad that i am not a furry. I will update you later.
 
-**PS5 remaster/collection/bundle section, for those who want the best experience**
+  
+Update: He still doesn't believe me but he decided to give me a chance, i am now back home and we agreed i won't shave my beard for the next 3 months as part of my rehabilitation.",Question,4413,0.91,258,Treydroo,VALORANT,2024-06-28T13:40:42,unspecified,False,unspecified,,,-0.03278236914600551,0.33112947658402203
+1fjks2p,New iso ult tech,,Other,4381,0.97,91,Equivalent_Ship_5610,VALORANT,2024-09-18T00:47:08,unspecified,False,unspecified,,,0.13636363636363635,0.45454545454545453
+1f0duu1,POV: Reyna didn’t get your skin (by me),,Other,4376,0.98,56,Duskspiral_Gamer,VALORANT,2024-08-24T15:46:22,unspecified,False,unspecified,,,0.0,0.0
+1f5zd2z,Hit this a while ago but no sound unfortunately ,,Other,4224,0.99,87,henint,VALORANT,2024-08-31T18:30:30,unspecified,False,unspecified,,,-0.35,0.7
+1fp1pz2,"The end for my journey, and my dream","Hello everyone, I’m kei, and this is my goodbye to Valorant and my dream that is no longer achievable for me. Sorry in advance for any grammatical, punctual errors and so on and so forth because it’s hard for me to text, and I’m a little bit of emotional rn. 
+So what was that dream? To become a pro player. For the most of you it may sound silly, and childish, but for me it was a brightly burning passion, to which I dedicated myself with a whole heart. I love Valorant and everything about it. I love E-sports, I love agents, I love in-game mechanics, even movement. Everything for me is perfect, but this doesn’t matter anymore. 
+The reason why I’m writing this is because since I was born I had a disease that caused an irreversible damage to my eyes, and I’m partially disabled, but despite of that I was able to play like a normal person, without any trouble, till the 21 of September of this year hit. I got another kind of disease that affected my right eye, and the center of it is in a kind of blur, so it makes it so I can’t aim in game at all. I just cannot see. 
+I know that I could write 3+ paragraphs about my journey, love, and burning passion to it, but I think for everyone who decided to read this epitaph of my dream is way too much yapping. 
+Have a great day, pursue your dreams at any cost if it makes your heart burn with passion, and goodbye Valorant, I love you ",Bug,4205,0.96,181,delightyolo,VALORANT,2024-09-25T07:04:29,low,False,unspecified,,error,0.22701955782312924,0.5938350340136055
+1dwq6ok,Easiest Ace Ever,,Other,4185,0.99,61,Trifle-Little,VALORANT,2024-07-06T09:56:06,unspecified,False,unspecified,,,0.0,0.0
+1f8mm6h,Knife only 4k,,Other,4183,0.98,63,-Kaz,VALORANT,2024-09-04T02:39:12,unspecified,False,unspecified,,,0.0,1.0
+1dm2wlv,This is how console aim assist works,,Question,4170,0.98,247,prilovski,VALORANT,2024-06-22T15:03:09,unspecified,False,unspecified,,,0.0,0.0
+1etyxc8,chamber is the new olympic winner (by me),,Other,4159,0.98,40,ShadowCake6,VALORANT,2024-08-16T16:22:07,unspecified,False,unspecified,,,0.13636363636363635,0.45454545454545453
+1fznsmn,Friend got a first of its kind 7k in comp today!,"He pulled this off with just knives, so many ults flying off. We ended up winning this soon after. Epic clip!",Other,4078,0.94,107,throwawayKen97,VALORANT,2024-10-09T05:59:25,unspecified,False,pc,,,0.425,0.5766666666666667
+1e9o6rv,Don't use right click to destroy sage wall,,Other,4044,0.97,145,CattoKing,VALORANT,2024-07-22T16:15:40,unspecified,False,unspecified,,,0.042857142857142844,0.26785714285714285
+1fist4g,My very first attempt at this Omen Night Lamp.,My favorite agent of all times. Rate my lamp 1-10. Which character should I do next?                 ,Other,4005,1.0,94,Tessa_71,VALORANT,2024-09-17T03:24:31,unspecified,False,unspecified,,,0.27499999999999997,0.4777777777777778
+1bfw78y,About Woohoojin,"**I have requested to speak to Woohoojin directly, I have already messaged him, my Discord is mykl0, Hooj. (He has not made any attempt to reach out)**
 
-BQM - BlockQuest Maker: Remastered (PS4)
+A minority of people seem to misunderstand the greater issue here. Influential figures deserve to be held accountable for the actions that they take (or in this case, refuse to take for their own image). You can appreciate the art but not the artist, everyone here understands that. However, that's not what this is about.
 
-Class of Heroes: Anniversary Edition (PSP)
+**The streamed response Woohoojin made includes**
 
-Class of Heroes 2G: Remaster Edition (PS3)
+1. **He** **still has a mysterious Radiant alt that he cannot show to be ""Petty"" - as if this wouldn't be the simplest option to immediately resolve all of this in seconds (hence still lying)**
+2. **He was different in the past (Even though he has claimed to be radiant up until this controversy took place, so he never had plans on stopping)**
+3. **He believes the content and charity streams he made are sufficient to atone for this lie - only made possible by the short term clout boost achieved through going against riot TOS**
+4. **He has** ***NOT*** **mentioned the coaching auctions**
+5. **When asked if he did ever hit radiant, he claims he did, but does not have proof. The same person who has hundreds of hours of recordings marking his whole journey from silver to immortal as I understand. Seems like a pretty big deal to have radiant recorded.**
+6. **He seems to be unable to acknowledge the concept of why this is such a big deal, with money, time, and trust involved by multiple other groups of people that would, quite literally, buy into it.**
 
-Dead Rising Deluxe Remaster (PS4)
+# Woohoojin has not made any indication that he has seen this post, saying the arguments provided are coming from ""the haters."" He has not come out honestly yet, instead making a lackluster and insincere apology to the people who are still following him and his fraudulent words. He is still choosing to lie, that is how much respect he has for his community.
 
-Death Stranding Director’s Cut (PS4 - New content)
+**-  I also want to add that Charlatan now believes he has not hit radiant on his own either**
 
-Destroy All Humans! 2 - Reprobed (PS4)
+&#x200B;
 
-Devil May Cry V Special Edition (Vergil unlocked + framerates)
+https://preview.redd.it/idlab979nqoc1.png?width=1233&format=png&auto=webp&s=5cf05267d4df5458ac9d84b00886387617a11e9c
 
-Final Fantasy VII Remake Intergrade (PS4 - Yuffie Intermission only on PS5)
+**It seems as though the path (Woohoojin, his mods, and JeyG) have chosen to take is to cover-up and de-escalate, in an attempt to have this blow over. Woohoojin himself has made the decision to see how many lies he can lean on in the meantime, using trust built from what was also, a lie.**
 
-Grand Theft Auto Online (Separate App available on PS5, not PS4)
+\--
 
-Horizon Forbidden West Complete Edition (has DLC not on PS4)
+Commenters in the thread thought it was important to add, **""Woohoojin frequently claims that he peaked Challenger in League of Legends as a way to market his credibility and skills as a coach. He particularly builds on this narrative in his earlier videos when he first started out and had less credibility as a coach (**[**https://www.youtube.com/watch?v=nycxbLCWMdM**](https://www.youtube.com/watch?v=nycxbLCWMdM)**) - the youtube video is an example.**
 
-Horizon Zero Dawn Remastered
+However, upon further examination, while it is true that he did peak in Challenger, he peaked in flexQ and not soloQ. He peaked Diamond 4 in soloQ, and Challenger in flexQ during season 8.  For further clarification, in the League of Legends community, flexQ is seen as a less serious more chill queue to play with friends - it is not really seen as a competitive queue, and definitely not seen as a legitimate measure of skill.
 
-House Builder Overtime (Deluxe version of PC original)
+While there isn't a perfect analogy to Valorant, the closest I can think of is if you 5 stack with lower rated friends to boost you to radiant (I say closest because you can flexQ with people of similar soloQ rank/skill in league, but the point still remains that the flexQ rank obtained is **not taken seriously** in the community)  People will always assume soloQ when someone talks about their peak rank in league. **So while it is technically true that he peaked in Challenger, him keeping it vague as to which queue he achieved this on is purposely misleading and disingenuous**. **""**
 
-Marvel's Spider-Man Remastered (New lighting, etc.)
+**--**
 
-NBA 2K21 Next Generation
+**I want to clarify that the screenshot of him playing with Bronzes was only used because it was the most recent game on his account. I do not want to try to portray him in a misguided light, claiming that he is also account-boosting. That was most likely a community event he was doing with his fans. There is nothing wrong with that, I used it as an example to show the tag (Woohoojin#Coach). Do not let that take away from the post.**
 
-NBA 2K24 and NBA 2K25 (MyCareer are only available on PS5)
+**EDIT 2 -- Woohoojin has made an acknowledgment about this. Along with a full video that you can find on his discord / most likely clipped on twitch.**
 
-Nioh Remastered – The Complete Edition
+[This still does not take away from the fact that this is against TOS](https://preview.redd.it/k7r3iwlqimoc1.png?width=1190&format=png&auto=webp&s=c074d2c972e9eda57eb908b11fbff89368944b6c)
 
-Nioh 2 Remastered – The Complete Edition
+**I will not give any credit to him for this action, coming out after you've been exposed in this manner is not an act of genuine courtesy. This should have been mentioned LONG before.**
 
-No More Heroes 3 (Different version of the game, mentioned because there are weird glitches on PS5 since the PS5 port was not made by the same dev as the PS4 port)
+**EDIT 3 -- It seems as though JeyG has privatized the VOD, most likely at the request of Woohoojin. This is the path they have chosen to take. I attached another screenshot of the match he is playing, with twitch chat to add authenticity to my claim.**
 
-Persona 5 Royal (You can play it on PS4 but there's no upgrade to PS5 due to PS5 being a newly remastered version with all DLC, 60fps, and multiple minor content changes)
+**EDIT 4 -- I just wanted to point out, as** u/curelullaby **mentioned, he has had auctions for his coaching, only feasible due to his status. I will copy their comment, with links to the information about the auctions here. Thank you** u/curelullaby\*\*. ""\*\*
 
-R-Type Final 3 Evolved (UE5 Version of R-Type Final 2, exclusive to PS5)
+I thought you were lying but you're being 100% fr lol, here's the pictures:[1](https://ibb.co/RTc3g4r)
 
-Runner Heroes - The Curse of Night and Day - Enhanced Edition (Remaster of Steam version, exclusive to PS5)
+[2](https://ibb.co/K08kQwg)
 
-Shadows of the Damned: Hella Remastered (Originally PS3 era game)
+[3](https://ibb.co/wNnVnDJ)
 
-Soulstice: Deluxe Edition
+And before people come in here being like it's to pay the bills and whatever, at the time he was a Security Engineer at Tinder. He made big bucks already, there's no excuse for 2k vod review. People were trolling Jollz for his prices, but 2k? lmao **""**
 
-Tennis World Tour 2 - Complete Edition
+# M A I N  P O S T :
 
-Terminator: Resistance Enhanced
+I will keep this short, but after getting insta-banned from the Woohoojin discord I thought this post would be fitting. Woohoojin was boosted to radiant by streamer JeyG who most likely did it in a deal that would give Woohoojin more marketability after being seen as radiant coach with a high rr peak. Woohoojin never **publicly** hit radiant, nor has any proof, yet he lies that this was his account. Any discussion of this will get you banned from his discord.
 
-Timothy's Night (Enhanced version of Timothy vs the Aliens)
+This match is the first piece of evidence. [https://tracker.gg/valorant/match/42dd95be-dd90-4f2b-b9ea-721596fe47bd](https://tracker.gg/valorant/match/42dd95be-dd90-4f2b-b9ea-721596fe47bd)
 
-Tropico 6 - Next Gen Edition (New Stuff)
+This entire game that is shown in that tracker was streamed LIVE on JeyG's twitch account with the name TTV JeyG (Visible after the match, the names in the match line up). This is the VOD ->
 
-The Last of Us Part II Remastered (Extra levels)
+https://preview.redd.it/9z5271pmrmoc1.png?width=1684&format=png&auto=webp&s=f1d10a467ef8f21a571ba25c78415a60c11e1e79
 
-The Outer Worlds: Spacer's Choice Edition
+&#x200B;
 
-Uncharted: Legacy of Thieves Collection (120fps on PS5)
+https://preview.redd.it/ty6zszef8noc1.png?width=1343&format=png&auto=webp&s=d14ff9ef0914a7a5e9282510f71d103e52382abe
 
-Universal Flight Simulator Extended Realistic Flight Simulator (upgraded version of PC game)
+https://preview.redd.it/9lbzoj343moc1.png?width=1348&format=png&auto=webp&s=9703169c6b00e9e46d500a28ad69cfcad5599f0f
 
-void tRrLM();++ //Void Terrarium++
+**Here are more instances of this occuring**
 
-Warhammer 40,000: Inquisitor - Ultimate Edition (Ultimate Edition not available on PS4, I assume it adds some new stuff)
+&#x200B;
 
-Windstorm: Start of a Great Friendship - Remastered (Remaster of Switch/PC game)
+https://preview.redd.it/p9mjcaszcroc1.png?width=1901&format=png&auto=webp&s=7cf5a8079bf8a456c61ffe8c33ea9f589fb23037
 
----
+https://preview.redd.it/dxe7rbfzcroc1.png?width=752&format=png&auto=webp&s=fb4b0698bb4d3cfe42a26bfb541c8768d1b41c6d
 
-**9th generation exclusives, also on Xbox and/or Switch/PC - Popular titles**
+[**https://cdn.discordapp.com/attachments/1218648400614916108/1218660281614471168/ssstwitter.com\_1710465508122.mp4?ex=660878d4&is=65f603d4&hm=5e5dbfb4ea77baaceef4683845b59364363cf71c2e654f3c75135c2d4b4a383f&**](https://cdn.discordapp.com/attachments/1218648400614916108/1218660281614471168/ssstwitter.com_1710465508122.mp4?ex=660878d4&is=65f603d4&hm=5e5dbfb4ea77baaceef4683845b59364363cf71c2e654f3c75135c2d4b4a383f&)
 
-A Plague Tale: Requiem
+&#x200B;
 
-Ad Infinitum
+The second piece of evidence, is in Valorant itself using the leaderboard. If you look at Woohoojin's profile on [Tracker.gg](https://tracker.gg/), you can see he peaked 317 rr the act before he hit radiant. (Episode 3 act 2). If you go to this spot in **the valorant leaderboards** who do you see?
 
-Age of Wonders 4
+&#x200B;
 
-Alan Wake 2
+https://preview.redd.it/vp6votol2moc1.png?width=1386&format=png&auto=webp&s=3804baed2d75a2b959e7c722a9d4d60bcba64318
 
-Alone in the Dark
+And what happens if you hit view career?
 
-ARK: Survival Ascended
+[This is Woohoojins career, evident by inspecting the matches. I will examine his most recent match as reyna.](https://preview.redd.it/k630cs4icmoc1.png?width=1920&format=png&auto=webp&s=2b2d57eda47741c9beda037ca00f36942f271d81)
 
-Assassin’s Creed Shadows
+&#x200B;
 
-Avatar: Frontiers of Pandora
+[You can confirm this for yourself. It is on the official Valorant Client of everyone to see, I did not doctor any screenshots nor did I lie about the career inspection showing Woohoojin. You can do the exact same thing and see.](https://preview.redd.it/hfrdj23mcmoc1.png?width=1920&format=png&auto=webp&s=8bfef32ec0b10724de2326b38249db622c0b6869)
 
-Baldur's Gate 3
+It is clear why he did this, marketing yourself as a radiant coach would **make your services more appealing**. You may argue that his services are free (most likely a mix of **guilt** from this predicament and business model) but it does not subtract from the fact tha**t his community has been lied to about this on a daily basis**. He is not the player who he claims to be. I think that transparency is important, which is why I created this post. I have no ulterior motive, I just do not like the lack of honesty.
 
-Banishers: Ghosts of New Eden
+There is more evidence, like for example, his account mained duelist with a 1.x KD during the period where he was a 723 rr radiant player, and immediately after that point (which is when JeyG transferred the account to him), he played controller and sunk to immortal with objectively bad stats. No radiant who has played every single day since that point would struggle to play duelist in ascendant lobbies. It is simply ridiculous. The final thing I want to bring attention to is JeyG's twitter. Look at his Bio.
 
-Barton Lynch Pro Surfing
+[Odd Coincidence?](https://preview.redd.it/5ytim6aocmoc1.png?width=613&format=png&auto=webp&s=491093d38d6d1e185d6f0eeba91b611489322989)
 
-Blacktail
+&#x200B;
 
-Bō: Path of the Teal Lotus
+[You can confirm this for yourself. It is on the official Valorant Client for everyone to see, I did not doctor any screenshots nor did I lie about the career inspection showing Woohoojin. You can do the exact same thing and see.](https://preview.redd.it/gw5ophqqcmoc1.png?width=575&format=png&auto=webp&s=56b0a3c78cd56cc7c4a0c33d0d35cfdeaedd4c25)",Bug,3995,0.92,1475,Xijiping0,VALORANT,2024-03-15T23:00:49,medium,False,unspecified,Bronzes,issue,0.11353071021387852,0.5231447430457331
+1f38ors,A lil rightclick ace,,Other,3888,0.99,107,litauenski,VALORANT,2024-08-28T08:17:05,unspecified,False,unspecified,,,0.0,0.0
+1f5es30,Well that’s awkward,,Other,3874,0.98,70,HumanFroyo790,VALORANT,2024-08-31T00:13:53,unspecified,False,unspecified,,,-0.6,1.0
+1etoc6r,Eco round in Abyss (by me),,Other,3863,1.0,56,KenjiUz,VALORANT,2024-08-16T09:07:45,unspecified,False,unspecified,,,-0.2,0.4
+1fgvzsy,Tenz is quitting pro play,"https://x.com/Sentinels/status/1835061137416818701?t=ZTGoKUkpGTzYrpW-WIWULA&s=19 
 
-Brothers: A Tale of Two Sons Remake (Remake)
+Sentinels and Tenz just released on their twitter a video in which Tenz is talking about the commitment it takes to be a pro player and that he wants to do more outside of it, meaning he will quit pro play. 🐐🫡",Other,3851,0.95,323,ItzzKev1n,VALORANT,2024-09-14T17:08:26,medium,False,unspecified,,,0.2333333333333333,0.21666666666666667
+1eck4xs,Val skin previews are getting out of hand,,Other,3806,0.98,42,moonicute,VALORANT,2024-07-26T05:49:34,unspecified,False,unspecified,,,0.0,0.0
+1frohhv,Never trusting a Phoenix again,,Other,3800,1.0,77,Life_Rock_7636,VALORANT,2024-09-28T17:20:27,unspecified,False,unspecified,,,0.0,0.0
+17xjn9a,Playing for time,Credit: @jeremyfps on TikTok,Other,3796,0.99,25,MoKhttar,VALORANT,2023-11-17T12:02:49,unspecified,False,pc,,,0.0,0.0
+1etcaf2,Not a player but felt like drawing one of the agents (Fade by me),,Other,3773,0.99,67,Saratige,VALORANT,2024-08-15T21:22:48,unspecified,False,unspecified,,,0.0,0.0
+1gn5xhy,Warning shots ,,Other,3766,0.99,50,Hentona,VALORANT,2024-11-09T03:48:47,unspecified,False,unspecified,,,0.0,0.0
+1gacvli,When you switch from playing Doom to Valorant,,Other,3739,0.99,60,Survap,VALORANT,2024-10-23T11:09:04,unspecified,False,switch,,,0.0,0.0
+1ej060i,Been practicing on aim labs for the past week and got this!!,,Other,3686,0.94,107,yeanaacunt,VALORANT,2024-08-03T06:31:58,unspecified,False,unspecified,,,-0.390625,0.25
+17z3hcj,BROKEN Gekko Lineup on Sunset (must watch),,Bug,3645,0.96,48,Dittogami,VALORANT,2023-11-19T13:29:58,critical,False,unspecified,,broken,-0.4,0.4
+1dr7h2d,2 Second Valorant Round,,Other,3593,0.99,80,Tenrii3,VALORANT,2024-06-29T05:35:03,unspecified,False,unspecified,,,-0.1,0.2
+1dwq30r,I'm blocking my entire stack,,Other,3543,0.98,113,gertigigglesOSS,VALORANT,2024-07-06T09:51:09,unspecified,False,unspecified,,,0.0,0.625
+1fzgr9q,I've never played FPS games until my friends made me download Val and hit this shot the other night,,Other,3533,0.97,124,sully2813,VALORANT,2024-10-08T22:00:14,unspecified,False,pc,,,-0.125,0.375
+1chaxme,so valorant found my clip and turned it into a player-card,"so i woke up to my friend spamming me on discord that i somehow turned into a valorant playercard
 
-Castlevania Dominus Collection
+ngl i kind of thought they were lying and then i found on twitter this thing lol
 
-Company of Heroes 3
+My POV of knifing the kay/o knife: [https://www.reddit.com/r/VALORANT/comments/14hnucq/slicing\_a\_kayo\_knife\_midair\_with\_a\_katana\_my\_pov/](https://www.reddit.com/r/VALORANT/comments/14hnucq/slicing_a_kayo_knife_midair_with_a_katana_my_pov/)
 
-Crime Boss: Rockay City
+&#x200B;
 
-Crown Wars: The Black Prince
+https://preview.redd.it/baf80qy66qxc1.png?width=583&format=png&auto=webp&s=f8f740c1ae82e4da7091d2f8698ba825ad6f3eb0",Question,3534,0.98,98,skepia_cutie,VALORANT,2024-04-30T22:23:03,unspecified,False,unspecified,,,0.21666666666666665,0.8666666666666667
+1g9gydl,My Sage Cosplay,,Other,3535,0.98,54,not_sugashi,VALORANT,2024-10-22T08:30:09,unspecified,False,unspecified,,,0.0,0.0
+1ghw2y4,Big Brain Sage Wall for Pearl,I don’t know who to credit for this but I saw it on tik tok 👍🏼 big ups to that guy. Now my favorite strat to her if we rotate to B site on attack 😂,Other,3512,0.98,55,GroundbreakingSir694,VALORANT,2024-11-02T09:10:36,unspecified,False,unspecified,,,0.16666666666666666,0.39999999999999997
+1erpfes,Why can everyone in IRON 2 one tap me in a nanosecond?!,,Other,3486,0.95,589,Somonyo,VALORANT,2024-08-13T21:49:20,unspecified,False,unspecified,,,0.0,0.0
+1fqihzd,My Skye cosplay from Valorant ,,Other,3458,0.98,74,notlishyy,VALORANT,2024-09-27T03:50:34,unspecified,False,unspecified,,,0.0,0.0
+1fcv6yl,I can’t unhear Brim’s ult and it’s affecting my gameplay,"Last night, during a rather nonchalant game of unrated, my heavily inebriated friend decided to entertain a quote-a-long.
 
-Crusader Kings III
+Somewhere along the lines of the last round before side switch on a 2-10, he decided to blurt out Brim’s ult mid swig. What came out was a jumbled mess and due to the poor accent sounded like “Open Up this Guy.”
 
-Dead Space (Remake)
+Subsequently, I can’t play with any brim any longer bc it just sounds like an emcee at all bussy all you can eat.",Question,3417,0.97,123,MsHelvetica,VALORANT,2024-09-09T13:31:42,unspecified,False,switch,Open Up this Guy,,-0.13636363636363635,0.28484848484848485
+1exqcqs,I dont like sages,I think i dont like sages. Pocket sage or battle sage i still dont like em. And when i get a chance like this oh boy i sure gonna use this,Other,3408,0.97,94,Apprehensive-Lime573,VALORANT,2024-08-21T09:59:26,unspecified,False,unspecified,,,0.5,0.8888888888888888
+1g7ysyo,Once in a lifetime Deathmatch,"Was playing Deathmatch today and decided to pull my knife out, attracted many friendlies, then we all gathered in A link and showed off our sprays and gun skins! 💙",Question,3398,0.98,46,LeadingPair2604,VALORANT,2024-10-20T09:33:23,unspecified,False,unspecified,,,0.625,0.5
+1dxvhhf,I love how arrogant sentinels’ official description is lmao,,Question,3347,0.97,171,Kindle_G,VALORANT,2024-07-07T20:31:08,unspecified,False,unspecified,,,0.55,0.8
+1flg163,VALORANT to bring in Ranked Rollback; RR lost to cheaters will be reverted back after cheaters are detected,,Other,3324,0.98,219,valorantalt947,VALORANT,2024-09-20T12:21:54,unspecified,False,unspecified,,,0.0,0.0
+1f1lvqi,pick ‘ems went crazy,"how’d you guys do on your pick ‘ems cuz i legitimately failed
+i didn’t do the group stage so it’s not as bad but even still, my playoff picks were perfectly completely wrong ",Question,3217,0.98,118,No-Landscape-662,VALORANT,2024-08-26T07:30:20,unspecified,False,unspecified,,,-0.575,0.6916666666666667
+1es58ub,Omen entry tutorial,,Other,3203,0.96,108,DuckMansHere,VALORANT,2024-08-14T11:54:58,unspecified,False,unspecified,,,0.0,0.0
+1csj0iw,The moment my game turned into a screensaver,,Other,3133,0.99,80,Pixelade,VALORANT,2024-05-15T07:57:47,unspecified,False,unspecified,,,-0.4,0.4
+1f9kutz,Deadlock net dodge,"Idk if its a well known mechanic or something,  but my friend and i accidentally found out that you can dodge the deadlock net by jumping in the right time (as you can see im better at it than him)
+Can be a cool and unexpected thing to do to surprise the enemies even tho its pretty tough to master the timing",Other,3124,0.99,50,Xeno_UwUwU,VALORANT,2024-09-05T08:10:09,unspecified,False,unspecified,,,0.13710317460317462,0.5648809523809524
+1fphzxt,1 hp ace clutch,I was browsing old vids in my drive and saw this gem of an ace. Icing on the cake was the 0.09 defuse at the end lol. ,Other,3107,0.99,48,jerniq,VALORANT,2024-09-25T19:06:35,unspecified,False,unspecified,,,0.45,0.44999999999999996
+1ffrcmo,Why does Harbor tell the enemy team how to dodge his ULT?,"Is he stupid?
 
-Deathloop
+For those who are unaware (considering his abysmal pick rate) after summoning his big rain puddle (that is for some reason called an ultimate) he makes an urgent and important announcement for the whole enemy team ""I sudjest youu moooove!""
 
-Doraemon Story Of Seasons: Friends of the Great Kingdom
+Like, thanks? But why are you helping the enemy team, bro?
 
-Dragon Ball: Sparking! Zero
+The first time I was playing against him I knew shit about his abilities and when I found myself in the **deadly** pond of water I thought that was the end but this kind man's advice saved my life.
 
-Dragon Age: The Veilguard
+I was so unprepared of an enemy helping me that I thought someone from my team sudjested me moooving through the voice chat.
 
-Dragon's Dogma 2
+So I wonder why people are not so willing to play this agent, lmao.
 
-Dungeons 4
+Isn't him helping like this considered sabotaging or griefing btw?
 
-EA SPORTS College Football 25
+I've said what I said.",Question,3097,0.95,226,GeoTeamEnthusiast,VALORANT,2024-09-13T06:25:29,unspecified,False,unspecified,,,0.10384615384615385,0.6448717948717948
+1em5q87,Outlaw has no ADS recoil,,Other,3032,0.96,212,awayt77,VALORANT,2024-08-07T03:33:23,unspecified,False,unspecified,,,0.0,0.0
+1d33vd1,My Killjoy cosplay!  ,,Other,3018,0.98,77,mercifulyuyu,VALORANT,2024-05-29T00:37:12,unspecified,False,unspecified,,,0.0,0.0
+1e261fx,DM spawns are not random #rampage,,Other,3001,0.95,134,TheArchonians,VALORANT,2024-07-13T05:07:00,unspecified,False,unspecified,,,0.25,0.5
+1f82ca9,Welcome to my world!! [My Viper Cosplay] ,,Other,2996,0.97,58,TmyXV,VALORANT,2024-09-03T11:09:55,unspecified,False,unspecified,,,1.0,0.9
+1evdad2,I made a crochet wingman (I have never played valorant),,Other,2993,0.99,46,Witchy_Wafu,VALORANT,2024-08-18T12:24:35,unspecified,False,unspecified,,,0.0,0.0
+19bgmx4,I've never seen more util be used in one place,,Other,2986,0.99,142,Overson_YT,VALORANT,2024-01-20T12:17:20,unspecified,False,unspecified,,,0.5,0.5
+1favu24,The Jett probably did not expect that,,Other,2984,0.99,33,JJ_07,VALORANT,2024-09-06T21:43:04,unspecified,False,unspecified,,,0.0,0.0
+1cql8vs,I may be Iron rank but I still want to paint my experiences as a player 🥹,"Featuring Sova, Sage and Jett in Icebox, I wanted to show the feeling of attempting to heal teammates and getting shot immediately after 😭 It was challenging and fun creating a multi-character scene! I hope you enjoy~",Question,2966,0.99,123,Bluemist72,VALORANT,2024-05-12T19:34:42,unspecified,False,unspecified,,,0.11875,0.65
+1g5bxgg,I actually cant with these ranked teammates ,,Other,2961,0.99,100,YourAverageLegion,VALORANT,2024-10-16T18:27:54,unspecified,False,unspecified,,,0.0,0.1
+17w5m0j,May I present to you... the Silver ranked experience,,Other,2964,0.96,202,coffeejokes,VALORANT,2023-11-15T17:19:48,unspecified,False,unspecified,,,0.0,0.0
+1ebab7b,Is this the world fastes knife kill in Valorant? (4 seconds),,Other,2949,0.98,82,Oblivion_187,VALORANT,2024-07-24T15:31:51,unspecified,False,unspecified,,,0.0,0.0
+1gfw1o7,Wouldn't it be cool if these gave free gun buddies?,,Other,2948,0.98,58,PresenceOld1754,VALORANT,2024-10-30T16:11:47,unspecified,False,unspecified,,,0.375,0.7250000000000001
+1gckiza,Has anyone seen Sova ult shoot inside ISO ult before? ,Losing my shield before the walls come down is kind of hilarious. ,Other,2928,0.99,61,Demedian,VALORANT,2024-10-26T08:59:15,unspecified,False,unspecified,,,0.3148148148148148,0.7296296296296297
+1fjp13k,ISO thought he was making a 200 IQ move,,Other,2914,0.98,79,HillsHaveEyesToo,VALORANT,2024-09-18T05:55:59,unspecified,False,unspecified,,,0.0,0.0
+188wuxn,crazy shot whilst having black market butterfly knife,,Other,2907,0.96,59,igothackedagain4,VALORANT,2023-12-02T00:43:10,unspecified,False,unspecified,,,-0.3833333333333333,0.6666666666666667
+1fld02y,Double Jett (Animated by me),,Other,2891,1.0,34,KenjiUz,VALORANT,2024-09-20T10:12:36,unspecified,False,unspecified,,,0.0,0.0
+1f544up,POV: Your teammate chose Clove for the ult (by me),,Other,2877,0.97,79,Duskspiral_Gamer,VALORANT,2024-08-30T15:40:54,unspecified,False,unspecified,,,0.0,0.0
+1g85i29,Urban Art of Phoenix in my block,,Other,2861,0.99,36,B1A_-,VALORANT,2024-10-20T14:31:27,unspecified,False,unspecified,,,0.0,0.0
+1danzre,"Riot is bringing VALORANT to consoles, beta testing starts soon",,Other,2863,0.91,858,MonkeyKingHero,VALORANT,2024-06-07T18:42:32,unspecified,False,unspecified,,,0.0,0.0
+1g4wylr,What is your favourite shotgun and why is it the OP?,,Question,2827,0.98,82,depressedshoe,VALORANT,2024-10-16T07:20:21,unspecified,False,unspecified,,,0.0,0.0
+1f7s4ww,Kay-O and Viper Cosplay by me and my friend ,"LINE UP!!! LINE UP!! 🤣🤣🤣
 
-EA SPORTS NHL 25
+i really enjoyed this day, had so much fun with fellow valorant cosplayers, so happy ☺️☺️",Other,2773,0.99,41,Same-Salamander2472,VALORANT,2024-09-03T01:23:47,unspecified,False,unspecified,Viper Cosplay,,0.5333333333333333,0.6333333333333333
+1flz69r,Auto-Tracking Raze Showstopper???,,Question,2739,0.98,103,x_Kez,VALORANT,2024-09-21T05:28:28,unspecified,False,unspecified,,,0.0,0.0
+19e8i64,How I got the Riot Gun Buddy Today,"The way I got this gun Buddy today was so out the ordinary. This wasn't obtained by meeting a riot developer in-game. I obtained this by serving a riot employee in the pub I work in. Pretty cool story but they offered me the riot gun buddy and I had to accept. Their UK HQ is around the corner from the pub I work in which I didn't even know.  
 
-EA SPORTS UFC 5
 
-EA SPORTS WRC
+Made my shift 100x better.
 
-Empire of the Ants
+https://preview.redd.it/sbnbpcy9ebec1.png?width=2172&format=png&auto=webp&s=27a53237bcba7054d3379216d5dd3fa252f35578",Question,2729,0.98,86,Overall-Business5398,VALORANT,2024-01-23T23:23:12,unspecified,False,pc,100x,,0.2125,0.6625
+1defvf1,Found some insane abyss tech,,Other,2718,0.98,63,Freakfire_SOL,VALORANT,2024-06-12T15:55:25,unspecified,False,unspecified,,,-1.0,1.0
+1gmfsrw,Tenz and kyadae really are a power couple ,,Other,2711,0.97,32,MEME_LORD_MEME,VALORANT,2024-11-08T05:49:09,unspecified,False,unspecified,,,0.2,0.2
+1c8rb78,"Rate my Silver 2 gameplay, pardon my aim but bless my game sense",,Other,2703,0.98,139,Kira_75013,VALORANT,2024-04-20T10:28:15,unspecified,False,unspecified,,,-0.4,0.4
+1ead4br,How did I get 2 ultimates?!?!??,,Question,2698,0.98,129,Assestionss,VALORANT,2024-07-23T13:05:17,unspecified,False,unspecified,,,0.0,0.0
+1aqf1gh,The True Valorant User Experience,,Other,2683,0.98,86,Pro0Active,VALORANT,2024-02-14T00:11:36,unspecified,False,unspecified,,,0.35,0.65
+1f0ukcs,AverageJonas just announced he is quitting VALORANT permenately,"While it's sad to see such a major and pivotal player in the community leave, it is also understandable. Some of the reasons that AverageJonas raises for leaving are feeling burnt out and wishing to move on to other games like Dota, Palworld and the new game ""Deadlock"" by Valve. Good luck AverageJonas on your new journey 🫡.
 
-Enotria: The Last Song
+[Link to the announcement video](https://youtu.be/jkgODsk19X8?si=LWoFoafbdJDMCOmr)",Other,2681,0.92,395,mispelllet_usrnayme,VALORANT,2024-08-25T07:51:19,medium,False,unspecified,,,0.05669191919191918,0.5648989898989898
+1b2jryt,"Million dollar move, ten cent finish",,Other,2680,0.97,80,TaifunDevilrain,VALORANT,2024-02-28T17:37:12,unspecified,False,unspecified,,,0.0,0.0
+1e72yjp,Does Phoenix know Clove can resurrect themselves?,"Played a game where I was on Phoenix and killed the enemy Clove. I kill Clove, and he goes ""Oh you ain't coming back"". Then Clove ulted. Why would he say that if he knew Clove had the ability to res? Is he stupid?",Other,2671,0.97,77,Exhibit5,VALORANT,2024-07-19T08:50:08,unspecified,False,unspecified,,,-0.35,0.35
+17w50m1,My Fastest Ace...and I didn't see anyone,,Other,2653,1.0,52,mictur,VALORANT,2023-11-15T16:57:17,unspecified,False,unspecified,,,0.0,0.0
+1gpxlr2,invisible enemies I want my RR back,,Other,2755,0.99,99,loorvine,VALORANT,2024-11-12T17:35:32,unspecified,False,unspecified,,,0.0,0.0
+18s29sn,"Valorant offers FREE rewards, here how to redeem them","
 
-Everspace 2
+Code 1: 
+CC-VLRNT-CCHAL-00001
 
-Espresso Tycoon
+Code 2:
+CC-VLRNT-CCHAL-VAL02
 
-Farmagia
-
-Farming Simulator 25
-
-Flintlock: The Siege of Dawn
-
-Football Manager 2023 Console
-
-Football Manager 2024 Console
-
-Frontier Pilot Simulator
-
-Gangs of Sherwood
-
-Ghostrunner 2
-
-Ghostwire Tokyo
-
-Gord
-
-Gotham Knights
-
-Gothic: Remake (Remake, yet to be released on console)
-
-Hardspace: Shipbreaker
-
-Hi-Fi RUSH
-
-Hunt: Showdown 1896
-
-Indika
-
-Just Dance: 2023 Edition
-
-Just Dance: 2024 Edition
-
-Just Dance: 2025 Edition
-
-Kamitsubaki City Ensemble
-
-Killer Klowns From Outer Space: The Game
-
-King Arthur: Knight's Tale
-
-Layers of Fear (2023) (Remake)
-
-Life is Strange: Double Exposure
-
-Lollipop Chainsaw RePOP
-
-Lords of the Fallen
-
-Lost Eidolons
-
-Master Detective Archives: Rain Code Plus
-
-MechWarrior 5: Clans
-
-Miasma Chronicles
-
-Mon-Yu: Defeat Monsters And Gain Strong Weapons And Armor. You May Be Defeated, But Don’t Give Up. Become Stronger. I Believe There Will Be A Day When The Heroes Defeat The Devil King.
-
-Mortal Kombat 1
-
-Naraka: Bladepoint
-
-Need For Speed Unbound
-
-New World: Aeternum
-
-Nobody Wants to Die
-
-Off the Grid
-
-Offroad Truck Simulator: Heavy Duty Challenge
-
-Outcast - A New Beginning
-
-Overpass 2
-
-Palworld
-
-Park Beyond
-
-Payday 3
-
-Penny’s Big Breakaway
-
-Planet Coaster 2
-
-Planet Zoo Console Edition
-
-Predecessor
-
-Remnant II
-
-Reveil
-
-Rhapsody: Marl Kingdom Chronicles
-
-RoboCop: Rogue City
-
-Scorn
-
-Sea of Thieves
-
-Slime Rancher 2
-
-Slitterhead
-
-Solasta: Crown of the Magister
-
-South Park: Snow Day!
-
-Spirit Hunter: Death Mark II
-
-Star Wars Outlaws
-
-Steelrising
-
-Still Wakes the Deep
-
-Story Of Seasons: A Wonderful Life
-
-Suicide Squad: Kill the Justice League
-
-Sword Art Online Fractured Daydream
-
-Taiko no Tatsujin: Rhythm Festival
-
-Tales of Kenzera: ZAU
-
-Teardown
-
-Tekken 8
-
-Temtem
-
-Test Drive Unlimited Solar Crown
-
-The Casting of Frank Stone
-
-The Chant
-
-The Inquisitor
-
-The Lord of the Rings: Return to Moria
-
-The Medium
-
-The Talos Principle 2
-
-The Valiant
-
-Throne And Liberty
-
-Thymesia
-
-Undisputed
-
-Unholy
-
-Valorant
-
-Warhammer 40,000: Rogue Trader
-
-Warhammer 40,000: Space Marine 2
-
-Warhammer Age of Sigmar: Realms of Ruin
-
-White Day 2: The Flower That Tells Lies - Complete Edition
-
-Wild Hearts
-
-WitchSpring R
-
-XDefiant (Free)
-
----
-
-**9th generation exclusives, also on Xbox and/or Switch/PC - Indies**
-
-[REDACTED]
-
-7 Days to Die - Console Edition
-
-10-Second Ghost
-
-A Quiet Place: The Road Ahead
-
-Abriss - build to destroy
-
-Active DBG: Brave's Rage
-
-After Us
-
-Age of Water
-
-Akimbot
-
-Alaskan Road Truckers: Highway Edition
-
-All You Need is Help
-
-Animal Well
-
-Anno 1800
-
-Another Crab's Treasure
-
-Aerial\_Knight's We Never Yield
-
-Ario
-
-Arranger: A Role-Puzzling Adventure
-
-Atama
-
-Between Horizons
-
-Bit.trip Rerunner
-
-Blind - The Unseen Truth
-
-Born Of Bread
-
-Boyfriend Dungeon
-
-Bright Memory: Infinite
-
-Broken Sword - Shadow of the Templars: Reforged
-
-Burst Hero
-
-Button City
-
-Caravan SandWitch
-
-Cartel Tycoon
-
-CASE 2: Animatronics Survival
-
-Cave Digger 2
-
-Chrysolite
-
-CityDriver
-
-Classified: France '44
-
-Closer the Distance
-
-Coffee, Plis
-
-CometStriker DX
-
-Cookie Cutter
-
-Coral Island
-
-Creature Lab
-
-Cricket: Jae's Really Peculiar Game
-
-Crossy Road Castle
-
-Crow Country
-
-Ctrl Alt Ego
-
-Custom Mech Wars
-
-CYGNI: All Guns Blazing
-
-Dark Light
-
-Dead Man´s Diary
-
-Dead Age II
-
-Deadlink
-
-Deathbound
-
-Deceive Inc.
-
-Detective - Minerva Case
-
-Die After Sunset
-
-Disaster Band
-
-Downward: Enhanced Edition
-
-Dust & Neon
-
-Ed-0: Zombie Uprising
-
-El Paso, Elsewhere
-
-Elsie
-
-Elypse
-
-Erra: Exordium
-
-Exographer
-
-Fabledom
-
-Figment 2: Creed Valley
-
-Flint: Treasure of Oblivion
-
-Fresh Start
-
-Galacticare
-
-Gamedec - Definitive Edition
-
-Garden Witch Life
-
-GENIE Reprise
-
-Gift
-
-Go Mecha Ball
-
-Goons: Legends & Mayhem
-
-Hairdresser Simulator
-
-Harmony: The Fall of Reverie
-
-Harold Halibut
-
-Heavy Cargo - The Truck Simulator
-
-Heroine Anthem Zero 2 : Scalescars Oath
-
-Hexa River
-
-Hidden Through Time 2: Discovery
-
-Hidden Through Time 2: Myths & Magic
-
-Highwater
-
-House Flipper 2
-
-House of Golf 2
-
-Howl
-
-Hunt and Fight: Action RPG
-
-Immortality
-
-Inspector Gadget: MAD Time Party
-
-Iron Danger
-
-Joe Wander and the Enigmatic adventures
-
-Jusant
-
-KarmaZoo
-
-Keylocker | Turn Based Cyberpunk Action
-
-Kingdom Eighties
-
-Knight vs Giant: The Broken Excalibur
-
-Koumajou Remilia: Scarlet Symphony
-
-Last Days of Lazarus
-
-Last Time I Saw You
-
-Let's School
-
-Little Goody Two Shoes
-
-Loretta
-
-Lost At Sea
-
-Lost Islands
-
-Mad Devils: Damned-finitive Edition
-
-Magnus Trilogy
-
-Manitas Kitchen
-
-Melatonin
-
-Melobot - A Last Song
-
-Monster Panic
-
-Monster Train
-
-Mutant Express
-
-Mute Crimson DX
-
-Naheulbeuk's Dungeon Master
-
-Necro Story
-
-Nikoderiko: The Magical World
-
-No Place Like Home
-
-No Son Of Mine
-
-Nocturnal
-
-Oceanhorn 2: Knights of the Lost Realm
-
-Offroad Mechanic Simulator
-
-Pacific Drive
-
-Paladin's Passage
-
-Paper Ghost Stories: Third Eye Open
-
-Parcel Corps
-
-Perennial Order
-
-Phantom Fury
-
-Pizza Possum
-
-Pneumata
-
-Purpose 1951
-
-Q.U.B.E. 2 Ultimate Edition
-
-Quern - Undying Thoughts
-
-Read Only Memories: Neurodiver
-
-Recompile
-
-Return to Monkey Island
-
-Right and Down and Dice
-
-Rocket Rumble
-
-Rogue Spirit
-
-Romancelvania
-
-Rusted Moss
-
-Sable
-
-Saltsea Chronicles
-
-Saviorless
-
-Say A Prayer
-
-Sekimori Gami - Saien
-
-Selfloss
-
-Serious Sam 4
-
-Serious Sam: Siberian Mayhem
-
-Shadow Gambit: The Cursed Crew
-
-Shadows of Doubt
-
-Ship Graveyard Simulator 2
-
-Ship of Fools
-
-Shoulders of Giants: Ultimate
-
-Shredders
-
-Silver Axe - The Honest Elf
-
-Sker Ritual
-
-SkullPirates
-
-Sky Oceans: Wings for Hire
-
-Smalland: Survive the Wilds
-
-Souls of Chronos
-
-Speed Overflow
-
-SpellForce: Conquest of Eo
-
-Spells & Secrets
-
-Squirrel with a Gun
-
-Stasis: Bone Totem
-
-Stray Blade
-
-SunnySide
-
-Sunsoft is Back! Retro Game Selection
-
-Survival: Fountain of Youth - Captain's Edition
-
-Tensei
-
-Terra Memoria
-
-The Fall of Elena Temple
-
-The Finals
-
-The Forest Cathedral
-
-The Invincible
-
-The Land Beneath Us
-
-The Last Case of Benedict Fox: Definitive Edition
-
-The Last Oricru - Final Cut
-
-The Last Worker
-
-The Master’s Pupil
-
-The Mobius Machine
-
-The Plucky Squire
-
-The Ramsey
-
-The Serpent Rogue
-
-The Solitaire Conspiracy
-
-The Star Named EOS
-
-Thief Simulator 2
-
-TimeMelters
-
-Times & Galaxy
-
-To The Sky
-
-TOEM
-
-Tourist Bus Simulator
-
-Trepang2
-
-Truck Driver: The American Dream
-
-Turbo Golf Racing
-
-Ufouria 2: The Saga
-
-Underdog Detective
-
-UnderDungeon
-
-Venba
-
-Wall World
-
-War Hospital
-
-Warlander
-
-Warstride Challenges
-
-Way of the Hunter
-
-Welcome to ParadiZe
-
-Whisker Waters
-
-Wild Bastards
-
-Wild Hunter: Sniper Rifle Adventures Simulator
-
-Wildmender
-
-Withering Rooms
-
-Wizard with a Gun
-
-WW2 Rebuilder
-
-Xaladia: Rise of the Space Pirates X2
-
-Your Computer Might Be At Risk
-
----
-
-**PSVR2 games not on original PSVR. Some are an ""Optional mode"" like FNAF**
-
-2MD: VR Football Unleashed ALL☆STAR
-
-A Fisherman's Tale PS5 Edition
-
-A Fisherman's Tale 2
-
-Across the Valley
-
-Afterlife VR
-
-Alien: Rogue Incursion
-
-Altair Breaker
-
-Among Us VR
-
-Ancient Dungeon VR
-
-Apollo 13: The Lost Tapes VR
-
-Arashi: Castles of Sin: Final Cut
-
-Arcade Paradise VR
-
-Arizona Sunshine 2
-
-B99 Overclocked
-
-Barbaria
-
-Beat the Beats VR
-
-Before Your Eyes
-
-Behind the Frame: The Finest Scenery VR
-
-Big Shots
-
-Bocce VR Simulator
-
-Border Bots VR
-
-Box To The Beat VR
-
-Breachers
-
-Break Stuff VR
-
-Broken Edge
-
-Budget Cuts Ultimate
-
-Bulletstorm VR
-
-C-Smash VRS New Dimension
-
-Cactus Cowboy - Desert Warfare
-
-Cactus Cowboy - Plants At War PSVR2 Edition
-
-Captain Toonhead vs The Punks from Outer Space
-
-Chernobyl Again
-
-Cities: VR - Enhanced Edition
-
-CleanSheet Soccer
-
-Colossal Cave VR
-
-Compound
-
-Cosmodread
-
-Cosmonious High
-
-Crazy Kung Fu
-
-Creed: Rise to Glory - Championship Edition
-
-Crimen - Mercenary Tales
-
-Crossfire: Sierra Squad
-
-CyubeVR
-
-D-Day Enhanced
-
-Darksword: Battle Eternity
-
-Dead Hook
-
-Dead Second
-
-Demeo
-
-Drums Rock
-
-Dyschronia: Chronos Alternate Episode I
-
-Dyschronia: Chronos Alternate
-
-Encircled
-
-Epic Roller Coasters
-
-Firewall Ultra
-
-Five Nights at Freddy's: Help Wanted - Full Time Edition
-
-Five Nights at Freddy's: Help Wanted 2
-
-Forest Farm Standard Forest Farm
-
-ForeVR Bowl
-
-ForeVR Cornhole
-
-ForeVR Pool
-
-Galaxy Kart
-
-Garden of the Sea
-
-Gazzlers
-
-Genotype
-
-Ghostbusters: Rise of the Ghost Lord
-
-Ghost Signal: A Stellaris Game
-
-Grand Rush VR Highway Car Traffic Racing Simulator
-
-Green Hell VR
-
-HappyFunland
-
-Hellsweeper VR
-
-Horizon Call of the Mountain
-
-Horror Adventure : Zombie Edition (PSVR2)
-
-Hubris
-
-Infinite Inside
-
-Into the Radius
-
-Island Time PSVR2
-
-Journey to Foundation
-
-K-ONE maths dimension
-
-Kayak VR: Mirage
-
-Koi-Koi : Love Blossoms
-
-Legendary Tales
-
-Les Mills Bodycombat
-
-Little Cities: Bigger!
-
-Madison VR
-
-Masternoid
-
-Math World VR
-
-Max Mustard
-
-Mecha Party
-
-Metal: Hellsinger VR
-
-Metro Awakening
-
-Mixture
-
-NFL PRO ERA II
-
-Nock
-
-OhShape Ultimate
-
-Operation Serpens
-
-Operation Wolf Returns: First Mission VR
-
-Organ Quarter
-
-Ovrdark: a Do Not Open story
-
-Paint the Town Red VR
-
-Paper Beast Enhanced Edition
-
-Pavlov
-
-Peaky Blinders: The King's Ransom Complete Edition
-
-Pixel Ripped 1978: An Atari Adventure
-
-Project Wingman: Frontline 59
-
-Propagation: Paradise Hotel
-
-Racket Fury: Table Tennis VR
-
-Ragnarock
-
-Rainbow Reactor: Fusion
-
-Reading World VR
-
-Red Matter 2
-
-Resident Evil 4: VR Mode
-
-Resident Evil Village VR Mode
-
-Retropolis 2: Never Say Goodbye
-
-Rezzil Player
-
-Rhythm Planet
-
-Ruinsmagus: Complete
-
-Runner
-
-Seeker : My Shadow
-
-Shave & Stuff
-
-Sky Climb
-
-Skydance's Behemoth
-
-Snow Scout
-
-Soul Covenant
-
-Space Docker VR
-
-Space Explore (PSVR2)
-
-Star Wars: Tales from the Galaxy's Edge - Enhanced Edition
-
-Starship Troopers: Continuum
-
-Stilt
-
-Stride: Fates
-
-Sugar Mess - Let's Play Jolly Battle
-
-Suicide Guy VR Deluxe
-
-Super Death Game SHOW! VR
-
-Survivorman VR The Descent
-
-Sushi Ben
-
-System Critical 2
-
-Synapse
-
-Tennis On-Court
-
-Tentacular
-
-The 7th Guest VR
-
-The Dark Pictures: Switchback VR
-
-The Exorcist: Legion VR
-
-The Foglands
-
-The Last Clockwinder
-
-The Light Brigade
-
-The Street 10 VR
-
-The Twilight Zone
-
-The Utility Room
-
-The Wizards: Dark Times - Brotherhood
-
-Thief Simulator VR: Greenview Street
-
-Tiger Blade
-
-Toss!
-
-Towers and Powers
-
-Townsmen VR
-
-Toy Trains
-
-Train Chase
-
-Travel The Words
-
-Tripp: A New Way to Meditate
-
-Ultrawings 2
-
-Umurangi Generation VR
-
-Unplugged - Air Guitar
-
-Vampire: The Masquerade - Justice
-
-Vendetta Forever
-
-Vegas Infinite
-
-Ven VR Adventure
-
-Vertigo 2
-
-Very Bad Dreams Dean's Dream Edition
-
-Vetrix Worlds
-
-VR Skater
-
-Walkabout Mini Golf
-
-Waltz of the Wizard
-
-WHAT THE BAT?
-
-You, Calligrapher
-
-Zombie Bar Simulator VR
-
-Zombieland: Headshot Fever Reloaded
-
----
-
-**PS5 Bloat list, ranging from exclusive to 9th gen exclusive**
-[Link](https://www.reddit.com/user/Icalivy/comments/1g8k89u/ps5_games_not_on_ps4_the_bloat_list/)
-
----
-
-**Defunct games**
-
-Atlas Fallen (Replaced with newer version)
-
-Concord (R.I.P.)
-
-Krispain Hero VR: Roguelite Dungeon Shooter Simulator (for PSVR2)
-
-Run or Die VR - Real Parkour Quest Simulator Game (for PSVR2)
-
-The Great Fleece
-
-The Matrix Awakens: An Unreal Engine 5 Experience
-
----
-
-**All other Sony exclusives not listed above with a PS5/PS4 and/or PC version, not including PSP native PS5 re-releases**
-
-Ghost of Tsushima Director’s Cut
-
-Ghost of Tsushima: Legends
-
-God of War Ragnarök
-
-Gran Turismo 7
-
-Horizon Forbidden West
-
-Marvel's Spider-Man: Miles Morales
-
-MLB The Show 21, 22, 23, 24
-
-Sackboy: A Big Adventure
-
----
-
-**Some games that are on the way, but definitely not all**
-
-AI Limit
-
-Ballad of Antara
-
-Cities Skylines II
-
-Clair Obscure: Expedition 33
-
-Cuisineer
-
-Death Stranding 2: On The Beach (PS5 Exclusive)
-
-Doom: The Dark Ages
-
-Dragon Quest III HD-2D Remake
-
-Fantasian Neo Dimension
-
-Ghost of Yōtei (PS5 Exclusive)
-
-Kingdom Come: Deliverance II
-
-Kingdom Hearts IV
-
-Lego Horizon Adventures
-
-Marvel's Wolverine (PS5 Exclusive)
-
-Max Payne 1 & 2 Remake
-
-Metal Gear Solid Δ: Snake Eater
-
-Monster Hunter Wilds
-
-Morkull Ragast's Rage
-
-Judas
-
-Phantom Blade Zero
-
-Pragmata
-
-Prison Architect 2
-
-Psysint (PS5 Exclusive)
-
-Rusty Rabbit
-
-Sid Meier's Civilization VII
-
-Silent Hill F (Unreleased)
-
-Silent Hill: Townfall
-
-Star Wars: Knights of the Old Republic Remake
-
-Sword of the Sea
-
-Synduality Echo of Ada
-
-Tales of the Shire: A The Lord of The Rings Game
-
-The First Berserker: Khazan
-
-Two Point Museum
-
-Where Winds Meet
-
-Wuchang: Fallen Feathers
-
-(Feel free to help me add to this list)
-
----
-
-I just bought a PS5 coming from PS4 and wanted some exclusives I couldn't play prior, hence why I had to do some research. I hope it helps you!",965,0.9,316,Icalivy,4028.0,PS5,2024-10-21T03:16:10,https://www.reddit.com/r/PS5/comments/1g8jwka/all_ps5_exclusives_not_on_ps4_list/,critical,False,"pc,playstation,xbox,switch",Optional mode,"glitch,broken,error,lag",0.039960247750102824,0.4750313347414798
-1g7u7dk,Why I Stuck with the Original Switch Dock After Researching 3rd-Party Options,"[My 'Portable' setup with Dock](https://preview.redd.it/syjyp99gevvd1.jpg?width=3786&format=pjpg&auto=webp&s=bcaa59d9e4a8f16f273b5aacac3c3210f7b46877)
-
-**TL;DR:** Bought a used original dock and converted it into a smaller, more portable version.
-
-Recently after getting my Switch, I went deep down the charging and docking rabbit hole. I thought I did my research, but wow, I was way off! There’s so much I didn’t know—docks, accessories, charging standards, you name it. The chances of bricking the switch, plus, the number of fake ""original"" chargers on the market is insane. Honestly, I think even some authorized Nintendo sellers can’t tell the difference. If you’re interested, I will do a separate post comparing real vs. fake chargers. But this post is all about docks—yes, plural. I checked out a few 'recommended' third-party options before deciding to stick the original dock.
-
-# Genki Covert Dock:
-
-It’s got mixed reviews. The concept is great, it’s super compact, and it’s the smallest out there, but there are some dealbreakers:
-
-* It might still brick your Switch.
-* Bricked on it's own
-* HDMI might stop working
-* The HDMI port is pointless if you're not using the display feature.
-* Lower power output (even their Covert Dock 2 only supports 45W).
-* Brightness issue
-* flickering
-* Unresponsive CS.
-* Pricey.
-
-**Amazon reviews:**  
-4.5/5 reviews, do checkout 1 to 3 stars and evaluating yourself.  
-[https://www.amazon.com/Global-Covert-Charger-Nintendo-Portable/dp/B0CRXZ6RM6?th=1](https://www.amazon.com/Global-Covert-Charger-Nintendo-Portable/dp/B0CRXZ6RM6?th=1)
-
-[Display function stop working after few months](https://www.reddit.com/r/NintendoSwitch/comments/kxsxox/comment/gjzxnpq/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
-
-**General overall bad reviews was:**
-
-* HDMI working with just couple of uses
-* The dock dead within a year or after
-
-Source:  
-[Reddit: Genki Dock Reviews](https://www.reddit.com/r/NintendoSwitch/comments/13dh9jp/genki_covert_dock_for_nintendo_switch/)
-
-[Reddit: Bricked Switch Report](https://www.reddit.com/r/NintendoSwitch/comments/zsq2um/my_genki_covert_dock_bricked_my_switch/)
-
-[Convert dock brick report 2](https://www.reddit.com/r/NintendoSwitch/comments/govicm/i_think_my_genki_cover_dock_just_bricked_my_switch/)
-
-
-
-# Skull & Co JumpGate Pro:
-
-Another one with mixed reviews. It has a cool, slim design and a detachable USB hub, which is clever. But here are the issues I found:
-
-* Sleep/wake problems on Sony TV. [Source: ](https://www.reddit.com/r/NintendoPH/comments/131sidu/comment/k9czeeg/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
-* The spring push mechanism can get stuck.
-* Docking isn’t seamless; aligning the USB-C is tricky without the proper alignment support like the original dock.
-* Confirmed with their CS, It only works with the original Switch adapter, likely because they are not using a proper PD chip.
-* And honestly, their skull logo? Kinda ugly—definitely a reason I skipped their slim case.
-
-[S&C support team](https://preview.redd.it/tb0xwbuhcvvd1.jpg?width=583&format=pjpg&auto=webp&s=12aa9ae5a3536b9bcce6f79c7b84e5d0639bb6af)
-
-# Almost give up
-
-After going through all that, I said screw it and stick with my original dock. I didn’t want to risk bricking my Switch. After some research again turns out, there were custom shells for the original dock back in the day, but they’re hard to find now. Also, the idea that the Switch doesn’t use proper PD charging? Total myth.
-
-# Original Dock and AC Adapter:
-
-The original dock and adapter support PD 2.0 and DCP with two power outputs:
-
-* 5V 1.5A
-* 15V 2.6A
-
-Source:  
-YT: [Original Dock Charging Test](https://youtu.be/UIZOiysipWs?t=84)
-
-Any decent **45W PD** charger should work for dock mode. However, some **Anker GaNPrime** chargers don’t work, but they’ll still charge the Switch itself fine.
-
-Source:  
-Reddit: [Anker Gan charger that works for dock mode](https://www.reddit.com/r/anker/comments/xdgvr7/ganprime_chargers_dont_work_with_docked_nintendo/)  
-YT: [Live Anker Charger dock test](https://youtu.be/IGoT2lrlhk4?si=vazhpJtTUHRTfUkD)
-
-# Recommended Charging Cable
-
-While doing my research, I also found recommendations for charging cables that should work perfectly with the dock. Here’s what to look for:
-
-* **45W and above PD Type-C cable**
-* **Proper PD Type-C cable with a** [56k ohm resistor](https://www.reddit.com/r/NintendoSwitch/comments/ckaiiv/an_engineers_pov_on_the_3rd_party_dock_switch/) (recommended for safe charging)
-* **Any reputable branded PD cables** should work fine.
-
-# Custom Shells:
-
-I found two custom shell options:
-
-**Aolion DIY Case:**
-
-* The CS is pretty clueless.
-* The new shell has a built-in big LED, but it’s bulky and ugly.
-* Can't tell if which shell works with OLED dock.
-* The installation instructions are vague and miss key steps.
-* The shell looks flimsy.
-
-**ExtremeRate AiryDock DIY Kit:**
-
-* Super detailed install instructions on [YouTube](https://youtu.be/gWbhvnb5Lyw?si=INb6HbeThICWxrKc).
-* Compatible with both the regular and OLED dock.
-* Better design and higher quality.
-* Well-packaged with spare parts.
-* Few colors and design choice.
-
-# Installation:
-
-During the disassembly, I accidentally broke the OLED dock's LED. The dock still works fine, but I just cannot let it go, so I had to source a replacement LED from China (because, of course, you can get *anything* from China).
-
-[OLED Dock PCB and LED Light](https://preview.redd.it/ik5oh3nybvvd1.jpg?width=1512&format=pjpg&auto=webp&s=0580ac6684b8dab9453026d918a329a6ae6603f3)
-
-[Replacement OLED Dock LED](https://preview.redd.it/3jskr98ydvvd1.jpg?width=3024&format=pjpg&auto=webp&s=16fb92621608faec06cd686797d119207202e62a)
-
-I also added dust filters to the shell vents, which I think looks way better and keeps the dust out.
-
-[Added dust filter for dock shell](https://preview.redd.it/b51667f2evvd1.jpg?width=3024&format=pjpg&auto=webp&s=c4d319f534627511079826f03f84787404a9528d)
-
-[Added dust filter to bottom shell](https://preview.redd.it/c7lw3r94evvd1.jpg?width=3024&format=pjpg&auto=webp&s=a3ed636cae329e6e09df7258fc01323eb0dafb1f)
-
-# Size comparison
-
-[OG dock vs Custom shell](https://preview.redd.it/4js18lgqevvd1.jpg?width=4032&format=pjpg&auto=webp&s=455a868c199b348c77512dfc56adcb20ef7c5de9)
-
-[The size different is massive!](https://preview.redd.it/2fj178yqevvd1.jpg?width=4032&format=pjpg&auto=webp&s=43491b43669566c98c5c4d54d4b37a7cf0d3e1dd)
-
-[It's just insane it big it original shell look.](https://preview.redd.it/85gl1v8revvd1.jpg?width=3949&format=pjpg&auto=webp&s=a047a6b5bfea2925352d8110932707211d0b6243)
-
-After the conversation, I added 3 rubber dust blockers for USB and Ethernet port.
-
-[USB ports, sry out of focus a little.](https://preview.redd.it/1gz51v98fvvd1.jpg?width=4032&format=pjpg&auto=webp&s=fc63ee8ed43baab49739a45f5e697d8070340b66)
-
-[Ethernet port, sry again it looks out of focus.](https://preview.redd.it/mrvopb2dfvvd1.jpg?width=4032&format=pjpg&auto=webp&s=2656ace23bab368bf81b38ac4073100ecf9e9eda)
-
-# My ‘Portable’ Setup:
-
-* Switch OLED
-* UGreen PD 60W Type-C cable with built-in 56kΩ chip
-* UGreen 65W GaN 2C1A 3-port PD charger
-* SmallRig ultra-slim 4K HDMI cable
-* Original dock reshelled with the ExtremeRate AiryDock (I seriously hope they come up with a better name).
-
-[Switch OLED+HDMI\/Type-C Cables+Reshell Dock+ 65W Charger](https://preview.redd.it/k0a8fy0zfvvd1.jpg?width=3786&format=pjpg&auto=webp&s=052c27b60c8bc2e21a4a9cc2d99445c50abc0b6f)
-
-Overall, this is my perfect setup, and it didn’t cost much (aside from that replacement LED I broke). I already had the UGreen charger and cable for years, so the real cost was just getting the used dock and the shell. The DIY process was pretty straightforward, and now I don’t have to worry about a third-party dock bricking my Switch.
-
-If you’re curious, I can dive into the whole fake charger mess in another post. Thanks for reading, and happy gaming! Cheers!",1010,0.83,299,Chillenge,7966.0,NintendoSwitch,2024-10-20T04:35:02,https://www.reddit.com/r/NintendoSwitch/comments/1g7u7dk/why_i_stuck_with_the_original_switch_dock_after/,high,False,"pc,xbox,switch",original,"issue,problem,stuck",0.10301207955847129,0.5946256778731005
-1gl89ea,"I literally do not care what they add to the Switch 2, I just want them to fix all quality control issues","I remember the days of the Wii and DS. Both of those systems were built like tanks. They were built well and felt like high quality products. And through all the years of abuse I put them through, never once did they break or start having problems
-
-Meanwhile every single official Nintendo Switch product (joy cons, pro controller, console itself, dock) I own has had something break or stop working on me. And I treated every single one of those items with an unbelievable amount of care. Buttons were unresponsive, joysticks drifted. And every time I sent one back to Nintendo on warranty, they would send me a new one that would start showing issues of its own within only a few weeks. So eventually I stopped bothering with sending them back
-
-I don’t care if they changed almost nothing with the Switch 2. As long as they just make their products work, I will be happy",804,0.83,317,GulliblePea3691,24806.0,NintendoSwitch,2024-11-06T15:29:38,https://www.reddit.com/r/NintendoSwitch/comments/1gl89ea/i_literally_do_not_care_what_they_add_to_the/,medium,False,switch,,"issue,problem,fix",0.17525046382189238,0.5087940630797774
-1g485k8,Super Mario Party Jamboree: Review MegaThread,"# General Information
-
-Release date: October 17, 2024
-
-No. of players: Single System (1-4), Online (1-20)
-
-Genre: Party, Multiplayer, Board game
-
-Publisher: Nintendo
-
-ESRB rating: Everyone
-
-Supported play modes: TV mode, Tabletop mode, Handheld mode
-
-Game file size: 5.3 GB
-
-Supported languages: Dutch, English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Simplified Chinese, Spanish, Traditional Chinese
-
-Official website: https://www.nintendo.com/us/store/products/super-mario-party-jamboree-switch/
-
-# Reviews
-
-## Aggregators
-
-* [Metacritic](https://www.metacritic.com/game/super-mario-party-jamboree/) \- 81
-* [OpenCritic](https://opencritic.com/game/16873/super-mario-party-jamboree) \- 83
-
-## Articles
-
-* CGMagazine - [9 / 10](https://www.cgmagonline.com/review/game/super-mario-party-jamboree-switch/)
-* Checkpoint Gaming - [8 / 10](https://checkpointgaming.net/reviews/2024/10/super-mario-party-jamboree-review-party-time/)
-* Console Creatures - [8 / 10 ](https://www.consolecreatures.com/review-super-mario-party-jamboree/)
-* Daily Mirror - [4 / 5 ](https://www.mirror.co.uk/gaming/super-mario-party-jamboree-review-33891490)
-* Digital Trends - [3.5 / 5 ](https://www.digitaltrends.com/gaming/super-mario-party-jamboree-review/)
-* Digitec Magazine - *German* - [5 / 5 ](https://www.digitec.ch/de/page/super-mario-party-jamboree-so-umfangreich-und-huebsch-wie-noch-nie-35037)
-* Eurogamer.pt - *Portuguese* - [4 / 5 ](https://www.eurogamer.pt/super-mario-party-jamboree-review-insanidade-da-competicao-em-tabuleiros-e-fora-deles)
-* GAMES.CH - *German* - [85%](https://www.games.ch/super-mario-party-jambore/test/review-li9j/)
-* GRYOnline.pl - *Polish* - [8.5 / 10](https://www.gry-online.pl/recenzje/super-mario-party-jamboree-recenzja-gry-jestescie-zaproszeni-na-n/zc46aa)
-* GameSpot - [6 / 10](https://www.gamespot.com/reviews/super-mario-party-jamboree-review-this-party-is-too-crowded/1900-6418300/)
-* Gameblog - *French* - [8 / 10](https://www.gameblog.fr/jeu-video/jeux/tests/test-mario-party-jamboree-620397)
-* Glitched Africa - [9 / 10](https://www.glitched.africa/super-mario-party-jamboree-review/)
-* God is a Geek - [9 / 10](https://www.godisageek.com/reviews/super-mario-party-jamboree-review/)
-* Nintendo Life - [9 / 10](https://www.nintendolife.com/reviews/nintendo-switch/super-mario-party-jamboree)
-* PPE.pl - *Polish* - [9 / 10](https://www.ppe.pl/recenzje/354368/super-mario-party-jamboree-recenzja-gry-wiecej-mocniej-ale-czy-lepiej.html)
-* Press Start - [8.5 / 10](https://press-start.com.au/reviews/nintendo-switch/2024/10/15/super-mario-party-jamboree-review-an-rsvp-worth-responding-to/)
-* SECTOR.sk - *Slovak* - [8.5 / 10](https://www.sector.sk/recenzia/39621/super-mario-party-jamboree.htm)
-* Spaziogames - *Italian* - [8.5 / 10](https://www.spaziogames.it/articoli/super-mario-party-jamboree-recensione)
-* TheSixthAxis - [9 / 10](https://www.thesixthaxis.com/2024/10/15/super-mario-party-jamboree-review/)
-* VGC - [4 / 5 ](https://www.videogameschronicle.com/review/super-mario-party-jamboree/)
-
-^(This list was generated via manual export from OpenCritic. Last updated: 10/15/2024 10:37am E.T.)
-
-Cheers,
-
-The [r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/) mod team",776,0.97,448,NintendoSwitchMods,146678.0,NintendoSwitch,2024-10-15T09:48:59,https://www.reddit.com/r/NintendoSwitch/comments/1g485k8/super_mario_party_jamboree_review_megathread/,unspecified,False,switch,,glitch,-0.012525879917184266,0.14772256728778468
-1ghl8hn,Nintendo Switch Digital Game Sale on US eShop (Full List of Games rated 70+ on Metacritic),"The list includes all Nintendo Switch titles on sale with a Metacritic score of 70 or above, accurate to date.
-
-* M: Matches Historical low
-* L: New Historical Low
-
-Title| % Off|Price|Metacritic|Historical
----|---|----|----|----
-[3000th Duel](https://nintendo.com/us/store/products/3000th-duel-switch/)| 70%|$4.49|71|M
-[7th Sector](https://nintendo.com/us/store/products/7th-sector-switch/)| 50%|$9.99|70|M
-[A Little Golf Journey](https://nintendo.com/us/store/products/a-little-golf-journey-switch/)| 70%|$3.89|80|L
-[A Musical Story](https://nintendo.com/us/store/products/a-musical-story-switch/)| 60%|$5.99|79|M
-[A Normal Lost Phone](https://nintendo.com/us/store/products/a-normal-lost-phone-switch/)| 61%|$2.33|73|
-[Adventures of Chris](https://nintendo.com/us/store/products/adventures-of-chris-switch/)| 80%|$2.99|75|M
-[AER Memories of Old](https://nintendo.com/us/store/products/aer-memories-of-old-switch/)| 80%|$1.99|73|M
-[Afterparty](https://nintendo.com/us/store/products/afterparty-switch/)| 90%|$1.99|74|L
-[Alba: A Wildlife Adventure](https://nintendo.com/us/store/products/alba-a-wildlife-adventure-switch/)| 75%|$4.99|80|M
-[Alder's Blood: Definitive Edition](https://nintendo.com/us/store/products/alders-blood-definitive-edition-switch/)| 70%|$5.99|74|
-[Anarcute](https://nintendo.com/us/store/products/anarcute-switch/)| 80%|$2.99|74|M
-[Andro Dunos II](https://nintendo.com/us/store/products/andro-dunos-2-switch/)| 90%|$1.99|78|M
-[AngerForce: Reloaded](https://nintendo.com/us/store/products/angerforce-reloaded-for-nintendo-switch-switch/)| 30%|$6.99|73|
-[Anomaly Agent](https://nintendo.com/us/store/products/anomaly-agent-switch/)| 50%|$7.49|80|M
-[Arise: A Simple Story - Definitive Edition](https://nintendo.com/us/store/products/arise-a-simple-story-definitive-edition-switch/)| 85%|$2.99|81|M
-[Aspire: Ina's Tale](https://nintendo.com/us/store/products/aspire-inas-tale-switch/)| 80%|$2.59|70|
-[Assault Suits Valken DECLASSIFIED](https://nintendo.com/us/store/products/assault-suits-valken-declassified-switch/)| 60%|$9.99|76|M
-[ASTLIBRA Revision](https://nintendo.com/us/store/products/astlibra-revision-switch/)| 25%|$18.74|79|L
-[Astor: Blade of the Monolith](https://nintendo.com/us/store/products/astor-blade-of-the-monolith-switch/)| 40%|$14.99|71|M
-[Astrologaster](https://nintendo.com/us/store/products/astrologaster-switch/)| 70%|$2.99|79|M
-[ATONE: Heart of the Elder Tree](https://nintendo.com/us/store/products/atone-heart-of-the-elder-tree-switch/)| 85%|$2.24|76|
-[Backpack Hero](https://nintendo.com/us/store/products/backpack-hero-switch/)| 35%|$12.99|76|L
-[Bad Dream: Coma](https://nintendo.com/us/store/products/bad-dream-coma-switch/)| 75%|$2.49|72|
-[Badland: Game of the Year Edition](https://nintendo.com/us/store/products/badland-game-of-the-year-edition-switch/)| 67%|$1.99|76|M
-[Bang-On Balls: Chronicles](https://nintendo.com/us/store/products/bang-on-balls-chronicles-switch/)| 60%|$9.99|86|M
-[Batbarian: Testament of the Primordials](https://nintendo.com/us/store/products/batbarian-testament-of-the-primordials-switch/)| 80%|$2.99|74|L
-[Bear and Breakfast](https://nintendo.com/us/store/products/bear-and-breakfast-switch/)| 40%|$11.99|72|M
-[Beat Cop](https://nintendo.com/us/store/products/beat-cop-switch/)| 85%|$2.24|70|
-[Before I Forget](https://nintendo.com/us/store/products/before-i-forget-switch/)| 55%|$3.59|76|M
-[BioShock: The Collection](https://nintendo.com/us/store/products/bioshock-the-collection-switch/)| 80%|$9.99|84|M
-[BLACK BIRD](https://nintendo.com/us/store/products/black-bird-switch/)| 30%|$13.29|73|
-[Blasphemous](https://nintendo.com/us/store/products/blasphemous-switch/)| 75%|$6.24|77|M
-[BLAZBLUE CENTRALFICTION Special Edition](https://nintendo.com/us/store/products/blazblue-centralfiction-special-edition-switch/)| 75%|$12.49|86|M
-[BLAZBLUE CROSS TAG BATTLE](https://nintendo.com/us/store/products/blazblue-cross-tag-battle-switch/)| 75%|$4.99|79|
-[Blazing Beaks](https://nintendo.com/us/store/products/blazing-beaks-switch/)| 85%|$2.24|80|
-[Blossom Tales II: The Minotaur Prince](https://nintendo.com/us/store/products/blossom-tales-ii-the-minotaur-prince-switch/)| 45%|$8.24|77|M
-[Blossom Tales: The Sleeping King](https://nintendo.com/us/store/products/blossom-tales-the-sleeping-king-switch/)| 75%|$3.74|80|M
-[Blue Fire](https://nintendo.com/us/store/products/blue-fire-switch/)| 75%|$4.99|71|M
-[Bombslinger](https://nintendo.com/us/store/products/bombslinger-switch/)| 80%|$2.39|76|M
-[Bonkies](https://nintendo.com/us/store/products/bonkies-switch/)| 80%|$2.99|76|
-[Borderlands 3 Ultimate Edition](https://nintendo.com/us/store/products/borderlands-3-ultimate-edition-switch/)| 60%|$23.99|77|M
-[Borderlands Legendary Collection](https://nintendo.com/us/store/products/borderlands-legendary-collection-switch/)| 80%|$9.99|82|M
-[Borderlands: Game of the Year Edition](https://nintendo.com/us/store/products/borderlands-game-of-the-year-edition-switch/)| 67%|$9.89|76|M
-[Borderlands: The Handsome Collection](https://nintendo.com/us/store/products/borderlands-the-handsome-collection-switch/)| 75%|$9.99|82|M
-[BPM: Bullets Per Minute](https://nintendo.com/us/store/products/bpm-bullets-per-minute-switch/)| 50%|$12.49|80|M
-[Bramble: The Mountain King](https://nintendo.com/us/store/products/bramble-the-mountain-king-switch/)| 60%|$11.99|80|M
-[Breakers Collection](https://nintendo.com/us/store/products/breakers-collection-switch/)| 50%|$9.99|80|M
-[Bridge Constructor Portal](https://nintendo.com/us/store/products/bridge-constructor-portal-switch/)| 87%|$1.99|71|M
-[Bridge Constructor Ultimate Edition](https://nintendo.com/us/store/products/bridge-constructor-ultimate-edition-switch/)| 87%|$1.99|72|M
-[Buddy Simulator 1984](https://nintendo.com/us/store/products/buddy-simulator-1984-switch/)| 60%|$3.99|79|L
-[Bulb Boy](https://nintendo.com/us/store/products/bulb-boy-switch/)| 72%|$2.51|75|
-[Bulletstorm: Duke of Switch Edition](https://nintendo.com/us/store/products/bulletstorm-duke-of-switch-edition-switch/)| 75%|$7.49|74|
-[Burly Men at Sea](https://nintendo.com/us/store/products/burly-men-at-sea-switch/)| 80%|$1.99|72|M
-[Bury me, my Love](https://nintendo.com/us/store/products/bury-me-my-love-switch/)| 60%|$1.99|73|
-[BUTCHER](https://nintendo.com/us/store/products/butcher-switch/)| 80%|$1.99|70|M
-[Cake Bash](https://nintendo.com/us/store/products/cake-bash-switch/)| 70%|$5.99|75|M
-[Candle: The Power of the Flame](https://nintendo.com/us/store/products/candle-the-power-of-the-flame-switch/)| 85%|$2.99|72|
-[Candleman](https://nintendo.com/us/store/products/candleman-switch/)| 35%|$9.74|75|L
-[Capes](https://nintendo.com/us/store/products/capes-switch/)| 25%|$29.99|79|M
-[Caravan SandWitch](https://nintendo.com/us/store/products/caravan-sandwitch-switch/)| 20%|$19.99|73|L
-[Card-en-Ciel](https://nintendo.com/us/store/products/card-en-ciel-switch/)| 10%|$22.49|76|L
-[Castaway](https://nintendo.com/us/store/products/castaway-switch/)| 20%|$6.39|70|M
-[Cat Quest](https://nintendo.com/us/store/products/cat-quest-switch/)| 75%|$3.24|74|
-[Cat Quest II](https://nintendo.com/us/store/products/cat-quest-ii-switch/)| 75%|$3.74|77|
-[Cat Quest III](https://nintendo.com/us/store/products/cat-quest-iii-switch/)| 25%|$14.99|86|L
-[Cattails](https://nintendo.com/us/store/products/cattails-switch/)| 87%|$1.99|75|M
-[Chaos on Deponia](https://nintendo.com/us/store/products/chaos-on-deponia-switch/)| 80%|$1.99|70|M
-[Chasm](https://nintendo.com/us/store/products/chasm-switch/)| 65%|$6.99|79|
-[Children of Silentown](https://nintendo.com/us/store/products/children-of-silentown-switch/)| 60%|$7.99|78|M
-[Children of Zodiarcs](https://nintendo.com/us/store/products/children-of-zodiarcs-switch/)| 88%|$2.15|81|
-[Chroma Squad](https://nintendo.com/us/store/products/chroma-squad-switch/)| 60%|$5.99|74|
-[Cinders](https://nintendo.com/us/store/products/cinders-switch/)| 80%|$3.99|73|
-[Cloud Gardens](https://nintendo.com/us/store/products/cloud-gardens-switch/)| 80%|$3.59|75|M
-[Clustertruck](https://nintendo.com/us/store/products/clustertruck-switch/)| 75%|$3.74|74|M
-[COCOON](https://nintendo.com/us/store/products/cocoon-switch/)| 40%|$14.99|89|M
-[Colt Canyon](https://nintendo.com/us/store/products/colt-canyon-switch/)| 80%|$2.99|72|
-[Cook, Serve, Delicious! 2!!](https://nintendo.com/us/store/products/cook-serve-delicious-2-switch/)| 85%|$2.00|85|
-[Crashlands](https://nintendo.com/us/store/products/crashlands-switch/)| 80%|$2.99|75|M
-[Cris Tales](https://nintendo.com/us/store/products/cris-tales-switch/)| 90%|$3.99|72|M
-[Cursed to Golf](https://nintendo.com/us/store/products/cursed-to-golf-switch/)| 75%|$4.99|75|M
-[Cyber Hook](https://nintendo.com/us/store/products/cyber-hook-switch/)| 80%|$2.99|74|M
-[Cyber Protocol](https://nintendo.com/us/store/products/cyber-protocol-switch/)| 80%|$1.99|71|
-[Dandy Dungeon - Legend of Brave Yamada -](https://nintendo.com/us/store/products/dandy-dungeon-legend-of-brave-yamada-switch/)| 30%|$13.29|78|
-[Dark Nights with Poe and Munro](https://nintendo.com/us/store/products/dark-nights-with-poe-and-munro-switch/)| 66%|$4.41|70|
-[Darkwood](https://nintendo.com/us/store/products/darkwood-switch/)| 70%|$4.49|74|M
-[DC's Justice League: Cosmic Chaos](https://nintendo.com/us/store/products/dcs-justice-league-cosmic-chaos-switch/)| 60%|$15.99|79|
-[Dead Cells](https://nintendo.com/us/store/products/dead-cells-switch/)| 50%|$12.49|89|M
-[Dead in Vinland - True Viking edition](https://nintendo.com/us/store/products/dead-in-vinland-true-viking-edition-switch/)| 80%|$5.59|74|
-[Death Road to Canada](https://nintendo.com/us/store/products/death-road-to-canada-switch/)| 75%|$3.74|79|L
-[Death's Gambit: Afterlife](https://nintendo.com/us/store/products/deaths-gambit-afterlife-switch/)| 45%|$10.99|78|M
-[Demon Turf](https://nintendo.com/us/store/products/demon-turf-switch/)| 50%|$12.49|76|M
-[Demon Turf: Neon Splash](https://nintendo.com/us/store/products/demon-turf-neon-splash-switch/)| 30%|$3.49|83|
-[Dex](https://nintendo.com/us/store/products/dex-switch/)| 90%|$1.99|72|M
-[Die for Valhalla!](https://nintendo.com/us/store/products/die-for-valhalla-switch/)| 83%|$1.99|70|L
-[Dimension Drive](https://nintendo.com/us/store/products/dimension-drive-switch/)| 85%|$1.99|72|M
-[Disjunction](https://nintendo.com/us/store/products/disjunction-switch/)| 88%|$1.99|70|M
-[DoDonPachi Resurrection](https://nintendo.com/us/store/products/dodonpachi-resurrection-switch/)| 50%|$9.99|87|M
-[Doki Doki Literature Club Plus!](https://nintendo.com/us/store/products/doki-doki-literature-club-plus-switch/)| 25%|$11.24|85|
-[Double Dragon & Kunio-kun: Retro Brawler Bundle](https://nintendo.com/us/store/products/double-dragon-and-kunio-kun-retro-brawler-bundle-switch/)| 77%|$9.19|78|L
-[Double Kick Heroes](https://nintendo.com/us/store/products/double-kick-heroes-switch/)| 70%|$6.59|74|M
-[Dread Nautical](https://nintendo.com/us/store/products/dread-nautical-switch/)| 65%|$6.99|71|
-[DREDGE](https://nintendo.com/us/store/products/dredge-switch/)| 35%|$16.24|84|M
-[DROS](https://nintendo.com/us/store/products/dros-switch/)| 84%|$3.99|70|L
-[Dungeons 3 - Nintendo Switch Edition](https://nintendo.com/us/store/products/dungeons-3-nintendo-switch-edition-switch/)| 40%|$23.99|72|L
-[Earth Atlantis](https://nintendo.com/us/store/products/earth-atlantis-switch/)| 87%|$1.99|71|M
-[Earth Defense Force: World Brothers 2](https://nintendo.com/us/store/products/earth-defense-force-world-brothers-2-switch/)| 25%|$29.99|81|L
-[Elsie](https://nintendo.com/us/store/products/elsie-switch/)| 20%|$19.99|78|M
-[Epic Dumpster Bear 1.5 DX: Dumpster Fire Rebirth](https://nintendo.com/us/store/products/epic-dumpster-bear-1-5-dx-dumpster-fire-rebirth-switch/)| 50%|$2.49|71|L
-[Everspace - Stellar Edition](https://nintendo.com/us/store/products/everspace-stellar-edition-switch/)| 80%|$7.99|78|M
-[F1 Manager 2024](https://nintendo.com/us/store/products/f1-manager-2024-switch/)| 30%|$24.49|80|L
-[Faeria](https://nintendo.com/us/store/products/faeria-switch/)| 70%|$5.99|80|
-[Fight'N Rage](https://nintendo.com/us/store/products/fightn-rage-switch/)| 70%|$5.99|79|L
-[Figment](https://nintendo.com/us/store/products/figment-switch/)| 90%|$1.99|75|M
-[Figment 2: Creed Valley](https://nintendo.com/us/store/products/figment-2-creed-valley-switch/)| 90%|$2.49|72|L
-[Flipping Death](https://nintendo.com/us/store/products/flipping-death-switch/)| 90%|$1.99|83|M
-[Foretales](https://nintendo.com/us/store/products/foretales-switch/)| 40%|$11.99|77|M
-[Formula Retro Racing](https://nintendo.com/us/store/products/formula-retro-racing-switch/)| 80%|$2.99|76|
-[Fuga: Melodies of Steel](https://nintendo.com/us/store/products/fuga-melodies-of-steel-switch/)| 50%|$19.99|82|M
-[Fuga: Melodies of Steel 2](https://nintendo.com/us/store/products/fuga-melodies-of-steel-2-switch/)| 40%|$23.99|84|M
-[Fury Unleashed](https://nintendo.com/us/store/products/fury-unleashed-switch/)| 90%|$1.99|76|M
-[Ghost of a Tale](https://nintendo.com/us/store/products/ghost-of-a-tale-switch/)| 75%|$6.24|82|M
-[Gigantosaurus: Dino Kart](https://nintendo.com/us/store/products/gigantosaurus-dino-kart-switch/)| 60%|$15.99|71|
-[Glyph](https://nintendo.com/us/store/products/glyph-switch/)| 80%|$1.99|70|M
-[Golf Club Nostalgia](https://nintendo.com/us/store/products/golf-club-nostalgia-switch/)| 80%|$1.99|77|M
-[Golf Peaks](https://nintendo.com/us/store/products/golf-peaks-switch/)| 60%|$1.99|78|
-[Golf Story](https://nintendo.com/us/store/products/golf-story-switch/)| 73%|$3.99|78|L
-[Goodbye Deponia](https://nintendo.com/us/store/products/goodbye-deponia-switch/)| 80%|$1.99|77|M
-[Green Hell](https://nintendo.com/us/store/products/green-hell-switch/)| 85%|$3.74|76|
-[Guacamelee! 2](https://nintendo.com/us/store/products/guacamelee-2-switch/)| 75%|$4.99|87|M
-[Hades](https://nintendo.com/us/store/products/hades-switch/)| 60%|$9.99|93|M
-[Hammerwatch](https://nintendo.com/us/store/products/hammerwatch-switch/)| 55%|$4.49|70|
-[Hayfever](https://nintendo.com/us/store/products/hayfever-switch/)| 85%|$2.24|76|M
-[Heaven Dust 2](https://nintendo.com/us/store/products/heaven-dust-2-switch/)| 33%|$9.99|83|
-[Heroes of Hammerwatch - Ultimate Edition](https://nintendo.com/us/store/products/heroes-of-hammerwatch-ultimate-edition-switch/)| 70%|$5.99|85|L
-[Hitchhiker - A Mystery Game](https://nintendo.com/us/store/products/hitchhiker-a-mystery-game-switch/)| 70%|$5.99|74|
-[Holy Potatoes! A Weapon Shop?!](https://nintendo.com/us/store/products/holy-potatoes-a-weapon-shop-switch/)| 87%|$1.99|70|M
-[In Sound Mind](https://nintendo.com/us/store/products/in-sound-mind-switch/)| 90%|$3.49|70|M
-[inbento](https://nintendo.com/us/store/products/inbento-switch/)| 60%|$1.99|76|M
-[Inkulinati](https://nintendo.com/us/store/products/inkulinati-switch/)| 40%|$14.99|79|L
-[INVERSUS Deluxe](https://nintendo.com/us/store/products/inversus-deluxe-switch/)| 87%|$1.99|70|
-[ISLANDERS](https://nintendo.com/us/store/products/islanders-switch/)| 60%|$1.99|75|M
-[Joggernauts](https://nintendo.com/us/store/products/joggernauts-switch/)| 80%|$2.99|70|M
-[Jump King](https://nintendo.com/us/store/products/jump-king-switch/)| 60%|$5.19|74|M
-[Just Shapes & Beats](https://nintendo.com/us/store/products/just-shapes-and-beats-switch/)| 35%|$12.99|83|M
-[JUSTICE SUCKS](https://nintendo.com/us/store/products/justice-sucks-switch/)| 75%|$4.99|79|M
-[Kamaeru: A Frog Refuge](https://nintendo.com/us/store/products/kamaeru-a-frog-refuge-switch/)| 25%|$14.99|70|L
-[Ken Follett's The Pillars of the Earth](https://nintendo.com/us/store/products/ken-folletts-the-pillars-of-the-earth-switch/)| 87%|$1.99|79|M
-[Keylocker Turn Based Cyberpunk Action](https://nintendo.com/us/store/products/keylocker-turn-based-cyberpunk-action-switch/)| 10%|$17.99|70|M
-[KeyWe](https://nintendo.com/us/store/products/keywe-switch/)| 68%|$7.99|74|L
-[Koa and the Five Pirates of Mara](https://nintendo.com/us/store/products/koa-and-the-five-pirates-of-mara-switch/)| 50%|$9.99|73|M
-[L.A. Noire](https://nintendo.com/us/store/products/l-a-noire-switch/)| 50%|$24.99|79|M
-[Layers of Fear 2](https://nintendo.com/us/store/products/layers-of-fear-2-switch/)| 85%|$4.49|72|M
-[Layers of Fear: Legacy](https://nintendo.com/us/store/products/layers-of-fear-legacy-switch/)| 85%|$2.99|80|M
-[Lichtspeer: Double Speer Edition](https://nintendo.com/us/store/products/lichtspeer-double-speer-edition-switch/)| 80%|$1.99|71|
-[Lil Gator Game](https://nintendo.com/us/store/products/lil-gator-game-switch/)| 40%|$11.99|84|M
-[Lil' Guardsman](https://nintendo.com/us/store/products/lil-guardsman-switch/)| 40%|$11.99|85|M
-[Linelight](https://nintendo.com/us/store/products/linelight-switch/)| 75%|$2.49|77|M
-[LISA: Definitive Edition](https://nintendo.com/us/store/products/lisa-definitive-edition-switch/)| 40%|$14.99|83|L
-[Long Gone Days](https://nintendo.com/us/store/products/long-gone-days-switch/)| 30%|$17.49|77|
-[Long Live The Queen](https://nintendo.com/us/store/products/long-live-the-queen-switch/)| 60%|$3.99|73|M
-[Lorelei and the Laser Eyes](https://nintendo.com/us/store/products/lorelei-and-the-laser-eyes-switch/)| 25%|$18.74|88|L
-[Lost Words: Beyond the Page](https://nintendo.com/us/store/products/lost-words-beyond-the-page-switch/)| 85%|$2.24|78|
-[Lucah: Born of a Dream](https://nintendo.com/us/store/products/lucah-born-of-a-dream-switch/)| 75%|$2.49|79|L
-[Lumini](https://nintendo.com/us/store/products/lumini-switch/)| 80%|$1.99|75|M
-[Melbits World](https://nintendo.com/us/store/products/melbits-world-switch/)| 78%|$2.19|71|
-[MO:Astray](https://nintendo.com/us/store/products/moastray-switch/)| 70%|$4.49|81|M
-[Mon Amour](https://nintendo.com/us/store/products/mon-amour-switch/)| 30%|$6.29|79|
-[Monster Boy and the Cursed Kingdom](https://nintendo.com/us/store/products/monster-boy-and-the-cursed-kingdom-switch/)| 75%|$9.99|86|M
-[Monster Hunter Rise](https://nintendo.com/us/store/products/monster-hunter-rise-switch/)| 75%|$9.99|88|M
-[Monster Prom: XXL](https://nintendo.com/us/store/products/monster-prom-xxl-switch/)| 75%|$3.99|73|M
-[moon](https://nintendo.com/us/store/products/moon-switch/)| 30%|$13.29|77|M
-[Mortal Kombat 1](https://nintendo.com/us/store/products/mortal-kombat-1-switch/)| 50%|$19.99|83|L
-[MotoGP 22](https://nintendo.com/us/store/products/motogp-22-switch/)| 85%|$4.49|76|M
-[MouseCraft](https://nintendo.com/us/store/products/mousecraft-switch/)| 80%|$1.99|77|M
-[Moving Out 2](https://nintendo.com/us/store/products/moving-out-2-switch/)| 50%|$14.99|78|M
-[My Memory of Us](https://nintendo.com/us/store/products/my-memory-of-us-switch/)| 80%|$2.99|77|
-[Mystic Gate](https://nintendo.com/us/store/products/mystic-gate-switch/)| 35%|$6.49|73|M
-[NBA 2K25](https://nintendo.com/us/store/products/nba-2k25-switch/)| 35%|$38.99|79|L
-[Neon Abyss](https://nintendo.com/us/store/products/neon-abyss-switch/)| 75%|$4.99|79|M
-[NeuroVoider](https://nintendo.com/us/store/products/neurovoider-switch/)| 80%|$2.79|85|M
-[Neversong](https://nintendo.com/us/store/products/neversong-switch/)| 80%|$2.99|78|M
-[No Man's Sky](https://nintendo.com/us/store/products/no-mans-sky-switch/)| 60%|$23.99|83|M
-[No Straight Roads](https://nintendo.com/us/store/products/no-straight-roads-switch/)| 75%|$6.24|71|L
-[Nobody Saves the World](https://nintendo.com/us/store/products/nobody-saves-the-world-switch/)| 60%|$9.99|83|M
-[Nocturnal](https://nintendo.com/us/store/products/nocturnal-switch/)| 40%|$11.99|78|M
-[Observer](https://nintendo.com/us/store/products/observer-switch/)| 85%|$4.49|75|M
-[Oceanhorn 2: Knights of the Lost Realm](https://nintendo.com/us/store/products/oceanhorn-2-knights-of-the-lost-realm-switch/)| 55%|$13.49|71|M
-[Old School Musical](https://nintendo.com/us/store/products/old-school-musical-switch/)| 80%|$2.59|76|M
-[OlliOlli World](https://nintendo.com/us/store/products/olliolli-world-switch/)| 50%|$9.99|87|M
-[Once Upon a Jester](https://nintendo.com/us/store/products/once-upon-a-jester-switch/)| 70%|$4.49|78|L
-[Operencia: The Stolen Sun](https://nintendo.com/us/store/products/operencia-the-stolen-sun-switch/)| 65%|$10.49|81|
-[Outbuddies DX](https://nintendo.com/us/store/products/outbuddies-dx-switch/)| 80%|$3.59|70|
-[Outlast: Bundle of Terror](https://nintendo.com/us/store/products/outlast-bundle-of-terror-switch/)| 85%|$3.74|77|M
-[Overcooked! 2](https://nintendo.com/us/store/products/overcooked-2-switch/)| 75%|$6.24|81|M
-[Owlboy](https://nintendo.com/us/store/products/owlboy-switch/)| 80%|$4.99|87|L
-[OXENFREE](https://nintendo.com/us/store/products/oxenfree-switch/)| 80%|$1.99|81|M
-[OXENFREE II: Lost Signals](https://nintendo.com/us/store/products/oxenfree-ii-lost-signals-switch/)| 90%|$1.99|84|L
-[Parkasaurus](https://nintendo.com/us/store/products/parkasaurus-switch/)| 60%|$9.99|82|M
-[Party Hard](https://nintendo.com/us/store/products/party-hard-switch/)| 75%|$3.74|76|M
-[Pawarumi](https://nintendo.com/us/store/products/pawarumi-switch/)| 50%|$9.99|77|
-[Peglin](https://nintendo.com/us/store/products/peglin-switch/)| 20%|$15.99|74|L
-[Penny’s Big Breakaway](https://nintendo.com/us/store/products/pennys-big-breakaway-switch/)| 34%|$19.79|76|M
-[Phoenotopia : Awakening](https://nintendo.com/us/store/products/phoenotopia-awakening-switch/)| 50%|$9.99|72|
-[PHOGS!](https://nintendo.com/us/store/products/phogs-switch/)| 70%|$7.49|78|M
-[PictoQuest](https://nintendo.com/us/store/products/pictoquest-switch/)| 78%|$2.19|74|
-[Piczle Cross Adventure](https://nintendo.com/us/store/products/piczle-cross-adventure-switch/)| 78%|$2.19|78|
-[Pillars of Eternity: Complete Edition](https://nintendo.com/us/store/products/pillars-of-eternity-complete-edition-switch/)| 70%|$14.99|82|
-[Pinstripe](https://nintendo.com/us/store/products/pinstripe-switch/)| 80%|$2.99|77|M
-[Pirates Outlaws](https://nintendo.com/us/store/products/pirates-outlaws-switch/)| 70%|$5.09|76|L
-[PJ Masks Power Heroes: Mighty Alliance](https://nintendo.com/us/store/products/pj-masks-power-heroes-mighty-alliance-switch/)| 50%|$19.99|80|M
-[Planet of Lana](https://nintendo.com/us/store/products/planet-of-lana-switch/)| 35%|$12.99|72|M
-[Pode](https://nintendo.com/us/store/products/pode-switch/)| 50%|$12.49|76|M
-[Project Nightmares Case 36: Henrietta Kedward](https://nintendo.com/us/store/products/project-nightmares-case-36-henrietta-kedward-switch/)| 60%|$7.99|73|L
-[Project Warlock](https://nintendo.com/us/store/products/project-warlock-switch/)| 75%|$3.74|71|L
-[Pumpkin Jack](https://nintendo.com/us/store/products/pumpkin-jack-switch/)| 75%|$7.49|73|
-[Radical Rabbit Stew](https://nintendo.com/us/store/products/radical-rabbit-stew-switch/)| 88%|$1.99|77|M
-[Railbound](https://nintendo.com/us/store/products/railbound-switch/)| 85%|$1.99|81|L
-[Ready, Steady, Ship!](https://nintendo.com/us/store/products/ready-steady-ship-switch/)| 50%|$7.49|77|M
-[Regalia: Of Men and Monarchs - Royal Edition](https://nintendo.com/us/store/products/regalia-of-men-and-monarchs-royal-edition-switch/)| 80%|$4.99|72|
-[Revita](https://nintendo.com/us/store/products/revita-switch/)| 40%|$10.19|78|M
-[Rhythm Sprout](https://nintendo.com/us/store/products/rhythm-sprout-switch/)| 75%|$3.74|75|M
-[Rigid Force Redux](https://nintendo.com/us/store/products/rigid-force-redux-switch/)| 80%|$3.99|71|
-[Risk of Rain](https://nintendo.com/us/store/products/risk-of-rain-switch/)| 75%|$2.49|81|M
-[Risk of Rain 2](https://nintendo.com/us/store/products/risk-of-rain-2-switch/)| 75%|$6.24|79|M
-[RIVE: Ultimate Edition](https://nintendo.com/us/store/products/rive-ultimate-edition-switch/)| 87%|$1.99|82|
-[Road to Ballhalla](https://nintendo.com/us/store/products/road-to-ballhalla-switch/)| 75%|$3.74|80|M
-[RUINER](https://nintendo.com/us/store/products/ruiner-switch/)| 80%|$3.99|82|M
-[Runbow](https://nintendo.com/us/store/products/runbow-switch/)| 80%|$2.99|79|
-[Rytmos](https://nintendo.com/us/store/products/rytmos-switch/)| 70%|$4.50|80|M
-[Saga of Sins](https://nintendo.com/us/store/products/saga-of-sins-switch/)| 75%|$4.99|70|M
-[Saviorless](https://nintendo.com/us/store/products/saviorless-switch/)| 25%|$9.74|75|M
-[ScourgeBringer](https://nintendo.com/us/store/products/scourgebringer-switch/)| 75%|$4.24|80|M
-[Sherlock Holmes: Crimes and Punishments](https://nintendo.com/us/store/products/sherlock-holmes-crimes-and-punishments-switch/)| 85%|$4.49|73|M
-[Shovel Knight: Treasure Trove](https://nintendo.com/us/store/products/shovel-knight-treasure-trove-switch/)| 40%|$23.99|91|
-[Shu](https://nintendo.com/us/store/products/shu-switch/)| 80%|$1.99|72|M
-[Sid Meier’s Civilization VI](https://nintendo.com/us/store/products/sid-meiers-civilization-vi-switch/)| 85%|$4.49|86|
-[Sifu](https://nintendo.com/us/store/products/sifu-switch/)| 60%|$15.99|81|M
-[Silence](https://nintendo.com/us/store/products/silence-switch/)| 87%|$1.99|75|M
-[Silt](https://nintendo.com/us/store/products/silt-switch/)| 67%|$4.99|72|L
-[Sky Rogue](https://nintendo.com/us/store/products/sky-rogue-switch/)| 50%|$9.99|76|
-[Slime-san: Superslime Edition](https://nintendo.com/us/store/products/slime-san-switch/)| 83%|$1.99|81|M
-[Slipstream](https://nintendo.com/us/store/products/slipstream-switch/)| 55%|$4.49|70|
-[Smile For Me](https://nintendo.com/us/store/products/smile-for-me-switch/)| 40%|$8.99|81|M
-[Souldiers](https://nintendo.com/us/store/products/souldiers-switch/)| 50%|$9.99|72|M
-[Sparklite](https://nintendo.com/us/store/products/sparklite-switch/)| 85%|$3.74|75|M
-[SpeedRunners](https://nintendo.com/us/store/products/speedrunners-switch/)| 75%|$3.74|71|M
-[Splasher](https://nintendo.com/us/store/products/splasher-switch/)| 80%|$2.99|83|M
-[Spy Chameleon](https://nintendo.com/us/store/products/spy-chameleon-switch/)| 70%|$2.99|71|
-[STAR WARS Episode I Racer](https://nintendo.com/us/store/products/star-wars-episode-i-racer-switch/)| 65%|$5.24|70|M
-[STAR WARS Republic Commando](https://nintendo.com/us/store/products/star-wars-republic-commando-switch/)| 65%|$5.24|70|M
-[STAR WARS: Bounty Hunter](https://nintendo.com/us/store/products/star-wars-bounty-hunter-switch/)| 20%|$15.99|70|
-[STAR WARS: Knights of the Old Republic](https://nintendo.com/us/store/products/star-wars-knights-of-the-old-republic-switch/)| 65%|$5.24|83|M
-[STAR WARS: Knights of the Old Republic II: The Sith Lords](https://nintendo.com/us/store/products/star-wars-knights-of-the-old-republic-ii-the-sith-lords-switch/)| 65%|$5.24|76|M
-[SteamWorld Build](https://nintendo.com/us/store/products/steamworld-build-switch/)| 50%|$14.99|77|M
-[SteamWorld Dig](https://nintendo.com/us/store/products/steamworld-dig-switch/)| 80%|$1.99|75|M
-[SteamWorld Dig 2](https://nintendo.com/us/store/products/steamworld-dig-2-switch/)| 85%|$2.99|88|
-[SteamWorld Heist II](https://nintendo.com/us/store/products/steamworld-heist-ii-switch/)| 35%|$19.49|79|M
-[SteamWorld Heist: Ultimate Edition](https://nintendo.com/us/store/products/steamworld-heist-ultimate-edition-switch/)| 50%|$9.99|91|
-[SteamWorld Quest: Hand of Gilgamech](https://nintendo.com/us/store/products/steamworld-quest-hand-of-gilgamech-switch/)| 85%|$3.74|81|M
-[Steve Jackson's Sorcery!](https://nintendo.com/us/store/products/steve-jacksons-sorcery-switch/)| 60%|$9.99|86|
-[Stick It to The Man](https://nintendo.com/us/store/products/stick-it-to-the-man-switch/)| 83%|$1.99|74|M
-[Streets of Rogue](https://nintendo.com/us/store/products/streets-of-rogue-switch/)| 75%|$4.99|75|M
-[Sublevel Zero Redux](https://nintendo.com/us/store/products/sublevel-zero-redux-switch/)| 80%|$2.99|73|
-[Super Dungeon Maker](https://nintendo.com/us/store/products/super-dungeon-maker-switch/)| 85%|$2.99|70|M
-[Super Meat Boy](https://nintendo.com/us/store/products/super-meat-boy-switch/)| 55%|$6.74|84|
-[Swords & Soldiers](https://nintendo.com/us/store/products/swords-and-soldiers-switch/)| 73%|$1.99|72|
-[Swordship](https://nintendo.com/us/store/products/swordship-switch/)| 75%|$4.99|77|M
-[Tales from the Borderlands](https://nintendo.com/us/store/products/tales-from-the-borderlands-switch/)| 40%|$14.99|80|M
-[Terra Memoria](https://nintendo.com/us/store/products/terra-memoria-switch/)| 30%|$13.99|74|M
-[The Bug Butcher](https://nintendo.com/us/store/products/the-bug-butcher-switch/)| 75%|$1.99|78|M
-[The Coma 2: Vicious Sisters](https://nintendo.com/us/store/products/the-coma-2-vicious-sisters-switch/)| 80%|$2.99|74|
-[The Cosmic Wheel Sisterhood](https://nintendo.com/us/store/products/the-cosmic-wheel-sisterhood-switch/)| 50%|$8.99|87|L
-[The Count Lucanor](https://nintendo.com/us/store/products/the-count-lucanor-switch/)| 85%|$2.24|72|
-[The Cub](https://nintendo.com/us/store/products/the-cub-switch/)| 50%|$7.49|74|L
-[The Dungeon of Naheulbeuk: The Amulet of Chaos - Chicken Edition](https://nintendo.com/us/store/products/the-dungeon-of-naheulbeuk-the-amulet-of-chaos-chicken-edition-switch/)| 65%|$13.99|77|
-[The Escapists 2](https://nintendo.com/us/store/products/the-escapists-2-switch/)| 75%|$4.99|73|
-[The Final Station](https://nintendo.com/us/store/products/the-final-station-switch/)| 75%|$4.99|80|M
-[The Forest Quartet](https://nintendo.com/us/store/products/the-forest-quartet-switch/)| 80%|$1.99|71|M
-[The Gap](https://nintendo.com/us/store/products/the-gap-switch/)| 50%|$9.99|71|L
-[The Hundred Year Kingdom](https://nintendo.com/us/store/products/the-hundred-year-kingdom-switch/)| 50%|$6.49|70|M
-[The Inner World - The Last Wind Monk](https://nintendo.com/us/store/products/the-inner-world-the-last-wind-monk-switch/)| 87%|$1.99|75|M
-[The Land Beneath Us](https://nintendo.com/us/store/products/the-land-beneath-us-switch/)| 25%|$11.24|76|M
-[The Last Campfire](https://nintendo.com/us/store/products/the-last-campfire-switch/)| 87%|$1.99|83|M
-[The Last Hero of Nostalgaia](https://nintendo.com/us/store/products/the-last-hero-of-nostalgaia-switch/)| 50%|$12.49|74|M
-[The Letter: A Horror Visual Novel](https://nintendo.com/us/store/products/the-letter-a-horror-visual-novel-switch/)| 65%|$6.99|74|M
-[The Long Dark](https://nintendo.com/us/store/products/the-long-dark-switch/)| 50%|$17.49|76|
-[The Medium - Cloud Version](https://nintendo.com/us/store/products/the-medium-cloud-version-switch/)| 60%|$19.99|75|M
-[The Mooseman](https://nintendo.com/us/store/products/the-mooseman-switch/)| 50%|$3.49|70|M
-[The Next Penelope](https://nintendo.com/us/store/products/the-next-penelope-switch/)| 80%|$2.59|79|
-[The Room](https://nintendo.com/us/store/products/the-room-switch/)| 60%|$3.99|75|
-[The Witcher 3: Wild Hunt](https://nintendo.com/us/store/products/the-witcher-3-wild-hunt-switch/)| 65%|$13.99|92|L
-[The Witcher 3: Wild Hunt — Complete Edition](https://nintendo.com/us/store/products/the-witcher-3-wild-hunt-complete-edition-switch/)| 65%|$20.99|85|L
-[Thea: The Awakening](https://nintendo.com/us/store/products/thea-the-awakening-switch/)| 70%|$5.39|71|M
-[Them's Fightin' Herds](https://nintendo.com/us/store/products/thems-fightin-herds-switch/)| 75%|$4.99|83|L
-[This War of Mine: Complete Edition](https://nintendo.com/us/store/products/this-war-of-mine-complete-edition-switch/)| 90%|$3.99|80|
-[Thronebreaker: The Witcher Tales](https://nintendo.com/us/store/products/thronebreaker-the-witcher-tales-switch/)| 65%|$6.99|84|L
-[Thumper](https://nintendo.com/us/store/products/thumper-switch/)| 70%|$5.99|85|
-[Tinykin](https://nintendo.com/us/store/products/tinykin-switch/)| 75%|$6.24|87|M
-[TOEM](https://nintendo.com/us/store/products/toem-switch/)| 80%|$3.99|79|M
-[Togges](https://nintendo.com/us/store/products/togges-switch/)| 75%|$4.99|73|M
-[Toki Tori](https://nintendo.com/us/store/products/toki-tori-switch/)| 60%|$1.99|82|
-[Toki Tori 2+](https://nintendo.com/us/store/products/toki-tori-2-plus-nintendo-switch-edition-switch/)| 87%|$1.99|84|
-[Tomb Raider I-III Remastered Starring Lara Croft](https://nintendo.com/us/store/products/tomb-raider-i-iii-remastered-starring-lara-croft-switch/)| 25%|$22.49|71|
-[Top Racer Collection](https://nintendo.com/us/store/products/top-racer-collection-switch/)| 25%|$14.99|72|L
-[Train Valley](https://nintendo.com/us/store/products/train-valley-console-edition-switch/)| 70%|$3.59|79|L
-[Transcripted](https://nintendo.com/us/store/products/transcripted-switch/)| 73%|$2.15|76|
-[Tribes of Midgard](https://nintendo.com/us/store/products/tribes-of-midgard-switch/)| 70%|$5.99|71|
-[Tropico 6](https://nintendo.com/us/store/products/tropico-6-nintendo-switch-edition-switch/)| 55%|$22.49|70|M
-[Turnip Boy Commits Tax Evasion](https://nintendo.com/us/store/products/turnip-boy-commits-tax-evasion-switch/)| 75%|$3.74|74|M
-[TY the Tasmanian Tiger HD](https://nintendo.com/us/store/products/ty-the-tasmanian-tiger-hd-switch/)| 65%|$10.49|70|M
-[Undertale](https://nintendo.com/us/store/products/undertale-switch/)| 34%|$9.89|93|
-[UnMetal](https://nintendo.com/us/store/products/unmetal-switch/)| 70%|$5.99|77|
-[Vampire Survivors](https://nintendo.com/us/store/products/vampire-survivors-switch/)| 15%|$4.24|88|M
-[Vaporum](https://nintendo.com/us/store/products/vaporum-switch/)| 85%|$3.74|77|
-[VASARA Collection](https://nintendo.com/us/store/products/vasara-collection-switch/)| 50%|$4.99|74|
-[Virgo Versus The Zodiac](https://nintendo.com/us/store/products/virgo-versus-the-zodiac-switch/)| 40%|$11.99|73|M
-[Warhammer 40,000: Mechanicus](https://nintendo.com/us/store/products/warhammer-40000-mechanicus-switch/)| 75%|$9.99|72|
-[Warlock's Tower](https://nintendo.com/us/store/products/warlocks-tower-switch/)| 60%|$1.99|79|M
-[Wavetale](https://nintendo.com/us/store/products/wavetale-switch/)| 75%|$7.49|78|M
-[Werewolf: The Apocalypse — Heart of the Forest](https://nintendo.com/us/store/products/werewolf-the-apocalypse-heart-of-the-forest-switch/)| 87%|$1.99|73|L
-[What Lies in the Multiverse](https://nintendo.com/us/store/products/what-lies-in-the-multiverse-switch/)| 80%|$2.99|82|
-[Wild Bastards](https://nintendo.com/us/store/products/wild-bastards-switch/)| 30%|$24.49|77|L
-[Winds Of Change](https://nintendo.com/us/store/products/winds-of-change-switch/)| 80%|$3.99|81|L
-[WINGSPAN](https://nintendo.com/us/store/products/wingspan-switch/)| 50%|$9.99|78|M
-[Wizardry: Proving Grounds of the Mad Overlord](https://nintendo.com/us/store/products/wizardry-proving-grounds-of-the-mad-overlord-switch/)| 30%|$27.99|82|L
-[Worldless](https://nintendo.com/us/store/products/worldless-switch/)| 50%|$9.99|80|L
-[X-Morph: Defense](https://nintendo.com/us/store/products/x-morph-defense-switch/)| 80%|$3.99|75|
-[XCOM 2 Collection](https://nintendo.com/us/store/products/xcom-2-collection-switch/)| 85%|$7.49|77|
-[Xuan Yuan Sword 7](https://nintendo.com/us/store/products/xuan-yuan-sword-7-switch/)| 30%|$27.99|71|L
-[Yono and the Celestial Elephants](https://nintendo.com/us/store/products/yono-and-the-celestial-elephants-switch/)| 80%|$3.99|73|M
-[Yooka-Laylee](https://nintendo.com/us/store/products/yooka-laylee-switch/)| 80%|$3.99|75|M
-[Zombie Rollerz: Pinball Heroes](https://nintendo.com/us/store/products/zombie-rollerz-pinball-heroes/)| 85%|$2.24|74|M
-",671,0.93,130,DealsPoster,395691.0,NintendoSwitch,2024-11-01T21:16:59,https://www.reddit.com/r/NintendoSwitch/comments/1ghl8hn/nintendo_switch_digital_game_sale_on_us_eshop/,critical,False,"pc,switch",,"bug,crash,error",0.046120490620490624,0.4315526695526694
-1gjg24h,Mario & Luigi: Brothership: Review MegaThread,"# General Information
-
-Release date: November 7, 2024
-
-No. of players: Single System (1)
-
-Genre: Action, Adventure, Role-playing
-
-Publisher: Nintendo
-
-ESRB rating: Everyone
-
-Supported play modes: TV mode, Tabletop mode, Handheld mode
-
-Game file size: 9.9 GB
-
-Supported languages: Dutch, English, French, German, Italian, Japanese, Korean, Portuguese, Simplified Chinese, Spanish, Traditional Chinese
-
-Official website: https://www.nintendo.com/us/store/products/mario-and-luigi-brothership-switch/
-
-# Reviews
-
-## Aggregators
-
-* [Metacritic](https://www.metacritic.com/game/mario-and-luigi-brothership/) \- 80
-* [OpenCritic](https://opencritic.com/game/16871/mario-luigi-brothership) \- 79
-
-## Articles
-
-* CGMagazine - [8.5 / 10](https://www.cgmagonline.com/review/game/mario-luigi-brothership-nintendo-switch-review/)
-* COGconnected - [75 / 100](https://cogconnected.com/review/mario-luigi-brothership-review/)
-* Checkpoint Gaming - [7 / 10](https://checkpointgaming.net/reviews/2024/11/mario-luigi-brothership-review-a-joyous-sail-abration/)
-* Console Creatures - [9 / 10](https://www.consolecreatures.com/review-mario-and-luigi-brothership/)
-* Daily Mirror - [4 / 5 ](https://www.mirror.co.uk/gaming/mario-luigi-brothership-review--34030644)
-* Digital Trends - [2.5 / 5 ](https://www.digitaltrends.com/gaming/mario-and-luigi-brothership-review-switch/)
-* Digitec Magazine - *German* - [4 / 5](https://www.digitec.ch/de/page/mario-luigi-brothership-ist-ein-wunderschoenes-rollenspiel-fuer-das-du-viel-geduld-brauchst-35417)
-* Enternity.gr - *Greek* - [9 / 10](https://www.enternity.gr/Article/Games/Reviews/mario-luigi-brothership-review/91433.html)
-* Eurogamer - [4 / 5](https://www.eurogamer.net/mario-and-luigi-brothership-review)
-* Everyeye.it - *Italian* - [8.8 / 10](https://www.everyeye.it/articoli/recensione-mario-luigi-fraternauti-carica-fantastico-gdr-64719.html)
-* GAMES.CH - *German* - [87%](https://www.games.ch/mario-luigi-brothership/test/review-ligL/)
-* GRYOnline.pl - *Polish* - [7.5 / 10](https://www.gry-online.pl/recenzje/recenzja-gry-mario-luigi-brothership-czarujaca-przygoda-i-udane-w/zf46b3)
-* GamesRadar+ - [4 / 5 ](https://www.gamesradar.com/games/rpg/mario-luigi-brothership-review/)
-* Glitched Africa - [8 / 10](https://www.glitched.africa/mario-luigi-brothership-review/)
-* God is a Geek - [8 / 10](https://www.godisageek.com/reviews/mario-luigi-brothership-review/)
-* Hobby Consolas - *Spanish* - [82 / 100](https://www.hobbyconsolas.com/reviews/analisis-mario-luigi-conexion-fraternal-juego-navega-oceano-rpgs-diversion-variedad-bandera-1416080)
-* IGN - [5 / 10](https://www.ign.com/articles/mario-and-luigi-brothership-review)
-* IGN Italy - *Italian* - [7.5 / 10](https://it.ign.com/mario-luigi-brothership/214299/review/mario-luigi-fraternauti-alla-carica-la-recensione)
-* LevelUp - *Spanish* - [9 / 10](https://www.levelup.com/Nintendo-Switch/juegos/795489/Mario-Luigi-Brothership/review)
-* Metro GameCentral - [7 / 10](https://metro.co.uk/2024/11/04/mario-luigi-brothership-review-last-nintendo-switch-game-21919814/)
-* Nintendo Life - [9 / 10](https://www.nintendolife.com/reviews/nintendo-switch/mario-and-luigi-brothership)
-* Press Start - [7.5 / 10](https://press-start.com.au/reviews/nintendo-switch/2024/11/04/mario-luigi-brothership-review-a-rocky-journey/)
-* SECTOR.sk - *Slovak* - [9 / 10](https://www.sector.sk/recenzia/39667/mario-a-luigi-brothership.htm)
-* Saudi Gamer - *Arabic* - [7 / 10](https://www.saudigamer.com/review/mario-luigi-brothership/)
-* Shacknews - [9 / 10](https://www.shacknews.com/article/142095/mario-and-luigi-brothership-review-score)
-* Siliconera - [7 / 10](https://www.siliconera.com/review-explore-the-currents-in-mario-luigi-brothership/)
-* Spaziogames - *Italian* - [8.7 / 10](https://www.spaziogames.it/articoli/mario-luigi-fraternauti-alla-carica-recensione)
-* Stevivor - [9.5 / 10](https://stevivor.com/reviews/mario-luigi-brothership-review/)
-* TheGamer - [4.5 / 5 ](https://www.thegamer.com/mario-luigi-brothership-review/)
-* TheSixthAxis - [7 / 10](https://www.thesixthaxis.com/2024/11/04/mario-luigi-brothership-review/)
-* VGC - [4 / 5 ](https://www.videogameschronicle.com/review/mario-luigi-brothership-2/)
-* Wccftech - [7.5 / 10](https://wccftech.com/review/mario-and-luigi-brothership/)
-* WellPlayed - [8 / 10](https://www.well-played.com.au/mario-luigi-brothership-review/)
-
-^(This list was generated via manual export from OpenCritic. Last updated: 11/4/2024 9:49am E.T.)
-
-Cheers,
-
-The [r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/) mod team",665,0.94,693,NintendoSwitchMods,146678.0,NintendoSwitch,2024-11-04T09:51:02,https://www.reddit.com/r/NintendoSwitch/comments/1gjg24h/mario_luigi_brothership_review_megathread/,medium,False,switch,,glitch,-0.004857142857142855,0.09723809523809525
-1gcaaag,"For those wondering about the issues with Version 19.0.0, I managed to call support and speak with a supervisor.","The supervisor I got to talk to said he was going to relay the info as feedback to Nintendo. I made sure to explain that stuff like overheating and sleep mode not working right was happening to others, but also had to clarify that I'm having similar issues with my Switch. He said this was the first he heard of it, and thought the issue probably isn't as widespread as it seemed. I clarified I felt it wasn't widespread but was enough of an issue as it affected multiple people. I should also note that my brother has a Switch, and he didn't have any issues like these. Granted, he primarily plays the Switch docked, but still.
-
-So, yeah, here's hoping this can lead to a potential fix for the firmware. I also wanna mention that the supervisor in question is a pretty chill guy. Very understanding, considerate, and wanted to make sure to explore all options, including suggesting that I send the console in for repair *juuuuuuuust* in case the firmware isn't the main cause of it.
-
-I'm gonna be keeping an eye on my Switch for the time being, as well, and will turn it off completely after use just to be safe.
-
-Update: 19.0.1 has come, but it looks like, at least in my case, there are still issues. Battery still drains a bit quickly even in sleep mode, and I had a game paused during the credits with the Switch on the home menu. When I got back to it, it was further ahead in the credits. Not by a lot as it went slowly, but still an issue. Will put in a support request at [support.nintendo.com](http://support.nintendo.com) tomorrow. If you're still having issues, especially ones like this, I suggest you do the same. The more people tell them about this, the more likely a fix will happen.",464,0.89,171,crazyseandx,21840.0,NintendoSwitch,2024-10-25T21:40:29,https://www.reddit.com/r/NintendoSwitch/comments/1gcaaag/for_those_wondering_about_the_issues_with_version/,medium,False,switch,,"issue,not working,fix",0.13942857142857143,0.5162063492063492
-1gm4390,"Thank the heavens! Mario & Luigi Brothership has large, readable text! Please developers, make your text readable on the Switch!","I'm so tired of playing RPGs and text-heavy games where you have to squint to read the text in handheld or you can't play it from for far away on the TV because the text is tiny! I was surprised when even some Nintendo and Square Enix titles had this problem (you know you would think they would know best from their long production of text-heavy games and heavy experience with handheld and mobile titles). 
-
-I've been playing Brothership and other than the shockingly great soundtrack (every track has stood out so far as stunning) and the vibrant coloring and animation, what I instantly noticed is it's so good to see large, easily readable text in this game. When I first saw the first dialogue encounters and tutorial text, I was so relieved. I couldn't believe that even in some Nintendo titles this generation they seemed to have forgotten their UI design from previous titles (maybe a part of Nintendo who had never worked in the handheld division).
-
-I hope going forward this is a sign that Nintendo and other developers won't make the same mistakes on the Switch successor. I'm tired of the myriad games that simply assume you're playing up close at your desk on a PC monitor and how they design UIs to fit the most information possible in the smallest space rather than to be readable. It's especially appreciated when text is large because complex Chinese characters are a lot harder to read when they're squished together.",397,0.93,49,RyanoftheStars,14021.0,NintendoSwitch,2024-11-07T18:13:56,https://www.reddit.com/r/NintendoSwitch/comments/1gm4390/thank_the_heavens_mario_luigi_brothership_has/,medium,False,"pc,switch","up close at your desk on a PC monitor and how they design UIs to fit the most information possible in the smallest space rather than to be readable,this,RPGs and text,Brothership and other than the shockingly great soundtrack ",problem,0.12717352092352097,0.4980158730158729
-1geidq9,Firmware 19.0.1 released fixes GameCube controllers connection and Sleep mode downloads,,376,0.95,81,Dragontech97,344.0,NintendoSwitch,2024-10-28T20:55:10,https://x.com/oatmealdome/status/1851060957092454682,unspecified,False,unspecified,,fix,0.0,0.0
+Code 3: 
+CC-VLRNT-CCHAL-WNGMN
+",Question,2653,0.96,124,Silions,VALORANT,2023-12-27T09:45:05,unspecified,False,unspecified,,,0.25,0.4

@@ -8,158 +8,202 @@ import re
 from textblob import TextBlob
 import spacy  # Add spaCy for NER
 import numpy as np
+
+
+
 class RedditGameScraper:
     def __init__(self, client_id, client_secret, user_agent):
         """Initialize the scraper with Reddit API credentials and spaCy NER model"""
         self.reddit = praw.Reddit(
-            client_id=client_id,
-            client_secret=client_secret,
-            user_agent=user_agent
+            client_id=client_id, client_secret=client_secret, user_agent=user_agent
         )
-        
-        # Load spaCy NER model
+
+
         self.nlp = spacy.load("en_core_web_sm")
-        
-        # Default keywords and filters
+
         self.bug_keywords = [
-            'bug', 'glitch', 'issue', 'broken', 'crash', 'error',
-            'problem', 'not working', 'buggy', 'fix', 'patch',
-            'freeze', 'stuck', 'lag', 'fps drop', 'graphics issue'
+            "bug",
+            "glitch",
+            "issue",
+            "broken",
+            "crash",
+            "error",
+            "problem",
+            "not working",
+            "buggy",
+            "fix",
+            "patch",
+            "freeze",
+            "stuck",
+            "lag",
+            "fps drop",
+            "graphics issue",
+            "performance issue",
+            "low graphics",
+            "low fps",
+            "low performance",
+            "low frame rate",
+            "fix",
         ]
-        
+
         # Platform-specific keywords
         self.platform_keywords = {
-            'pc': ['pc', 'steam', 'epic', 'desktop', 'computer', 'windows', 'fps','valorant'],
-            'playstation': ['ps4', 'ps5', 'playstation', 'psn'],
-            'xbox': ['xbox', 'series x', 'series s', 'xsx', 'xss'],
-            'switch': ['switch', 'nintendo']
+            "pc": [
+                "pc",
+                "steam",
+                "epic",
+                "desktop",
+                "computer",
+                "windows",
+                "fps",
+            ],
+            "playstation": ["ps4", "ps5", "playstation", "psn"],
+            "xbox": ["xbox", "series x", "series s", "xsx", "xss"],
+            "switch": ["switch", "nintendo"],
         }
-        
-        # Severity indicators
+
         self.severity_keywords = {
-            'critical': ['crash', 'unplayable', 'broken', 'game breaking', 'save corrupted'],
-            'high': ['freeze', 'stuck', 'cant progress', "can't progress"],
-            'medium': ['graphics', 'audio', 'visual', 'ui'],
-            'low': ['minor', 'cosmetic', 'typo', 'text']
+            "critical": [
+                "crash",
+                "unplayable",
+                "broken",
+                "game breaking",
+                "save corrupted",
+            ],
+            "high": ["freeze", "stuck", "cant progress", "can't progress"],
+            "medium": ["graphics", "audio", "visual", "ui"],
+            "low": ["minor", "cosmetic", "typo", "text"],
         }
 
     def detect_platform(self, text):
         """Detect gaming platform from text"""
         if not text:
-            return ['unspecified']
-        
+            return ["unspecified"]
+
         text = text.lower()
         detected_platforms = []
-        
+
         for platform, keywords in self.platform_keywords.items():
             if any(keyword in text for keyword in keywords):
                 detected_platforms.append(platform)
-                
-        return detected_platforms if detected_platforms else ['unspecified']
+
+        return detected_platforms if detected_platforms else ["unspecified"]
 
     def detect_severity(self, text):
         """Detect bug severity from text"""
         if not text:
-            return 'unspecified'
-            
+            return "unspecified"
+
         text = text.lower()
-        
+
         for severity, keywords in self.severity_keywords.items():
             if any(keyword in text for keyword in keywords):
                 return severity
-                
-        return 'unspecified'
+
+        return "unspecified"
 
     def analyze_sentiment(self, text):
         """Analyze sentiment of text using TextBlob"""
         if not text:
-            return {'polarity': 0, 'subjectivity': 0}
-            
+            return {"polarity": 0, "subjectivity": 0}
+
         analysis = TextBlob(text)
         return {
-            'polarity': analysis.sentiment.polarity,
-            'subjectivity': analysis.sentiment.subjectivity
+            "polarity": analysis.sentiment.polarity,
+            "subjectivity": analysis.sentiment.subjectivity,
         }
 
     def extract_game_mentions(self, text):
         """Extract potential game titles using spaCy NER"""
         if not text:
             return []
-            
+
         doc = self.nlp(text)
-        game_titles = [ent.text for ent in doc.ents if ent.label_ in ["PRODUCT", "WORK_OF_ART"]]
+        game_titles = [
+            ent.text for ent in doc.ents if ent.label_ in ["PRODUCT", "WORK_OF_ART"]
+        ]
         return list(set(game_titles))
 
-    def get_subreddit_posts(self, subreddit_name, post_limit=100, time_filter='month', 
-                           min_score=10, min_comments=5):
+    def label_post(self, text):
+        """Label posts based on content with predefined categories."""
+        if not text:
+            return "Uncategorized"
+
+        text = text.lower()
+        if any(keyword in text for keyword in self.bug_keywords):
+            return "Bug"
+        elif any(keyword in text for keyword in ["feature", "suggestion", "request"]):
+            return "Feature Request"
+        elif any(keyword in text for keyword in ["help", "question", "how", "what"]):
+            return "Question"
+        else:
+            return "Other"
+
+    def get_subreddit_posts(
+        self,
+        subreddit_name,
+        post_limit=1000000,
+        time_filter="year",
+        min_score=10,
+        min_comments=5,
+    ):
         """
-        Scrape posts from a specified subreddit with enhanced filtering
+        Scrape and label posts from a specified subreddit.
         """
         try:
             subreddit = self.reddit.subreddit(subreddit_name)
             posts_data = []
-            
-            # Test if subreddit exists
+dhjkkjdsmjlkb
             subreddit.id
-            
+
             # Get posts from subreddit based on time filter
             for post in subreddit.top(time_filter=time_filter, limit=post_limit):
                 try:
-                    # Apply basic filters
                     if post.score < min_score or post.num_comments < min_comments:
                         continue
-                    
-                    # Check for bug-related keywords
-                    if not any(keyword in post.title.lower() or 
-                              (post.selftext and keyword in post.selftext.lower()) 
-                              for keyword in self.bug_keywords):
-                        continue
-                    
-                    # Process comments with advanced analysis
-                    processed_comments = self.process_comments(post)
-                    
-                    # Combine post title and text for analysis
+
+                    # Process content and label it
                     full_text = f"{post.title} {post.selftext}"
-                    
-                    # Get author karma safely
-                    try:
-                        author_karma = post.author.link_karma if post.author else None
-                    except:
-                        author_karma = None
-                    
-                    # Create enhanced post data dictionary
+                    post_label = self.label_post(full_text)
+
                     post_data = {
-                        'post_id': post.id,
-                        'title': post.title,
-                        'text': post.selftext,
-                        'score': post.score,
-                        'upvote_ratio': post.upvote_ratio,
-                        'num_comments': post.num_comments,
-                        'author': str(post.author) if post.author else '[deleted]',
-                        'author_karma': author_karma,
-                        'subreddit': subreddit_name,
-                        'timestamp': datetime.fromtimestamp(post.created_utc).isoformat(),
-                        'url': post.url,
-                        'platform': self.detect_platform(full_text),
-                        'severity': self.detect_severity(full_text),
-                        'sentiment': self.analyze_sentiment(full_text),
-                        'potential_games': self.extract_game_mentions(full_text),  # Use NER for game titles
-                        'comments': processed_comments,
-                        'bug_keywords_found': [kw for kw in self.bug_keywords 
-                                             if kw in full_text.lower()],
-                        'is_resolved': any(keyword in full_text.lower() 
-                                         for keyword in ['resolved', 'fixed', 'solved']),
+                        "post_id": post.id,
+                        "title": post.title,
+                        "text": post.selftext,
+                        "label": post_label,
+                        "score": post.score,
+                        "upvote_ratio": post.upvote_ratio,
+                        "num_comments": post.num_comments,
+                        "author": str(post.author) if post.author else "[deleted]",
+                        "subreddit": subreddit_name,
+                        "timestamp": datetime.fromtimestamp(
+                            post.created_utc
+                        ).isoformat(),
+                        "platform": self.detect_platform(full_text),
+                        "severity": self.detect_severity(full_text),
+                        "sentiment": self.analyze_sentiment(full_text),
+                        "potential_games": self.extract_game_mentions(full_text),
+                        "bug_keywords_found": [
+                            kw for kw in self.bug_keywords if kw in full_text.lower()
+                        ],
+                        "is_resolved": any(
+                            keyword in full_text.lower()
+                            for keyword in ["resolved", "fixed", "solved"]
+                        ),
+                        "comments": self.process_comments(
+                            post
+                        ),  
                     }
-                    
+
                     posts_data.append(post_data)
-                    sleep(1)  # Rate limiting
-                    
+                    sleep(1)  
+
                 except Exception as e:
                     print(f"Error processing post in r/{subreddit_name}: {str(e)}")
                     continue
-                    
+
             return posts_data
-            
+
         except Exception as e:
             print(f"Error accessing r/{subreddit_name}: {str(e)}")
             return []
@@ -167,38 +211,43 @@ class RedditGameScraper:
     def process_comments(self, post):
         """Process comments with advanced analysis"""
         processed_comments = []
-        
+
         try:
             post.comments.replace_more(limit=0)
-            for comment in post.comments[:10]:  # Limit to top 10 comments
+            for comment in post.comments[
+                :1000
+            ]:  # need to prob limit to the most recent comments
                 try:
                     # Skip deleted/removed comments
-                    if not comment.author or comment.body in ['[deleted]', '[removed]']:
+                    if not comment.author or comment.body in ["[deleted]", "[removed]"]:
                         continue
-                    
+
                     comment_data = {
-                        'comment_id': comment.id,
-                        'text': comment.body,
-                        'score': comment.score,
-                        'author': str(comment.author),
-                        'timestamp': datetime.fromtimestamp(comment.created_utc).isoformat(),
-                        'sentiment': self.analyze_sentiment(comment.body),
-                        'platform_mentioned': self.detect_platform(comment.body),
-                        'has_solution': any(keyword in comment.body.lower() 
-                                          for keyword in ['solution', 'fix', 'solved', 'resolved']),
-                        'is_op_response': str(comment.author) == str(post.author),
+                        "comment_id": comment.id,
+                        "text": comment.body,
+                        "score": comment.score,
+                        "author": str(comment.author),
+                        "timestamp": datetime.fromtimestamp(
+                            comment.created_utc
+                        ).isoformat(),
+                        "sentiment": self.analyze_sentiment(comment.body),
+                        "platform_mentioned": self.detect_platform(comment.body),
+                        "has_solution": any(
+                            keyword in comment.body.lower()
+                            for keyword in ["solution", "fix", "solved", "resolved"]
+                        ),
+                        "is_op_response": str(comment.author) == str(post.author),
                     }
-                    
+
                     processed_comments.append(comment_data)
                 except Exception as e:
                     print(f"Error processing comment: {str(e)}")
                     continue
-                    
+
         except Exception as e:
             print(f"Error accessing comments: {str(e)}")
-            
-        return processed_comments
 
+        return processed_comments
 
     def aggregate_sentiment_by_severity(self, posts_data):
         """Calculate average sentiment polarity by severity level"""
@@ -228,7 +277,6 @@ class RedditGameScraper:
                     json.dump(data, f, indent=4, ensure_ascii=False)
 
             elif output_format.lower() == "csv":
-                # Create flattened version for CSV
                 flattened_data = []
                 for post in data:
                     base_post = {
@@ -268,19 +316,20 @@ def main():
     # List of gaming subreddits to scrape
     subreddits = [
         "gaming",
-        "pcgaming",
-        "GameBugs",
-        "PS5",
-        "XboxSeriesX",
-        "NintendoSwitch",
-        "PlayStation5",
-        "PlayStation5Pro",
-        "XboxSeriesXSeriesX",
-        "XboxSeriesXSeriesS",
-        "NintendoSwitch2",
-        "Valorant",
-        "Diablo",
-        "BillyBob"
+        # "pcgaming",
+        # "GameBugs",
+        # "PS5",
+        # "XboxSeriesX",
+        # "NintendoSwitch",
+        # "PlayStation5",
+        # "PlayStation5Pro",
+        # "XboxSeriesXSeriesX",
+        # "XboxSeriesXSeriesS",
+        # "NintendoSwitch2",
+        # "Valorant",
+        "VALORANT",
+        # "Diablo"
+        # Gaming4Gamers
     ]
 
     all_posts = []
@@ -289,15 +338,17 @@ def main():
     for subreddit in subreddits:
         print(f"Scraping r/{subreddit}...")
         posts = scraper.get_subreddit_posts(
-            subreddit, post_limit=100, time_filter="month", min_score=10, min_comments=5
+            subreddit,
+            post_limit=100,
+            time_filter="year",
+            min_score=1,
+            min_comments=1,
         )
         all_posts.extend(posts)
         print(f"Found {len(posts)} bug-related posts in r/{subreddit}")
 
-
     scraper.save_data(all_posts, "json")
-    scraper.save_data(all_posts, "tsv")
-
+    scraper.save_data(all_posts, "csv")
 
     total_posts = len(all_posts)
     total_comments = sum(len(post["comments"]) for post in all_posts)
@@ -316,7 +367,7 @@ def main():
     for severity, count in severity_counts.most_common():
         print(f"- {severity}: {count}")
 
-    # Aggregate sentiment by severity level
+
     scraper.aggregate_sentiment_by_severity(all_posts)
 
 
