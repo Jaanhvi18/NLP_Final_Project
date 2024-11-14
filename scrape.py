@@ -6,15 +6,19 @@ from time import sleep
 from collections import Counter
 import re
 from textblob import TextBlob
-
+import spacy  # Add spaCy for NER
+import numpy as np
 class RedditGameScraper:
     def __init__(self, client_id, client_secret, user_agent):
-        """Initialize the scraper with Reddit API credentials"""
+        """Initialize the scraper with Reddit API credentials and spaCy NER model"""
         self.reddit = praw.Reddit(
             client_id=client_id,
             client_secret=client_secret,
             user_agent=user_agent
         )
+        
+        # Load spaCy NER model
+        self.nlp = spacy.load("en_core_web_sm")
         
         # Default keywords and filters
         self.bug_keywords = [
@@ -78,23 +82,13 @@ class RedditGameScraper:
         }
 
     def extract_game_mentions(self, text):
-        """Extract potential game titles from text using regex"""
+        """Extract potential game titles using spaCy NER"""
         if not text:
             return []
             
-        # Look for text in quotes or text followed by common game-related terms
-        game_patterns = [
-            r'"([^"]+)"',  # Text in quotes
-            r'playing ([A-Za-z0-9\s:]+)',  # After "playing"
-            r'in ([A-Za-z0-9\s:]+) game',  # Before "game"
-        ]
-        
-        potential_games = []
-        for pattern in game_patterns:
-            matches = re.findall(pattern, text)
-            potential_games.extend(matches)
-            
-        return list(set(potential_games))
+        doc = self.nlp(text)
+        game_titles = [ent.text for ent in doc.ents if ent.label_ in ["PRODUCT", "WORK_OF_ART"]]
+        return list(set(game_titles))
 
     def get_subreddit_posts(self, subreddit_name, post_limit=100, time_filter='month', 
                            min_score=10, min_comments=5):
@@ -149,7 +143,7 @@ class RedditGameScraper:
                         'platform': self.detect_platform(full_text),
                         'severity': self.detect_severity(full_text),
                         'sentiment': self.analyze_sentiment(full_text),
-                        'potential_games': self.extract_game_mentions(full_text),
+                        'potential_games': self.extract_game_mentions(full_text),  # Use NER for game titles
                         'comments': processed_comments,
                         'bug_keywords_found': [kw for kw in self.bug_keywords 
                                              if kw in full_text.lower()],
@@ -205,36 +199,63 @@ class RedditGameScraper:
             
         return processed_comments
 
-    def save_data(self, data, output_format='json', filename='game_bugs_data'):
+
+    def aggregate_sentiment_by_severity(self, posts_data):
+        """Calculate average sentiment polarity by severity level"""
+        severity_sentiments = {"critical": [], "high": [], "medium": [], "low": []}
+
+        for post in posts_data:
+            severity = post["severity"]
+            polarity = post["sentiment"]["polarity"]
+            if severity in severity_sentiments:
+                severity_sentiments[severity].append(polarity)
+
+        # Calculate average sentiment polarity per severity
+        avg_sentiment = {
+            severity: (sum(polarities) / len(polarities)) if polarities else 0
+            for severity, polarities in severity_sentiments.items()
+        }
+
+        print("\nAverage Sentiment Polarity by Severity Level:")
+        for severity, avg in avg_sentiment.items():
+            print(f"{severity.capitalize()}: {avg:.2f}")
+
+    def save_data(self, data, output_format="json", filename="game_bugs_data"):
         """Save scraped data in specified format with error handling"""
         try:
-            if output_format.lower() == 'json':
-                with open(f'{filename}.json', 'w', encoding='utf-8') as f:
+            if output_format.lower() == "json":
+                with open(f"{filename}.json", "w", encoding="utf-8") as f:
                     json.dump(data, f, indent=4, ensure_ascii=False)
-            
-            elif output_format.lower() == 'csv':
+
+            elif output_format.lower() == "csv":
                 # Create flattened version for CSV
                 flattened_data = []
                 for post in data:
-                    base_post = {k: v for k, v in post.items() 
-                               if k != 'comments' and not isinstance(v, (dict, list))}
-                    
+                    base_post = {
+                        k: v
+                        for k, v in post.items()
+                        if k != "comments" and not isinstance(v, (dict, list))
+                    }
+
                     # Handle lists and dicts
-                    base_post['platforms'] = ','.join(post['platform'])
-                    base_post['potential_games'] = ','.join(post['potential_games'])
-                    base_post['bug_keywords'] = ','.join(post['bug_keywords_found'])
-                    base_post['sentiment_polarity'] = post['sentiment']['polarity']
-                    base_post['sentiment_subjectivity'] = post['sentiment']['subjectivity']
-                    
+                    base_post["platforms"] = ",".join(post["platform"])
+                    base_post["potential_games"] = ",".join(post["potential_games"])
+                    base_post["bug_keywords"] = ",".join(post["bug_keywords_found"])
+                    base_post["sentiment_polarity"] = post["sentiment"]["polarity"]
+                    base_post["sentiment_subjectivity"] = post["sentiment"][
+                        "subjectivity"
+                    ]
+
                     flattened_data.append(base_post)
-                
+
                 df = pd.DataFrame(flattened_data)
-                df.to_csv(f'{filename}.csv', index=False, encoding='utf-8')
-            
+                df.to_csv(f"{filename}.csv", index=False, encoding="utf-8")
+
             print(f"Data successfully saved as '{filename}.{output_format}'")
-            
+
         except Exception as e:
             print(f"Error saving data: {str(e)}")
+
 
 def main():
     # Initialize scraper
@@ -243,42 +264,48 @@ def main():
         client_secret="k8o-MuaK7vB2LbxtVeQ73uq8Qr92UA",
         user_agent="nlp final",
     )
-    
+
     # List of gaming subreddits to scrape
     subreddits = [
-        'gaming',
-        'pcgaming',
-        'GameBugs',
-        'PS5',
-        'XboxSeriesX',
-        'NintendoSwitch'
+        "gaming",
+        "pcgaming",
+        "GameBugs",
+        "PS5",
+        "XboxSeriesX",
+        "NintendoSwitch",
+        "PlayStation5",
+        "PlayStation5Pro",
+        "XboxSeriesXSeriesX",
+        "XboxSeriesXSeriesS",
+        "NintendoSwitch2",
+        "Valorant",
+        "Diablo",
+        "BillyBob"
     ]
-    
+
     all_posts = []
-    
+
     # Scrape each subreddit
     for subreddit in subreddits:
         print(f"Scraping r/{subreddit}...")
         posts = scraper.get_subreddit_posts(
-            subreddit,
-            post_limit=100,
-            time_filter='month',
-            min_score=10,
-            min_comments=5
+            subreddit, post_limit=100, time_filter="month", min_score=10, min_comments=5
         )
         all_posts.extend(posts)
         print(f"Found {len(posts)} bug-related posts in r/{subreddit}")
-    
-    # Save data in both formats
-    scraper.save_data(all_posts, 'json')
-    scraper.save_data(all_posts, 'csv')
-    
-    # Print summary statistics
+
+
+    scraper.save_data(all_posts, "json")
+    scraper.save_data(all_posts, "tsv")
+
+
     total_posts = len(all_posts)
-    total_comments = sum(len(post['comments']) for post in all_posts)
-    platforms_found = Counter([platform for post in all_posts for platform in post['platform']])
-    severity_counts = Counter(post['severity'] for post in all_posts)
-    
+    total_comments = sum(len(post["comments"]) for post in all_posts)
+    platforms_found = Counter(
+        [platform for post in all_posts for platform in post["platform"]]
+    )
+    severity_counts = Counter(post["severity"] for post in all_posts)
+
     print("\nScraping Summary:")
     print(f"Total posts scraped: {total_posts}")
     print(f"Total comments processed: {total_comments}")
@@ -288,6 +315,10 @@ def main():
     print("\nSeverity distribution:")
     for severity, count in severity_counts.most_common():
         print(f"- {severity}: {count}")
+
+    # Aggregate sentiment by severity level
+    scraper.aggregate_sentiment_by_severity(all_posts)
+
 
 if __name__ == "__main__":
     main()
