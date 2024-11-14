@@ -1,0 +1,1976 @@
+post_id,title,text,score,upvote_ratio,num_comments,author,author_karma,subreddit,timestamp,url,severity,is_resolved,platforms,potential_games,bug_keywords,sentiment_polarity,sentiment_subjectivity
+1gh69sx,There's a bug in the Monster Hunter Wilds Beta that causes your character to have a super angry face when they hold a shield,,22285,0.94,596,IcePopsicleDragon,679860.0,gaming,2024-11-01T10:08:52,https://i.imgur.com/mqRjh2Y.png,unspecified,False,unspecified,,bug,-0.08333333333333334,0.8333333333333333
+1g91k2r,Stuck on this boss quite often,,5595,0.97,218,Antalus-2,2912.0,gaming,2024-10-21T17:36:27,https://i.redd.it/se5kbj5jh6wd1.png,high,False,unspecified,,stuck,0.0,0.0
+1gf2pit,"Got a bug playing Black Ops 6 campaign, now I’m rich!",,4640,0.95,312,Scapadap,3609.0,gaming,2024-10-29T15:09:41,https://i.redd.it/ect22543vqxd1.jpeg,unspecified,False,unspecified,Black Ops 6 campaign,bug,0.15104166666666669,0.5916666666666667
+1g8yv91,Starcraft 2 just got it's biggest patch in recent history,,4403,0.96,391,Outrageous-Laugh1363,15208.0,gaming,2024-10-21T15:47:01,https://news.blizzard.com/en-us/starcraft2/24150098/starcraft-ii-5-0-14-ptr-patch-notes,unspecified,False,unspecified,,patch,0.0,0.25
+1gh629y,"Horizon Zero Dawn's questionable remaster launches to Mixed reviews as players lament a new mandatory PSN sign-in that wasn't in the original, visual glitches, and audio bugs",,4320,0.92,837,Turbostrider27,14426736.0,pcgaming,2024-11-01T09:59:48,https://www.pcgamer.com/games/action/horizon-zero-dawns-questionable-remaster-launches-to-mixed-reviews-as-players-lament-a-new-mandatory-psn-sign-in-that-wasnt-in-the-original-visual-glitches-and-audio-bugs/,medium,False,playstation,,"bug,glitch",0.002272727272727271,0.4909090909090909
+1g7hdvf,Star Citizen demo crashes live on stage during presentation,,3031,0.9,820,milkasaurs,57626.0,pcgaming,2024-10-19T16:03:23,https://www.youtube.com/clip/UgkxlRWP7thH0T3xWcnmyFp-4kxfCuO6BhXe,critical,False,unspecified,,crash,0.13636363636363635,0.5
+1gkls0v,Ubisoft's NFT dumpster fire flares up as a matchmaking bug leaves every player connecting and losing to the same unkillable guy,,1846,0.97,140,Shezzerino,,pcgaming,2024-11-05T19:24:33,https://www.pcgamer.com/games/strategy/ubisofts-nft-dumpster-fire-flares-up-as-a-matchmaking-bug-leaves-every-player-connecting-and-losing-to-the-same-confused-unkillable-guy/,unspecified,False,unspecified,,bug,0.0,0.125
+1gcpwa3,"Valve giveth, and Valve taketh away: Team Fortress 2's BLU Scout is once again wearing the 'wrong' pants after a 17 years-in-the-making fix was reversed a day later",,1246,0.93,47,Lord_Clavicus_Vile,860.0,pcgaming,2024-10-26T13:12:41,https://www.pcgamer.com/games/fps/valve-giveth-and-valve-taketh-away-team-fortress-2s-blu-scout-is-once-again-wearing-the-wrong-pants-after-a-17-years-in-the-making-fix-was-reversed-a-day-later/,unspecified,False,unspecified,,fix,-0.25,0.45
+1gbsmee,SilentPatch for Grand Theft Auto goes open source!,,569,0.97,35,CookiePLMonster,6674.0,pcgaming,2024-10-25T08:04:46,https://cookieplmonster.github.io/2024/10/25/silentpatch-goes-open-source/?utm_source=Reddit&utm_medium=social&utm_campaign=Self+Post,unspecified,False,unspecified,,patch,0.25,0.75
+1gbu63o,"Ubisoft Management To Blame For Prince of Persia: The Lost Crown Sales Issues, Baldur's Gate 3 Exec Says",,1117,0.91,267,Turbostrider27,14426737.0,PS5,2024-10-25T09:23:47,https://insider-gaming.com/ubisoft-management-to-blame-for-prince-of-persia-the-lost-crown-sales-issues-baldurs-gate-3-exec-says/,unspecified,False,unspecified,,issue,0.0,0.0
+1gmdhsh,PS5 Pro Impressions ,"Just thought I’d leave my review of the PS5 Pro as someone who games on a 4090. 
+
+I have to say this console is really good for what you are getting I’m quite enjoying my time with the system. 
+
+A lot of the games with the Pro update play really well & look sharp….they look & perform a lot closer to PC titles with these upgrades in my opinion. It’s obviously not close to high end PC level except Forbidden West that one looks almost similar to PC Ultra it’s stunning…..it’s a good step in the right direction 
+
+Playing games like Final Fantasy Rebirth with fidelity& performance more tolerable than the PS5 version is very nice. 4K native 120 for GT7 is phenomenal has me wishing it was like that at launch because it plays a lot better now. Just waiting on the patch. 
+
+I’d say if you’re cool with your regular PS5 experience then not worth it but if you want to experience PlayStation games running closer to PC performance for a good price for what you get I’d say it’s worth it. ",973,0.85,708,R3KF4,1066.0,PS5,2024-11-08T02:56:25,https://www.reddit.com/r/PS5/comments/1gmdhsh/ps5_pro_impressions/,medium,False,"pc,playstation","the right direction 
+
+Playing",patch,0.3347619047619047,0.5001465201465201
+1g8jwka,All PS5 Exclusives not on PS4 (list),"**As of Oct 2024** — No PS4 games. Here is the real state of play (so to speak) as PS5 is headed into the 2nd half of the its lifecycle with PS5 Pro. Thanks to [Dekudeals](https://www.dekudeals.com/items?sort=release_date&filter[type]=game&filter[platform]=ps5&view=grid&filter[format]=digital&page=113) I was able to create this list, with occasional research.
+
+---
+
+**PS5 true exclusives. (Some may come to PC later)**
+
+Astro Bot
+
+Astro's Playroom (Free with PS5)
+
+Demon's Souls (Remake)
+
+Destruction AllStars (Free with PS Plus)
+
+Final Fantasy VII Rebirth
+
+Quantum Error (Announced to come to PC/Xbox)
+
+Marvel's Spider-Man 2 (Announced for PC)
+
+Metal Savior Black (Cancelled on PC a decade ago)
+
+Neptunia ReVerse (Remake)
+
+Rise of the Ronin
+
+Shines Over: The Damned
+
+Silent Hill: The Short Message (Free)
+
+Stellar Blade
+
+Sticks Aim Trainer
+
+---
+
+**PS5 console exclusives, also on PC**
+
+Black Myth: Wukong
+
+Bleak Faith: Forsaken
+
+Blood Hunting
+
+Cypress Inheritance: The Beginning
+
+Deathtrap Dungeon: The Interactive Video Adventure
+
+Etera
+
+Fantavision 202X
+
+Fate Seeker II
+
+Final Fantasy XVI
+
+Forspoken
+
+Fort Solis
+
+Gunhead
+
+Helldivers 2
+
+Honkai: Star Rail (Free)
+
+Hood Story: Kaito Yamazaki
+
+Jack Holmes: Master of Puppets
+
+Lempo
+
+Party Poppers
+
+Radikal Fighters
+
+Ratchet & Clank: Rift Apart
+
+Returnal
+
+Rubber Hose Rampage
+
+Silent Hill 2
+
+Son and Bone
+
+The Body Cam project
+
+The Last of Us Part I (Remake)
+
+The Silent Swan
+
+Tribe: Primitive Builder
+
+Until Dawn (Remake)
+
+Until Then
+
+V Rising
+
+Vampire: The Masquerade - Bloodhunt
+
+Wayfinder (Coming to Xbox)
+
+Zenless Zone Zero (Free)
+
+---
+
+**PS5 remaster/collection/bundle section, for those who want the best experience**
+
+BQM - BlockQuest Maker: Remastered (PS4)
+
+Class of Heroes: Anniversary Edition (PSP)
+
+Class of Heroes 2G: Remaster Edition (PS3)
+
+Dead Rising Deluxe Remaster (PS4)
+
+Death Stranding Director’s Cut (PS4 - New content)
+
+Destroy All Humans! 2 - Reprobed (PS4)
+
+Devil May Cry V Special Edition (Vergil unlocked + framerates)
+
+Final Fantasy VII Remake Intergrade (PS4 - Yuffie Intermission only on PS5)
+
+Grand Theft Auto Online (Separate App available on PS5, not PS4)
+
+Horizon Forbidden West Complete Edition (has DLC not on PS4)
+
+Horizon Zero Dawn Remastered
+
+House Builder Overtime (Deluxe version of PC original)
+
+Marvel's Spider-Man Remastered (New lighting, etc.)
+
+NBA 2K21 Next Generation
+
+NBA 2K24 and NBA 2K25 (MyCareer are only available on PS5)
+
+Nioh Remastered – The Complete Edition
+
+Nioh 2 Remastered – The Complete Edition
+
+No More Heroes 3 (Different version of the game, mentioned because there are weird glitches on PS5 since the PS5 port was not made by the same dev as the PS4 port)
+
+Persona 5 Royal (You can play it on PS4 but there's no upgrade to PS5 due to PS5 being a newly remastered version with all DLC, 60fps, and multiple minor content changes)
+
+R-Type Final 3 Evolved (UE5 Version of R-Type Final 2, exclusive to PS5)
+
+Runner Heroes - The Curse of Night and Day - Enhanced Edition (Remaster of Steam version, exclusive to PS5)
+
+Shadows of the Damned: Hella Remastered (Originally PS3 era game)
+
+Soulstice: Deluxe Edition
+
+Tennis World Tour 2 - Complete Edition
+
+Terminator: Resistance Enhanced
+
+Timothy's Night (Enhanced version of Timothy vs the Aliens)
+
+Tropico 6 - Next Gen Edition (New Stuff)
+
+The Last of Us Part II Remastered (Extra levels)
+
+The Outer Worlds: Spacer's Choice Edition
+
+Uncharted: Legacy of Thieves Collection (120fps on PS5)
+
+Universal Flight Simulator Extended Realistic Flight Simulator (upgraded version of PC game)
+
+void tRrLM();++ //Void Terrarium++
+
+Warhammer 40,000: Inquisitor - Ultimate Edition (Ultimate Edition not available on PS4, I assume it adds some new stuff)
+
+Windstorm: Start of a Great Friendship - Remastered (Remaster of Switch/PC game)
+
+---
+
+**9th generation exclusives, also on Xbox and/or Switch/PC - Popular titles**
+
+A Plague Tale: Requiem
+
+Ad Infinitum
+
+Age of Wonders 4
+
+Alan Wake 2
+
+Alone in the Dark
+
+ARK: Survival Ascended
+
+Assassin’s Creed Shadows
+
+Avatar: Frontiers of Pandora
+
+Baldur's Gate 3
+
+Banishers: Ghosts of New Eden
+
+Barton Lynch Pro Surfing
+
+Blacktail
+
+Bō: Path of the Teal Lotus
+
+Brothers: A Tale of Two Sons Remake (Remake)
+
+Castlevania Dominus Collection
+
+Company of Heroes 3
+
+Crime Boss: Rockay City
+
+Crown Wars: The Black Prince
+
+Crusader Kings III
+
+Dead Space (Remake)
+
+Deathloop
+
+Doraemon Story Of Seasons: Friends of the Great Kingdom
+
+Dragon Ball: Sparking! Zero
+
+Dragon Age: The Veilguard
+
+Dragon's Dogma 2
+
+Dungeons 4
+
+EA SPORTS College Football 25
+
+EA SPORTS NHL 25
+
+EA SPORTS UFC 5
+
+EA SPORTS WRC
+
+Empire of the Ants
+
+Enotria: The Last Song
+
+Everspace 2
+
+Espresso Tycoon
+
+Farmagia
+
+Farming Simulator 25
+
+Flintlock: The Siege of Dawn
+
+Football Manager 2023 Console
+
+Football Manager 2024 Console
+
+Frontier Pilot Simulator
+
+Gangs of Sherwood
+
+Ghostrunner 2
+
+Ghostwire Tokyo
+
+Gord
+
+Gotham Knights
+
+Gothic: Remake (Remake, yet to be released on console)
+
+Hardspace: Shipbreaker
+
+Hi-Fi RUSH
+
+Hunt: Showdown 1896
+
+Indika
+
+Just Dance: 2023 Edition
+
+Just Dance: 2024 Edition
+
+Just Dance: 2025 Edition
+
+Kamitsubaki City Ensemble
+
+Killer Klowns From Outer Space: The Game
+
+King Arthur: Knight's Tale
+
+Layers of Fear (2023) (Remake)
+
+Life is Strange: Double Exposure
+
+Lollipop Chainsaw RePOP
+
+Lords of the Fallen
+
+Lost Eidolons
+
+Master Detective Archives: Rain Code Plus
+
+MechWarrior 5: Clans
+
+Miasma Chronicles
+
+Mon-Yu: Defeat Monsters And Gain Strong Weapons And Armor. You May Be Defeated, But Don’t Give Up. Become Stronger. I Believe There Will Be A Day When The Heroes Defeat The Devil King.
+
+Mortal Kombat 1
+
+Naraka: Bladepoint
+
+Need For Speed Unbound
+
+New World: Aeternum
+
+Nobody Wants to Die
+
+Off the Grid
+
+Offroad Truck Simulator: Heavy Duty Challenge
+
+Outcast - A New Beginning
+
+Overpass 2
+
+Palworld
+
+Park Beyond
+
+Payday 3
+
+Penny’s Big Breakaway
+
+Planet Coaster 2
+
+Planet Zoo Console Edition
+
+Predecessor
+
+Remnant II
+
+Reveil
+
+Rhapsody: Marl Kingdom Chronicles
+
+RoboCop: Rogue City
+
+Scorn
+
+Sea of Thieves
+
+Slime Rancher 2
+
+Slitterhead
+
+Solasta: Crown of the Magister
+
+South Park: Snow Day!
+
+Spirit Hunter: Death Mark II
+
+Star Wars Outlaws
+
+Steelrising
+
+Still Wakes the Deep
+
+Story Of Seasons: A Wonderful Life
+
+Suicide Squad: Kill the Justice League
+
+Sword Art Online Fractured Daydream
+
+Taiko no Tatsujin: Rhythm Festival
+
+Tales of Kenzera: ZAU
+
+Teardown
+
+Tekken 8
+
+Temtem
+
+Test Drive Unlimited Solar Crown
+
+The Casting of Frank Stone
+
+The Chant
+
+The Inquisitor
+
+The Lord of the Rings: Return to Moria
+
+The Medium
+
+The Talos Principle 2
+
+The Valiant
+
+Throne And Liberty
+
+Thymesia
+
+Undisputed
+
+Unholy
+
+Valorant
+
+Warhammer 40,000: Rogue Trader
+
+Warhammer 40,000: Space Marine 2
+
+Warhammer Age of Sigmar: Realms of Ruin
+
+White Day 2: The Flower That Tells Lies - Complete Edition
+
+Wild Hearts
+
+WitchSpring R
+
+XDefiant (Free)
+
+---
+
+**9th generation exclusives, also on Xbox and/or Switch/PC - Indies**
+
+[REDACTED]
+
+7 Days to Die - Console Edition
+
+10-Second Ghost
+
+A Quiet Place: The Road Ahead
+
+Abriss - build to destroy
+
+Active DBG: Brave's Rage
+
+After Us
+
+Age of Water
+
+Akimbot
+
+Alaskan Road Truckers: Highway Edition
+
+All You Need is Help
+
+Animal Well
+
+Anno 1800
+
+Another Crab's Treasure
+
+Aerial\_Knight's We Never Yield
+
+Ario
+
+Arranger: A Role-Puzzling Adventure
+
+Atama
+
+Between Horizons
+
+Bit.trip Rerunner
+
+Blind - The Unseen Truth
+
+Born Of Bread
+
+Boyfriend Dungeon
+
+Bright Memory: Infinite
+
+Broken Sword - Shadow of the Templars: Reforged
+
+Burst Hero
+
+Button City
+
+Caravan SandWitch
+
+Cartel Tycoon
+
+CASE 2: Animatronics Survival
+
+Cave Digger 2
+
+Chrysolite
+
+CityDriver
+
+Classified: France '44
+
+Closer the Distance
+
+Coffee, Plis
+
+CometStriker DX
+
+Cookie Cutter
+
+Coral Island
+
+Creature Lab
+
+Cricket: Jae's Really Peculiar Game
+
+Crossy Road Castle
+
+Crow Country
+
+Ctrl Alt Ego
+
+Custom Mech Wars
+
+CYGNI: All Guns Blazing
+
+Dark Light
+
+Dead Man´s Diary
+
+Dead Age II
+
+Deadlink
+
+Deathbound
+
+Deceive Inc.
+
+Detective - Minerva Case
+
+Die After Sunset
+
+Disaster Band
+
+Downward: Enhanced Edition
+
+Dust & Neon
+
+Ed-0: Zombie Uprising
+
+El Paso, Elsewhere
+
+Elsie
+
+Elypse
+
+Erra: Exordium
+
+Exographer
+
+Fabledom
+
+Figment 2: Creed Valley
+
+Flint: Treasure of Oblivion
+
+Fresh Start
+
+Galacticare
+
+Gamedec - Definitive Edition
+
+Garden Witch Life
+
+GENIE Reprise
+
+Gift
+
+Go Mecha Ball
+
+Goons: Legends & Mayhem
+
+Hairdresser Simulator
+
+Harmony: The Fall of Reverie
+
+Harold Halibut
+
+Heavy Cargo - The Truck Simulator
+
+Heroine Anthem Zero 2 : Scalescars Oath
+
+Hexa River
+
+Hidden Through Time 2: Discovery
+
+Hidden Through Time 2: Myths & Magic
+
+Highwater
+
+House Flipper 2
+
+House of Golf 2
+
+Howl
+
+Hunt and Fight: Action RPG
+
+Immortality
+
+Inspector Gadget: MAD Time Party
+
+Iron Danger
+
+Joe Wander and the Enigmatic adventures
+
+Jusant
+
+KarmaZoo
+
+Keylocker | Turn Based Cyberpunk Action
+
+Kingdom Eighties
+
+Knight vs Giant: The Broken Excalibur
+
+Koumajou Remilia: Scarlet Symphony
+
+Last Days of Lazarus
+
+Last Time I Saw You
+
+Let's School
+
+Little Goody Two Shoes
+
+Loretta
+
+Lost At Sea
+
+Lost Islands
+
+Mad Devils: Damned-finitive Edition
+
+Magnus Trilogy
+
+Manitas Kitchen
+
+Melatonin
+
+Melobot - A Last Song
+
+Monster Panic
+
+Monster Train
+
+Mutant Express
+
+Mute Crimson DX
+
+Naheulbeuk's Dungeon Master
+
+Necro Story
+
+Nikoderiko: The Magical World
+
+No Place Like Home
+
+No Son Of Mine
+
+Nocturnal
+
+Oceanhorn 2: Knights of the Lost Realm
+
+Offroad Mechanic Simulator
+
+Pacific Drive
+
+Paladin's Passage
+
+Paper Ghost Stories: Third Eye Open
+
+Parcel Corps
+
+Perennial Order
+
+Phantom Fury
+
+Pizza Possum
+
+Pneumata
+
+Purpose 1951
+
+Q.U.B.E. 2 Ultimate Edition
+
+Quern - Undying Thoughts
+
+Read Only Memories: Neurodiver
+
+Recompile
+
+Return to Monkey Island
+
+Right and Down and Dice
+
+Rocket Rumble
+
+Rogue Spirit
+
+Romancelvania
+
+Rusted Moss
+
+Sable
+
+Saltsea Chronicles
+
+Saviorless
+
+Say A Prayer
+
+Sekimori Gami - Saien
+
+Selfloss
+
+Serious Sam 4
+
+Serious Sam: Siberian Mayhem
+
+Shadow Gambit: The Cursed Crew
+
+Shadows of Doubt
+
+Ship Graveyard Simulator 2
+
+Ship of Fools
+
+Shoulders of Giants: Ultimate
+
+Shredders
+
+Silver Axe - The Honest Elf
+
+Sker Ritual
+
+SkullPirates
+
+Sky Oceans: Wings for Hire
+
+Smalland: Survive the Wilds
+
+Souls of Chronos
+
+Speed Overflow
+
+SpellForce: Conquest of Eo
+
+Spells & Secrets
+
+Squirrel with a Gun
+
+Stasis: Bone Totem
+
+Stray Blade
+
+SunnySide
+
+Sunsoft is Back! Retro Game Selection
+
+Survival: Fountain of Youth - Captain's Edition
+
+Tensei
+
+Terra Memoria
+
+The Fall of Elena Temple
+
+The Finals
+
+The Forest Cathedral
+
+The Invincible
+
+The Land Beneath Us
+
+The Last Case of Benedict Fox: Definitive Edition
+
+The Last Oricru - Final Cut
+
+The Last Worker
+
+The Master’s Pupil
+
+The Mobius Machine
+
+The Plucky Squire
+
+The Ramsey
+
+The Serpent Rogue
+
+The Solitaire Conspiracy
+
+The Star Named EOS
+
+Thief Simulator 2
+
+TimeMelters
+
+Times & Galaxy
+
+To The Sky
+
+TOEM
+
+Tourist Bus Simulator
+
+Trepang2
+
+Truck Driver: The American Dream
+
+Turbo Golf Racing
+
+Ufouria 2: The Saga
+
+Underdog Detective
+
+UnderDungeon
+
+Venba
+
+Wall World
+
+War Hospital
+
+Warlander
+
+Warstride Challenges
+
+Way of the Hunter
+
+Welcome to ParadiZe
+
+Whisker Waters
+
+Wild Bastards
+
+Wild Hunter: Sniper Rifle Adventures Simulator
+
+Wildmender
+
+Withering Rooms
+
+Wizard with a Gun
+
+WW2 Rebuilder
+
+Xaladia: Rise of the Space Pirates X2
+
+Your Computer Might Be At Risk
+
+---
+
+**PSVR2 games not on original PSVR. Some are an ""Optional mode"" like FNAF**
+
+2MD: VR Football Unleashed ALL☆STAR
+
+A Fisherman's Tale PS5 Edition
+
+A Fisherman's Tale 2
+
+Across the Valley
+
+Afterlife VR
+
+Alien: Rogue Incursion
+
+Altair Breaker
+
+Among Us VR
+
+Ancient Dungeon VR
+
+Apollo 13: The Lost Tapes VR
+
+Arashi: Castles of Sin: Final Cut
+
+Arcade Paradise VR
+
+Arizona Sunshine 2
+
+B99 Overclocked
+
+Barbaria
+
+Beat the Beats VR
+
+Before Your Eyes
+
+Behind the Frame: The Finest Scenery VR
+
+Big Shots
+
+Bocce VR Simulator
+
+Border Bots VR
+
+Box To The Beat VR
+
+Breachers
+
+Break Stuff VR
+
+Broken Edge
+
+Budget Cuts Ultimate
+
+Bulletstorm VR
+
+C-Smash VRS New Dimension
+
+Cactus Cowboy - Desert Warfare
+
+Cactus Cowboy - Plants At War PSVR2 Edition
+
+Captain Toonhead vs The Punks from Outer Space
+
+Chernobyl Again
+
+Cities: VR - Enhanced Edition
+
+CleanSheet Soccer
+
+Colossal Cave VR
+
+Compound
+
+Cosmodread
+
+Cosmonious High
+
+Crazy Kung Fu
+
+Creed: Rise to Glory - Championship Edition
+
+Crimen - Mercenary Tales
+
+Crossfire: Sierra Squad
+
+CyubeVR
+
+D-Day Enhanced
+
+Darksword: Battle Eternity
+
+Dead Hook
+
+Dead Second
+
+Demeo
+
+Drums Rock
+
+Dyschronia: Chronos Alternate Episode I
+
+Dyschronia: Chronos Alternate
+
+Encircled
+
+Epic Roller Coasters
+
+Firewall Ultra
+
+Five Nights at Freddy's: Help Wanted - Full Time Edition
+
+Five Nights at Freddy's: Help Wanted 2
+
+Forest Farm Standard Forest Farm
+
+ForeVR Bowl
+
+ForeVR Cornhole
+
+ForeVR Pool
+
+Galaxy Kart
+
+Garden of the Sea
+
+Gazzlers
+
+Genotype
+
+Ghostbusters: Rise of the Ghost Lord
+
+Ghost Signal: A Stellaris Game
+
+Grand Rush VR Highway Car Traffic Racing Simulator
+
+Green Hell VR
+
+HappyFunland
+
+Hellsweeper VR
+
+Horizon Call of the Mountain
+
+Horror Adventure : Zombie Edition (PSVR2)
+
+Hubris
+
+Infinite Inside
+
+Into the Radius
+
+Island Time PSVR2
+
+Journey to Foundation
+
+K-ONE maths dimension
+
+Kayak VR: Mirage
+
+Koi-Koi : Love Blossoms
+
+Legendary Tales
+
+Les Mills Bodycombat
+
+Little Cities: Bigger!
+
+Madison VR
+
+Masternoid
+
+Math World VR
+
+Max Mustard
+
+Mecha Party
+
+Metal: Hellsinger VR
+
+Metro Awakening
+
+Mixture
+
+NFL PRO ERA II
+
+Nock
+
+OhShape Ultimate
+
+Operation Serpens
+
+Operation Wolf Returns: First Mission VR
+
+Organ Quarter
+
+Ovrdark: a Do Not Open story
+
+Paint the Town Red VR
+
+Paper Beast Enhanced Edition
+
+Pavlov
+
+Peaky Blinders: The King's Ransom Complete Edition
+
+Pixel Ripped 1978: An Atari Adventure
+
+Project Wingman: Frontline 59
+
+Propagation: Paradise Hotel
+
+Racket Fury: Table Tennis VR
+
+Ragnarock
+
+Rainbow Reactor: Fusion
+
+Reading World VR
+
+Red Matter 2
+
+Resident Evil 4: VR Mode
+
+Resident Evil Village VR Mode
+
+Retropolis 2: Never Say Goodbye
+
+Rezzil Player
+
+Rhythm Planet
+
+Ruinsmagus: Complete
+
+Runner
+
+Seeker : My Shadow
+
+Shave & Stuff
+
+Sky Climb
+
+Skydance's Behemoth
+
+Snow Scout
+
+Soul Covenant
+
+Space Docker VR
+
+Space Explore (PSVR2)
+
+Star Wars: Tales from the Galaxy's Edge - Enhanced Edition
+
+Starship Troopers: Continuum
+
+Stilt
+
+Stride: Fates
+
+Sugar Mess - Let's Play Jolly Battle
+
+Suicide Guy VR Deluxe
+
+Super Death Game SHOW! VR
+
+Survivorman VR The Descent
+
+Sushi Ben
+
+System Critical 2
+
+Synapse
+
+Tennis On-Court
+
+Tentacular
+
+The 7th Guest VR
+
+The Dark Pictures: Switchback VR
+
+The Exorcist: Legion VR
+
+The Foglands
+
+The Last Clockwinder
+
+The Light Brigade
+
+The Street 10 VR
+
+The Twilight Zone
+
+The Utility Room
+
+The Wizards: Dark Times - Brotherhood
+
+Thief Simulator VR: Greenview Street
+
+Tiger Blade
+
+Toss!
+
+Towers and Powers
+
+Townsmen VR
+
+Toy Trains
+
+Train Chase
+
+Travel The Words
+
+Tripp: A New Way to Meditate
+
+Ultrawings 2
+
+Umurangi Generation VR
+
+Unplugged - Air Guitar
+
+Vampire: The Masquerade - Justice
+
+Vendetta Forever
+
+Vegas Infinite
+
+Ven VR Adventure
+
+Vertigo 2
+
+Very Bad Dreams Dean's Dream Edition
+
+Vetrix Worlds
+
+VR Skater
+
+Walkabout Mini Golf
+
+Waltz of the Wizard
+
+WHAT THE BAT?
+
+You, Calligrapher
+
+Zombie Bar Simulator VR
+
+Zombieland: Headshot Fever Reloaded
+
+---
+
+**PS5 Bloat list, ranging from exclusive to 9th gen exclusive**
+[Link](https://www.reddit.com/user/Icalivy/comments/1g8k89u/ps5_games_not_on_ps4_the_bloat_list/)
+
+---
+
+**Defunct games**
+
+Atlas Fallen (Replaced with newer version)
+
+Concord (R.I.P.)
+
+Krispain Hero VR: Roguelite Dungeon Shooter Simulator (for PSVR2)
+
+Run or Die VR - Real Parkour Quest Simulator Game (for PSVR2)
+
+The Great Fleece
+
+The Matrix Awakens: An Unreal Engine 5 Experience
+
+---
+
+**All other Sony exclusives not listed above with a PS5/PS4 and/or PC version, not including PSP native PS5 re-releases**
+
+Ghost of Tsushima Director’s Cut
+
+Ghost of Tsushima: Legends
+
+God of War Ragnarök
+
+Gran Turismo 7
+
+Horizon Forbidden West
+
+Marvel's Spider-Man: Miles Morales
+
+MLB The Show 21, 22, 23, 24
+
+Sackboy: A Big Adventure
+
+---
+
+**Some games that are on the way, but definitely not all**
+
+AI Limit
+
+Ballad of Antara
+
+Cities Skylines II
+
+Clair Obscure: Expedition 33
+
+Cuisineer
+
+Death Stranding 2: On The Beach (PS5 Exclusive)
+
+Doom: The Dark Ages
+
+Dragon Quest III HD-2D Remake
+
+Fantasian Neo Dimension
+
+Ghost of Yōtei (PS5 Exclusive)
+
+Kingdom Come: Deliverance II
+
+Kingdom Hearts IV
+
+Lego Horizon Adventures
+
+Marvel's Wolverine (PS5 Exclusive)
+
+Max Payne 1 & 2 Remake
+
+Metal Gear Solid Δ: Snake Eater
+
+Monster Hunter Wilds
+
+Morkull Ragast's Rage
+
+Judas
+
+Phantom Blade Zero
+
+Pragmata
+
+Prison Architect 2
+
+Psysint (PS5 Exclusive)
+
+Rusty Rabbit
+
+Sid Meier's Civilization VII
+
+Silent Hill F (Unreleased)
+
+Silent Hill: Townfall
+
+Star Wars: Knights of the Old Republic Remake
+
+Sword of the Sea
+
+Synduality Echo of Ada
+
+Tales of the Shire: A The Lord of The Rings Game
+
+The First Berserker: Khazan
+
+Two Point Museum
+
+Where Winds Meet
+
+Wuchang: Fallen Feathers
+
+(Feel free to help me add to this list)
+
+---
+
+I just bought a PS5 coming from PS4 and wanted some exclusives I couldn't play prior, hence why I had to do some research. I hope it helps you!",965,0.9,316,Icalivy,4028.0,PS5,2024-10-21T03:16:10,https://www.reddit.com/r/PS5/comments/1g8jwka/all_ps5_exclusives_not_on_ps4_list/,critical,False,"pc,playstation,xbox,switch",Optional mode,"glitch,broken,error,lag",0.039960247750102824,0.4750313347414798
+1g7u7dk,Why I Stuck with the Original Switch Dock After Researching 3rd-Party Options,"[My 'Portable' setup with Dock](https://preview.redd.it/syjyp99gevvd1.jpg?width=3786&format=pjpg&auto=webp&s=bcaa59d9e4a8f16f273b5aacac3c3210f7b46877)
+
+**TL;DR:** Bought a used original dock and converted it into a smaller, more portable version.
+
+Recently after getting my Switch, I went deep down the charging and docking rabbit hole. I thought I did my research, but wow, I was way off! There’s so much I didn’t know—docks, accessories, charging standards, you name it. The chances of bricking the switch, plus, the number of fake ""original"" chargers on the market is insane. Honestly, I think even some authorized Nintendo sellers can’t tell the difference. If you’re interested, I will do a separate post comparing real vs. fake chargers. But this post is all about docks—yes, plural. I checked out a few 'recommended' third-party options before deciding to stick the original dock.
+
+# Genki Covert Dock:
+
+It’s got mixed reviews. The concept is great, it’s super compact, and it’s the smallest out there, but there are some dealbreakers:
+
+* It might still brick your Switch.
+* Bricked on it's own
+* HDMI might stop working
+* The HDMI port is pointless if you're not using the display feature.
+* Lower power output (even their Covert Dock 2 only supports 45W).
+* Brightness issue
+* flickering
+* Unresponsive CS.
+* Pricey.
+
+**Amazon reviews:**  
+4.5/5 reviews, do checkout 1 to 3 stars and evaluating yourself.  
+[https://www.amazon.com/Global-Covert-Charger-Nintendo-Portable/dp/B0CRXZ6RM6?th=1](https://www.amazon.com/Global-Covert-Charger-Nintendo-Portable/dp/B0CRXZ6RM6?th=1)
+
+[Display function stop working after few months](https://www.reddit.com/r/NintendoSwitch/comments/kxsxox/comment/gjzxnpq/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+**General overall bad reviews was:**
+
+* HDMI working with just couple of uses
+* The dock dead within a year or after
+
+Source:  
+[Reddit: Genki Dock Reviews](https://www.reddit.com/r/NintendoSwitch/comments/13dh9jp/genki_covert_dock_for_nintendo_switch/)
+
+[Reddit: Bricked Switch Report](https://www.reddit.com/r/NintendoSwitch/comments/zsq2um/my_genki_covert_dock_bricked_my_switch/)
+
+[Convert dock brick report 2](https://www.reddit.com/r/NintendoSwitch/comments/govicm/i_think_my_genki_cover_dock_just_bricked_my_switch/)
+
+
+
+# Skull & Co JumpGate Pro:
+
+Another one with mixed reviews. It has a cool, slim design and a detachable USB hub, which is clever. But here are the issues I found:
+
+* Sleep/wake problems on Sony TV. [Source: ](https://www.reddit.com/r/NintendoPH/comments/131sidu/comment/k9czeeg/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+* The spring push mechanism can get stuck.
+* Docking isn’t seamless; aligning the USB-C is tricky without the proper alignment support like the original dock.
+* Confirmed with their CS, It only works with the original Switch adapter, likely because they are not using a proper PD chip.
+* And honestly, their skull logo? Kinda ugly—definitely a reason I skipped their slim case.
+
+[S&C support team](https://preview.redd.it/tb0xwbuhcvvd1.jpg?width=583&format=pjpg&auto=webp&s=12aa9ae5a3536b9bcce6f79c7b84e5d0639bb6af)
+
+# Almost give up
+
+After going through all that, I said screw it and stick with my original dock. I didn’t want to risk bricking my Switch. After some research again turns out, there were custom shells for the original dock back in the day, but they’re hard to find now. Also, the idea that the Switch doesn’t use proper PD charging? Total myth.
+
+# Original Dock and AC Adapter:
+
+The original dock and adapter support PD 2.0 and DCP with two power outputs:
+
+* 5V 1.5A
+* 15V 2.6A
+
+Source:  
+YT: [Original Dock Charging Test](https://youtu.be/UIZOiysipWs?t=84)
+
+Any decent **45W PD** charger should work for dock mode. However, some **Anker GaNPrime** chargers don’t work, but they’ll still charge the Switch itself fine.
+
+Source:  
+Reddit: [Anker Gan charger that works for dock mode](https://www.reddit.com/r/anker/comments/xdgvr7/ganprime_chargers_dont_work_with_docked_nintendo/)  
+YT: [Live Anker Charger dock test](https://youtu.be/IGoT2lrlhk4?si=vazhpJtTUHRTfUkD)
+
+# Recommended Charging Cable
+
+While doing my research, I also found recommendations for charging cables that should work perfectly with the dock. Here’s what to look for:
+
+* **45W and above PD Type-C cable**
+* **Proper PD Type-C cable with a** [56k ohm resistor](https://www.reddit.com/r/NintendoSwitch/comments/ckaiiv/an_engineers_pov_on_the_3rd_party_dock_switch/) (recommended for safe charging)
+* **Any reputable branded PD cables** should work fine.
+
+# Custom Shells:
+
+I found two custom shell options:
+
+**Aolion DIY Case:**
+
+* The CS is pretty clueless.
+* The new shell has a built-in big LED, but it’s bulky and ugly.
+* Can't tell if which shell works with OLED dock.
+* The installation instructions are vague and miss key steps.
+* The shell looks flimsy.
+
+**ExtremeRate AiryDock DIY Kit:**
+
+* Super detailed install instructions on [YouTube](https://youtu.be/gWbhvnb5Lyw?si=INb6HbeThICWxrKc).
+* Compatible with both the regular and OLED dock.
+* Better design and higher quality.
+* Well-packaged with spare parts.
+* Few colors and design choice.
+
+# Installation:
+
+During the disassembly, I accidentally broke the OLED dock's LED. The dock still works fine, but I just cannot let it go, so I had to source a replacement LED from China (because, of course, you can get *anything* from China).
+
+[OLED Dock PCB and LED Light](https://preview.redd.it/ik5oh3nybvvd1.jpg?width=1512&format=pjpg&auto=webp&s=0580ac6684b8dab9453026d918a329a6ae6603f3)
+
+[Replacement OLED Dock LED](https://preview.redd.it/3jskr98ydvvd1.jpg?width=3024&format=pjpg&auto=webp&s=16fb92621608faec06cd686797d119207202e62a)
+
+I also added dust filters to the shell vents, which I think looks way better and keeps the dust out.
+
+[Added dust filter for dock shell](https://preview.redd.it/b51667f2evvd1.jpg?width=3024&format=pjpg&auto=webp&s=c4d319f534627511079826f03f84787404a9528d)
+
+[Added dust filter to bottom shell](https://preview.redd.it/c7lw3r94evvd1.jpg?width=3024&format=pjpg&auto=webp&s=a3ed636cae329e6e09df7258fc01323eb0dafb1f)
+
+# Size comparison
+
+[OG dock vs Custom shell](https://preview.redd.it/4js18lgqevvd1.jpg?width=4032&format=pjpg&auto=webp&s=455a868c199b348c77512dfc56adcb20ef7c5de9)
+
+[The size different is massive!](https://preview.redd.it/2fj178yqevvd1.jpg?width=4032&format=pjpg&auto=webp&s=43491b43669566c98c5c4d54d4b37a7cf0d3e1dd)
+
+[It's just insane it big it original shell look.](https://preview.redd.it/85gl1v8revvd1.jpg?width=3949&format=pjpg&auto=webp&s=a047a6b5bfea2925352d8110932707211d0b6243)
+
+After the conversation, I added 3 rubber dust blockers for USB and Ethernet port.
+
+[USB ports, sry out of focus a little.](https://preview.redd.it/1gz51v98fvvd1.jpg?width=4032&format=pjpg&auto=webp&s=fc63ee8ed43baab49739a45f5e697d8070340b66)
+
+[Ethernet port, sry again it looks out of focus.](https://preview.redd.it/mrvopb2dfvvd1.jpg?width=4032&format=pjpg&auto=webp&s=2656ace23bab368bf81b38ac4073100ecf9e9eda)
+
+# My ‘Portable’ Setup:
+
+* Switch OLED
+* UGreen PD 60W Type-C cable with built-in 56kΩ chip
+* UGreen 65W GaN 2C1A 3-port PD charger
+* SmallRig ultra-slim 4K HDMI cable
+* Original dock reshelled with the ExtremeRate AiryDock (I seriously hope they come up with a better name).
+
+[Switch OLED+HDMI\/Type-C Cables+Reshell Dock+ 65W Charger](https://preview.redd.it/k0a8fy0zfvvd1.jpg?width=3786&format=pjpg&auto=webp&s=052c27b60c8bc2e21a4a9cc2d99445c50abc0b6f)
+
+Overall, this is my perfect setup, and it didn’t cost much (aside from that replacement LED I broke). I already had the UGreen charger and cable for years, so the real cost was just getting the used dock and the shell. The DIY process was pretty straightforward, and now I don’t have to worry about a third-party dock bricking my Switch.
+
+If you’re curious, I can dive into the whole fake charger mess in another post. Thanks for reading, and happy gaming! Cheers!",1010,0.83,299,Chillenge,7966.0,NintendoSwitch,2024-10-20T04:35:02,https://www.reddit.com/r/NintendoSwitch/comments/1g7u7dk/why_i_stuck_with_the_original_switch_dock_after/,high,False,"pc,xbox,switch",original,"issue,problem,stuck",0.10301207955847129,0.5946256778731005
+1gl89ea,"I literally do not care what they add to the Switch 2, I just want them to fix all quality control issues","I remember the days of the Wii and DS. Both of those systems were built like tanks. They were built well and felt like high quality products. And through all the years of abuse I put them through, never once did they break or start having problems
+
+Meanwhile every single official Nintendo Switch product (joy cons, pro controller, console itself, dock) I own has had something break or stop working on me. And I treated every single one of those items with an unbelievable amount of care. Buttons were unresponsive, joysticks drifted. And every time I sent one back to Nintendo on warranty, they would send me a new one that would start showing issues of its own within only a few weeks. So eventually I stopped bothering with sending them back
+
+I don’t care if they changed almost nothing with the Switch 2. As long as they just make their products work, I will be happy",804,0.83,317,GulliblePea3691,24806.0,NintendoSwitch,2024-11-06T15:29:38,https://www.reddit.com/r/NintendoSwitch/comments/1gl89ea/i_literally_do_not_care_what_they_add_to_the/,medium,False,switch,,"issue,problem,fix",0.17525046382189238,0.5087940630797774
+1g485k8,Super Mario Party Jamboree: Review MegaThread,"# General Information
+
+Release date: October 17, 2024
+
+No. of players: Single System (1-4), Online (1-20)
+
+Genre: Party, Multiplayer, Board game
+
+Publisher: Nintendo
+
+ESRB rating: Everyone
+
+Supported play modes: TV mode, Tabletop mode, Handheld mode
+
+Game file size: 5.3 GB
+
+Supported languages: Dutch, English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Simplified Chinese, Spanish, Traditional Chinese
+
+Official website: https://www.nintendo.com/us/store/products/super-mario-party-jamboree-switch/
+
+# Reviews
+
+## Aggregators
+
+* [Metacritic](https://www.metacritic.com/game/super-mario-party-jamboree/) \- 81
+* [OpenCritic](https://opencritic.com/game/16873/super-mario-party-jamboree) \- 83
+
+## Articles
+
+* CGMagazine - [9 / 10](https://www.cgmagonline.com/review/game/super-mario-party-jamboree-switch/)
+* Checkpoint Gaming - [8 / 10](https://checkpointgaming.net/reviews/2024/10/super-mario-party-jamboree-review-party-time/)
+* Console Creatures - [8 / 10 ](https://www.consolecreatures.com/review-super-mario-party-jamboree/)
+* Daily Mirror - [4 / 5 ](https://www.mirror.co.uk/gaming/super-mario-party-jamboree-review-33891490)
+* Digital Trends - [3.5 / 5 ](https://www.digitaltrends.com/gaming/super-mario-party-jamboree-review/)
+* Digitec Magazine - *German* - [5 / 5 ](https://www.digitec.ch/de/page/super-mario-party-jamboree-so-umfangreich-und-huebsch-wie-noch-nie-35037)
+* Eurogamer.pt - *Portuguese* - [4 / 5 ](https://www.eurogamer.pt/super-mario-party-jamboree-review-insanidade-da-competicao-em-tabuleiros-e-fora-deles)
+* GAMES.CH - *German* - [85%](https://www.games.ch/super-mario-party-jambore/test/review-li9j/)
+* GRYOnline.pl - *Polish* - [8.5 / 10](https://www.gry-online.pl/recenzje/super-mario-party-jamboree-recenzja-gry-jestescie-zaproszeni-na-n/zc46aa)
+* GameSpot - [6 / 10](https://www.gamespot.com/reviews/super-mario-party-jamboree-review-this-party-is-too-crowded/1900-6418300/)
+* Gameblog - *French* - [8 / 10](https://www.gameblog.fr/jeu-video/jeux/tests/test-mario-party-jamboree-620397)
+* Glitched Africa - [9 / 10](https://www.glitched.africa/super-mario-party-jamboree-review/)
+* God is a Geek - [9 / 10](https://www.godisageek.com/reviews/super-mario-party-jamboree-review/)
+* Nintendo Life - [9 / 10](https://www.nintendolife.com/reviews/nintendo-switch/super-mario-party-jamboree)
+* PPE.pl - *Polish* - [9 / 10](https://www.ppe.pl/recenzje/354368/super-mario-party-jamboree-recenzja-gry-wiecej-mocniej-ale-czy-lepiej.html)
+* Press Start - [8.5 / 10](https://press-start.com.au/reviews/nintendo-switch/2024/10/15/super-mario-party-jamboree-review-an-rsvp-worth-responding-to/)
+* SECTOR.sk - *Slovak* - [8.5 / 10](https://www.sector.sk/recenzia/39621/super-mario-party-jamboree.htm)
+* Spaziogames - *Italian* - [8.5 / 10](https://www.spaziogames.it/articoli/super-mario-party-jamboree-recensione)
+* TheSixthAxis - [9 / 10](https://www.thesixthaxis.com/2024/10/15/super-mario-party-jamboree-review/)
+* VGC - [4 / 5 ](https://www.videogameschronicle.com/review/super-mario-party-jamboree/)
+
+^(This list was generated via manual export from OpenCritic. Last updated: 10/15/2024 10:37am E.T.)
+
+Cheers,
+
+The [r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/) mod team",776,0.97,448,NintendoSwitchMods,146678.0,NintendoSwitch,2024-10-15T09:48:59,https://www.reddit.com/r/NintendoSwitch/comments/1g485k8/super_mario_party_jamboree_review_megathread/,unspecified,False,switch,,glitch,-0.012525879917184266,0.14772256728778468
+1ghl8hn,Nintendo Switch Digital Game Sale on US eShop (Full List of Games rated 70+ on Metacritic),"The list includes all Nintendo Switch titles on sale with a Metacritic score of 70 or above, accurate to date.
+
+* M: Matches Historical low
+* L: New Historical Low
+
+Title| % Off|Price|Metacritic|Historical
+---|---|----|----|----
+[3000th Duel](https://nintendo.com/us/store/products/3000th-duel-switch/)| 70%|$4.49|71|M
+[7th Sector](https://nintendo.com/us/store/products/7th-sector-switch/)| 50%|$9.99|70|M
+[A Little Golf Journey](https://nintendo.com/us/store/products/a-little-golf-journey-switch/)| 70%|$3.89|80|L
+[A Musical Story](https://nintendo.com/us/store/products/a-musical-story-switch/)| 60%|$5.99|79|M
+[A Normal Lost Phone](https://nintendo.com/us/store/products/a-normal-lost-phone-switch/)| 61%|$2.33|73|
+[Adventures of Chris](https://nintendo.com/us/store/products/adventures-of-chris-switch/)| 80%|$2.99|75|M
+[AER Memories of Old](https://nintendo.com/us/store/products/aer-memories-of-old-switch/)| 80%|$1.99|73|M
+[Afterparty](https://nintendo.com/us/store/products/afterparty-switch/)| 90%|$1.99|74|L
+[Alba: A Wildlife Adventure](https://nintendo.com/us/store/products/alba-a-wildlife-adventure-switch/)| 75%|$4.99|80|M
+[Alder's Blood: Definitive Edition](https://nintendo.com/us/store/products/alders-blood-definitive-edition-switch/)| 70%|$5.99|74|
+[Anarcute](https://nintendo.com/us/store/products/anarcute-switch/)| 80%|$2.99|74|M
+[Andro Dunos II](https://nintendo.com/us/store/products/andro-dunos-2-switch/)| 90%|$1.99|78|M
+[AngerForce: Reloaded](https://nintendo.com/us/store/products/angerforce-reloaded-for-nintendo-switch-switch/)| 30%|$6.99|73|
+[Anomaly Agent](https://nintendo.com/us/store/products/anomaly-agent-switch/)| 50%|$7.49|80|M
+[Arise: A Simple Story - Definitive Edition](https://nintendo.com/us/store/products/arise-a-simple-story-definitive-edition-switch/)| 85%|$2.99|81|M
+[Aspire: Ina's Tale](https://nintendo.com/us/store/products/aspire-inas-tale-switch/)| 80%|$2.59|70|
+[Assault Suits Valken DECLASSIFIED](https://nintendo.com/us/store/products/assault-suits-valken-declassified-switch/)| 60%|$9.99|76|M
+[ASTLIBRA Revision](https://nintendo.com/us/store/products/astlibra-revision-switch/)| 25%|$18.74|79|L
+[Astor: Blade of the Monolith](https://nintendo.com/us/store/products/astor-blade-of-the-monolith-switch/)| 40%|$14.99|71|M
+[Astrologaster](https://nintendo.com/us/store/products/astrologaster-switch/)| 70%|$2.99|79|M
+[ATONE: Heart of the Elder Tree](https://nintendo.com/us/store/products/atone-heart-of-the-elder-tree-switch/)| 85%|$2.24|76|
+[Backpack Hero](https://nintendo.com/us/store/products/backpack-hero-switch/)| 35%|$12.99|76|L
+[Bad Dream: Coma](https://nintendo.com/us/store/products/bad-dream-coma-switch/)| 75%|$2.49|72|
+[Badland: Game of the Year Edition](https://nintendo.com/us/store/products/badland-game-of-the-year-edition-switch/)| 67%|$1.99|76|M
+[Bang-On Balls: Chronicles](https://nintendo.com/us/store/products/bang-on-balls-chronicles-switch/)| 60%|$9.99|86|M
+[Batbarian: Testament of the Primordials](https://nintendo.com/us/store/products/batbarian-testament-of-the-primordials-switch/)| 80%|$2.99|74|L
+[Bear and Breakfast](https://nintendo.com/us/store/products/bear-and-breakfast-switch/)| 40%|$11.99|72|M
+[Beat Cop](https://nintendo.com/us/store/products/beat-cop-switch/)| 85%|$2.24|70|
+[Before I Forget](https://nintendo.com/us/store/products/before-i-forget-switch/)| 55%|$3.59|76|M
+[BioShock: The Collection](https://nintendo.com/us/store/products/bioshock-the-collection-switch/)| 80%|$9.99|84|M
+[BLACK BIRD](https://nintendo.com/us/store/products/black-bird-switch/)| 30%|$13.29|73|
+[Blasphemous](https://nintendo.com/us/store/products/blasphemous-switch/)| 75%|$6.24|77|M
+[BLAZBLUE CENTRALFICTION Special Edition](https://nintendo.com/us/store/products/blazblue-centralfiction-special-edition-switch/)| 75%|$12.49|86|M
+[BLAZBLUE CROSS TAG BATTLE](https://nintendo.com/us/store/products/blazblue-cross-tag-battle-switch/)| 75%|$4.99|79|
+[Blazing Beaks](https://nintendo.com/us/store/products/blazing-beaks-switch/)| 85%|$2.24|80|
+[Blossom Tales II: The Minotaur Prince](https://nintendo.com/us/store/products/blossom-tales-ii-the-minotaur-prince-switch/)| 45%|$8.24|77|M
+[Blossom Tales: The Sleeping King](https://nintendo.com/us/store/products/blossom-tales-the-sleeping-king-switch/)| 75%|$3.74|80|M
+[Blue Fire](https://nintendo.com/us/store/products/blue-fire-switch/)| 75%|$4.99|71|M
+[Bombslinger](https://nintendo.com/us/store/products/bombslinger-switch/)| 80%|$2.39|76|M
+[Bonkies](https://nintendo.com/us/store/products/bonkies-switch/)| 80%|$2.99|76|
+[Borderlands 3 Ultimate Edition](https://nintendo.com/us/store/products/borderlands-3-ultimate-edition-switch/)| 60%|$23.99|77|M
+[Borderlands Legendary Collection](https://nintendo.com/us/store/products/borderlands-legendary-collection-switch/)| 80%|$9.99|82|M
+[Borderlands: Game of the Year Edition](https://nintendo.com/us/store/products/borderlands-game-of-the-year-edition-switch/)| 67%|$9.89|76|M
+[Borderlands: The Handsome Collection](https://nintendo.com/us/store/products/borderlands-the-handsome-collection-switch/)| 75%|$9.99|82|M
+[BPM: Bullets Per Minute](https://nintendo.com/us/store/products/bpm-bullets-per-minute-switch/)| 50%|$12.49|80|M
+[Bramble: The Mountain King](https://nintendo.com/us/store/products/bramble-the-mountain-king-switch/)| 60%|$11.99|80|M
+[Breakers Collection](https://nintendo.com/us/store/products/breakers-collection-switch/)| 50%|$9.99|80|M
+[Bridge Constructor Portal](https://nintendo.com/us/store/products/bridge-constructor-portal-switch/)| 87%|$1.99|71|M
+[Bridge Constructor Ultimate Edition](https://nintendo.com/us/store/products/bridge-constructor-ultimate-edition-switch/)| 87%|$1.99|72|M
+[Buddy Simulator 1984](https://nintendo.com/us/store/products/buddy-simulator-1984-switch/)| 60%|$3.99|79|L
+[Bulb Boy](https://nintendo.com/us/store/products/bulb-boy-switch/)| 72%|$2.51|75|
+[Bulletstorm: Duke of Switch Edition](https://nintendo.com/us/store/products/bulletstorm-duke-of-switch-edition-switch/)| 75%|$7.49|74|
+[Burly Men at Sea](https://nintendo.com/us/store/products/burly-men-at-sea-switch/)| 80%|$1.99|72|M
+[Bury me, my Love](https://nintendo.com/us/store/products/bury-me-my-love-switch/)| 60%|$1.99|73|
+[BUTCHER](https://nintendo.com/us/store/products/butcher-switch/)| 80%|$1.99|70|M
+[Cake Bash](https://nintendo.com/us/store/products/cake-bash-switch/)| 70%|$5.99|75|M
+[Candle: The Power of the Flame](https://nintendo.com/us/store/products/candle-the-power-of-the-flame-switch/)| 85%|$2.99|72|
+[Candleman](https://nintendo.com/us/store/products/candleman-switch/)| 35%|$9.74|75|L
+[Capes](https://nintendo.com/us/store/products/capes-switch/)| 25%|$29.99|79|M
+[Caravan SandWitch](https://nintendo.com/us/store/products/caravan-sandwitch-switch/)| 20%|$19.99|73|L
+[Card-en-Ciel](https://nintendo.com/us/store/products/card-en-ciel-switch/)| 10%|$22.49|76|L
+[Castaway](https://nintendo.com/us/store/products/castaway-switch/)| 20%|$6.39|70|M
+[Cat Quest](https://nintendo.com/us/store/products/cat-quest-switch/)| 75%|$3.24|74|
+[Cat Quest II](https://nintendo.com/us/store/products/cat-quest-ii-switch/)| 75%|$3.74|77|
+[Cat Quest III](https://nintendo.com/us/store/products/cat-quest-iii-switch/)| 25%|$14.99|86|L
+[Cattails](https://nintendo.com/us/store/products/cattails-switch/)| 87%|$1.99|75|M
+[Chaos on Deponia](https://nintendo.com/us/store/products/chaos-on-deponia-switch/)| 80%|$1.99|70|M
+[Chasm](https://nintendo.com/us/store/products/chasm-switch/)| 65%|$6.99|79|
+[Children of Silentown](https://nintendo.com/us/store/products/children-of-silentown-switch/)| 60%|$7.99|78|M
+[Children of Zodiarcs](https://nintendo.com/us/store/products/children-of-zodiarcs-switch/)| 88%|$2.15|81|
+[Chroma Squad](https://nintendo.com/us/store/products/chroma-squad-switch/)| 60%|$5.99|74|
+[Cinders](https://nintendo.com/us/store/products/cinders-switch/)| 80%|$3.99|73|
+[Cloud Gardens](https://nintendo.com/us/store/products/cloud-gardens-switch/)| 80%|$3.59|75|M
+[Clustertruck](https://nintendo.com/us/store/products/clustertruck-switch/)| 75%|$3.74|74|M
+[COCOON](https://nintendo.com/us/store/products/cocoon-switch/)| 40%|$14.99|89|M
+[Colt Canyon](https://nintendo.com/us/store/products/colt-canyon-switch/)| 80%|$2.99|72|
+[Cook, Serve, Delicious! 2!!](https://nintendo.com/us/store/products/cook-serve-delicious-2-switch/)| 85%|$2.00|85|
+[Crashlands](https://nintendo.com/us/store/products/crashlands-switch/)| 80%|$2.99|75|M
+[Cris Tales](https://nintendo.com/us/store/products/cris-tales-switch/)| 90%|$3.99|72|M
+[Cursed to Golf](https://nintendo.com/us/store/products/cursed-to-golf-switch/)| 75%|$4.99|75|M
+[Cyber Hook](https://nintendo.com/us/store/products/cyber-hook-switch/)| 80%|$2.99|74|M
+[Cyber Protocol](https://nintendo.com/us/store/products/cyber-protocol-switch/)| 80%|$1.99|71|
+[Dandy Dungeon - Legend of Brave Yamada -](https://nintendo.com/us/store/products/dandy-dungeon-legend-of-brave-yamada-switch/)| 30%|$13.29|78|
+[Dark Nights with Poe and Munro](https://nintendo.com/us/store/products/dark-nights-with-poe-and-munro-switch/)| 66%|$4.41|70|
+[Darkwood](https://nintendo.com/us/store/products/darkwood-switch/)| 70%|$4.49|74|M
+[DC's Justice League: Cosmic Chaos](https://nintendo.com/us/store/products/dcs-justice-league-cosmic-chaos-switch/)| 60%|$15.99|79|
+[Dead Cells](https://nintendo.com/us/store/products/dead-cells-switch/)| 50%|$12.49|89|M
+[Dead in Vinland - True Viking edition](https://nintendo.com/us/store/products/dead-in-vinland-true-viking-edition-switch/)| 80%|$5.59|74|
+[Death Road to Canada](https://nintendo.com/us/store/products/death-road-to-canada-switch/)| 75%|$3.74|79|L
+[Death's Gambit: Afterlife](https://nintendo.com/us/store/products/deaths-gambit-afterlife-switch/)| 45%|$10.99|78|M
+[Demon Turf](https://nintendo.com/us/store/products/demon-turf-switch/)| 50%|$12.49|76|M
+[Demon Turf: Neon Splash](https://nintendo.com/us/store/products/demon-turf-neon-splash-switch/)| 30%|$3.49|83|
+[Dex](https://nintendo.com/us/store/products/dex-switch/)| 90%|$1.99|72|M
+[Die for Valhalla!](https://nintendo.com/us/store/products/die-for-valhalla-switch/)| 83%|$1.99|70|L
+[Dimension Drive](https://nintendo.com/us/store/products/dimension-drive-switch/)| 85%|$1.99|72|M
+[Disjunction](https://nintendo.com/us/store/products/disjunction-switch/)| 88%|$1.99|70|M
+[DoDonPachi Resurrection](https://nintendo.com/us/store/products/dodonpachi-resurrection-switch/)| 50%|$9.99|87|M
+[Doki Doki Literature Club Plus!](https://nintendo.com/us/store/products/doki-doki-literature-club-plus-switch/)| 25%|$11.24|85|
+[Double Dragon & Kunio-kun: Retro Brawler Bundle](https://nintendo.com/us/store/products/double-dragon-and-kunio-kun-retro-brawler-bundle-switch/)| 77%|$9.19|78|L
+[Double Kick Heroes](https://nintendo.com/us/store/products/double-kick-heroes-switch/)| 70%|$6.59|74|M
+[Dread Nautical](https://nintendo.com/us/store/products/dread-nautical-switch/)| 65%|$6.99|71|
+[DREDGE](https://nintendo.com/us/store/products/dredge-switch/)| 35%|$16.24|84|M
+[DROS](https://nintendo.com/us/store/products/dros-switch/)| 84%|$3.99|70|L
+[Dungeons 3 - Nintendo Switch Edition](https://nintendo.com/us/store/products/dungeons-3-nintendo-switch-edition-switch/)| 40%|$23.99|72|L
+[Earth Atlantis](https://nintendo.com/us/store/products/earth-atlantis-switch/)| 87%|$1.99|71|M
+[Earth Defense Force: World Brothers 2](https://nintendo.com/us/store/products/earth-defense-force-world-brothers-2-switch/)| 25%|$29.99|81|L
+[Elsie](https://nintendo.com/us/store/products/elsie-switch/)| 20%|$19.99|78|M
+[Epic Dumpster Bear 1.5 DX: Dumpster Fire Rebirth](https://nintendo.com/us/store/products/epic-dumpster-bear-1-5-dx-dumpster-fire-rebirth-switch/)| 50%|$2.49|71|L
+[Everspace - Stellar Edition](https://nintendo.com/us/store/products/everspace-stellar-edition-switch/)| 80%|$7.99|78|M
+[F1 Manager 2024](https://nintendo.com/us/store/products/f1-manager-2024-switch/)| 30%|$24.49|80|L
+[Faeria](https://nintendo.com/us/store/products/faeria-switch/)| 70%|$5.99|80|
+[Fight'N Rage](https://nintendo.com/us/store/products/fightn-rage-switch/)| 70%|$5.99|79|L
+[Figment](https://nintendo.com/us/store/products/figment-switch/)| 90%|$1.99|75|M
+[Figment 2: Creed Valley](https://nintendo.com/us/store/products/figment-2-creed-valley-switch/)| 90%|$2.49|72|L
+[Flipping Death](https://nintendo.com/us/store/products/flipping-death-switch/)| 90%|$1.99|83|M
+[Foretales](https://nintendo.com/us/store/products/foretales-switch/)| 40%|$11.99|77|M
+[Formula Retro Racing](https://nintendo.com/us/store/products/formula-retro-racing-switch/)| 80%|$2.99|76|
+[Fuga: Melodies of Steel](https://nintendo.com/us/store/products/fuga-melodies-of-steel-switch/)| 50%|$19.99|82|M
+[Fuga: Melodies of Steel 2](https://nintendo.com/us/store/products/fuga-melodies-of-steel-2-switch/)| 40%|$23.99|84|M
+[Fury Unleashed](https://nintendo.com/us/store/products/fury-unleashed-switch/)| 90%|$1.99|76|M
+[Ghost of a Tale](https://nintendo.com/us/store/products/ghost-of-a-tale-switch/)| 75%|$6.24|82|M
+[Gigantosaurus: Dino Kart](https://nintendo.com/us/store/products/gigantosaurus-dino-kart-switch/)| 60%|$15.99|71|
+[Glyph](https://nintendo.com/us/store/products/glyph-switch/)| 80%|$1.99|70|M
+[Golf Club Nostalgia](https://nintendo.com/us/store/products/golf-club-nostalgia-switch/)| 80%|$1.99|77|M
+[Golf Peaks](https://nintendo.com/us/store/products/golf-peaks-switch/)| 60%|$1.99|78|
+[Golf Story](https://nintendo.com/us/store/products/golf-story-switch/)| 73%|$3.99|78|L
+[Goodbye Deponia](https://nintendo.com/us/store/products/goodbye-deponia-switch/)| 80%|$1.99|77|M
+[Green Hell](https://nintendo.com/us/store/products/green-hell-switch/)| 85%|$3.74|76|
+[Guacamelee! 2](https://nintendo.com/us/store/products/guacamelee-2-switch/)| 75%|$4.99|87|M
+[Hades](https://nintendo.com/us/store/products/hades-switch/)| 60%|$9.99|93|M
+[Hammerwatch](https://nintendo.com/us/store/products/hammerwatch-switch/)| 55%|$4.49|70|
+[Hayfever](https://nintendo.com/us/store/products/hayfever-switch/)| 85%|$2.24|76|M
+[Heaven Dust 2](https://nintendo.com/us/store/products/heaven-dust-2-switch/)| 33%|$9.99|83|
+[Heroes of Hammerwatch - Ultimate Edition](https://nintendo.com/us/store/products/heroes-of-hammerwatch-ultimate-edition-switch/)| 70%|$5.99|85|L
+[Hitchhiker - A Mystery Game](https://nintendo.com/us/store/products/hitchhiker-a-mystery-game-switch/)| 70%|$5.99|74|
+[Holy Potatoes! A Weapon Shop?!](https://nintendo.com/us/store/products/holy-potatoes-a-weapon-shop-switch/)| 87%|$1.99|70|M
+[In Sound Mind](https://nintendo.com/us/store/products/in-sound-mind-switch/)| 90%|$3.49|70|M
+[inbento](https://nintendo.com/us/store/products/inbento-switch/)| 60%|$1.99|76|M
+[Inkulinati](https://nintendo.com/us/store/products/inkulinati-switch/)| 40%|$14.99|79|L
+[INVERSUS Deluxe](https://nintendo.com/us/store/products/inversus-deluxe-switch/)| 87%|$1.99|70|
+[ISLANDERS](https://nintendo.com/us/store/products/islanders-switch/)| 60%|$1.99|75|M
+[Joggernauts](https://nintendo.com/us/store/products/joggernauts-switch/)| 80%|$2.99|70|M
+[Jump King](https://nintendo.com/us/store/products/jump-king-switch/)| 60%|$5.19|74|M
+[Just Shapes & Beats](https://nintendo.com/us/store/products/just-shapes-and-beats-switch/)| 35%|$12.99|83|M
+[JUSTICE SUCKS](https://nintendo.com/us/store/products/justice-sucks-switch/)| 75%|$4.99|79|M
+[Kamaeru: A Frog Refuge](https://nintendo.com/us/store/products/kamaeru-a-frog-refuge-switch/)| 25%|$14.99|70|L
+[Ken Follett's The Pillars of the Earth](https://nintendo.com/us/store/products/ken-folletts-the-pillars-of-the-earth-switch/)| 87%|$1.99|79|M
+[Keylocker Turn Based Cyberpunk Action](https://nintendo.com/us/store/products/keylocker-turn-based-cyberpunk-action-switch/)| 10%|$17.99|70|M
+[KeyWe](https://nintendo.com/us/store/products/keywe-switch/)| 68%|$7.99|74|L
+[Koa and the Five Pirates of Mara](https://nintendo.com/us/store/products/koa-and-the-five-pirates-of-mara-switch/)| 50%|$9.99|73|M
+[L.A. Noire](https://nintendo.com/us/store/products/l-a-noire-switch/)| 50%|$24.99|79|M
+[Layers of Fear 2](https://nintendo.com/us/store/products/layers-of-fear-2-switch/)| 85%|$4.49|72|M
+[Layers of Fear: Legacy](https://nintendo.com/us/store/products/layers-of-fear-legacy-switch/)| 85%|$2.99|80|M
+[Lichtspeer: Double Speer Edition](https://nintendo.com/us/store/products/lichtspeer-double-speer-edition-switch/)| 80%|$1.99|71|
+[Lil Gator Game](https://nintendo.com/us/store/products/lil-gator-game-switch/)| 40%|$11.99|84|M
+[Lil' Guardsman](https://nintendo.com/us/store/products/lil-guardsman-switch/)| 40%|$11.99|85|M
+[Linelight](https://nintendo.com/us/store/products/linelight-switch/)| 75%|$2.49|77|M
+[LISA: Definitive Edition](https://nintendo.com/us/store/products/lisa-definitive-edition-switch/)| 40%|$14.99|83|L
+[Long Gone Days](https://nintendo.com/us/store/products/long-gone-days-switch/)| 30%|$17.49|77|
+[Long Live The Queen](https://nintendo.com/us/store/products/long-live-the-queen-switch/)| 60%|$3.99|73|M
+[Lorelei and the Laser Eyes](https://nintendo.com/us/store/products/lorelei-and-the-laser-eyes-switch/)| 25%|$18.74|88|L
+[Lost Words: Beyond the Page](https://nintendo.com/us/store/products/lost-words-beyond-the-page-switch/)| 85%|$2.24|78|
+[Lucah: Born of a Dream](https://nintendo.com/us/store/products/lucah-born-of-a-dream-switch/)| 75%|$2.49|79|L
+[Lumini](https://nintendo.com/us/store/products/lumini-switch/)| 80%|$1.99|75|M
+[Melbits World](https://nintendo.com/us/store/products/melbits-world-switch/)| 78%|$2.19|71|
+[MO:Astray](https://nintendo.com/us/store/products/moastray-switch/)| 70%|$4.49|81|M
+[Mon Amour](https://nintendo.com/us/store/products/mon-amour-switch/)| 30%|$6.29|79|
+[Monster Boy and the Cursed Kingdom](https://nintendo.com/us/store/products/monster-boy-and-the-cursed-kingdom-switch/)| 75%|$9.99|86|M
+[Monster Hunter Rise](https://nintendo.com/us/store/products/monster-hunter-rise-switch/)| 75%|$9.99|88|M
+[Monster Prom: XXL](https://nintendo.com/us/store/products/monster-prom-xxl-switch/)| 75%|$3.99|73|M
+[moon](https://nintendo.com/us/store/products/moon-switch/)| 30%|$13.29|77|M
+[Mortal Kombat 1](https://nintendo.com/us/store/products/mortal-kombat-1-switch/)| 50%|$19.99|83|L
+[MotoGP 22](https://nintendo.com/us/store/products/motogp-22-switch/)| 85%|$4.49|76|M
+[MouseCraft](https://nintendo.com/us/store/products/mousecraft-switch/)| 80%|$1.99|77|M
+[Moving Out 2](https://nintendo.com/us/store/products/moving-out-2-switch/)| 50%|$14.99|78|M
+[My Memory of Us](https://nintendo.com/us/store/products/my-memory-of-us-switch/)| 80%|$2.99|77|
+[Mystic Gate](https://nintendo.com/us/store/products/mystic-gate-switch/)| 35%|$6.49|73|M
+[NBA 2K25](https://nintendo.com/us/store/products/nba-2k25-switch/)| 35%|$38.99|79|L
+[Neon Abyss](https://nintendo.com/us/store/products/neon-abyss-switch/)| 75%|$4.99|79|M
+[NeuroVoider](https://nintendo.com/us/store/products/neurovoider-switch/)| 80%|$2.79|85|M
+[Neversong](https://nintendo.com/us/store/products/neversong-switch/)| 80%|$2.99|78|M
+[No Man's Sky](https://nintendo.com/us/store/products/no-mans-sky-switch/)| 60%|$23.99|83|M
+[No Straight Roads](https://nintendo.com/us/store/products/no-straight-roads-switch/)| 75%|$6.24|71|L
+[Nobody Saves the World](https://nintendo.com/us/store/products/nobody-saves-the-world-switch/)| 60%|$9.99|83|M
+[Nocturnal](https://nintendo.com/us/store/products/nocturnal-switch/)| 40%|$11.99|78|M
+[Observer](https://nintendo.com/us/store/products/observer-switch/)| 85%|$4.49|75|M
+[Oceanhorn 2: Knights of the Lost Realm](https://nintendo.com/us/store/products/oceanhorn-2-knights-of-the-lost-realm-switch/)| 55%|$13.49|71|M
+[Old School Musical](https://nintendo.com/us/store/products/old-school-musical-switch/)| 80%|$2.59|76|M
+[OlliOlli World](https://nintendo.com/us/store/products/olliolli-world-switch/)| 50%|$9.99|87|M
+[Once Upon a Jester](https://nintendo.com/us/store/products/once-upon-a-jester-switch/)| 70%|$4.49|78|L
+[Operencia: The Stolen Sun](https://nintendo.com/us/store/products/operencia-the-stolen-sun-switch/)| 65%|$10.49|81|
+[Outbuddies DX](https://nintendo.com/us/store/products/outbuddies-dx-switch/)| 80%|$3.59|70|
+[Outlast: Bundle of Terror](https://nintendo.com/us/store/products/outlast-bundle-of-terror-switch/)| 85%|$3.74|77|M
+[Overcooked! 2](https://nintendo.com/us/store/products/overcooked-2-switch/)| 75%|$6.24|81|M
+[Owlboy](https://nintendo.com/us/store/products/owlboy-switch/)| 80%|$4.99|87|L
+[OXENFREE](https://nintendo.com/us/store/products/oxenfree-switch/)| 80%|$1.99|81|M
+[OXENFREE II: Lost Signals](https://nintendo.com/us/store/products/oxenfree-ii-lost-signals-switch/)| 90%|$1.99|84|L
+[Parkasaurus](https://nintendo.com/us/store/products/parkasaurus-switch/)| 60%|$9.99|82|M
+[Party Hard](https://nintendo.com/us/store/products/party-hard-switch/)| 75%|$3.74|76|M
+[Pawarumi](https://nintendo.com/us/store/products/pawarumi-switch/)| 50%|$9.99|77|
+[Peglin](https://nintendo.com/us/store/products/peglin-switch/)| 20%|$15.99|74|L
+[Penny’s Big Breakaway](https://nintendo.com/us/store/products/pennys-big-breakaway-switch/)| 34%|$19.79|76|M
+[Phoenotopia : Awakening](https://nintendo.com/us/store/products/phoenotopia-awakening-switch/)| 50%|$9.99|72|
+[PHOGS!](https://nintendo.com/us/store/products/phogs-switch/)| 70%|$7.49|78|M
+[PictoQuest](https://nintendo.com/us/store/products/pictoquest-switch/)| 78%|$2.19|74|
+[Piczle Cross Adventure](https://nintendo.com/us/store/products/piczle-cross-adventure-switch/)| 78%|$2.19|78|
+[Pillars of Eternity: Complete Edition](https://nintendo.com/us/store/products/pillars-of-eternity-complete-edition-switch/)| 70%|$14.99|82|
+[Pinstripe](https://nintendo.com/us/store/products/pinstripe-switch/)| 80%|$2.99|77|M
+[Pirates Outlaws](https://nintendo.com/us/store/products/pirates-outlaws-switch/)| 70%|$5.09|76|L
+[PJ Masks Power Heroes: Mighty Alliance](https://nintendo.com/us/store/products/pj-masks-power-heroes-mighty-alliance-switch/)| 50%|$19.99|80|M
+[Planet of Lana](https://nintendo.com/us/store/products/planet-of-lana-switch/)| 35%|$12.99|72|M
+[Pode](https://nintendo.com/us/store/products/pode-switch/)| 50%|$12.49|76|M
+[Project Nightmares Case 36: Henrietta Kedward](https://nintendo.com/us/store/products/project-nightmares-case-36-henrietta-kedward-switch/)| 60%|$7.99|73|L
+[Project Warlock](https://nintendo.com/us/store/products/project-warlock-switch/)| 75%|$3.74|71|L
+[Pumpkin Jack](https://nintendo.com/us/store/products/pumpkin-jack-switch/)| 75%|$7.49|73|
+[Radical Rabbit Stew](https://nintendo.com/us/store/products/radical-rabbit-stew-switch/)| 88%|$1.99|77|M
+[Railbound](https://nintendo.com/us/store/products/railbound-switch/)| 85%|$1.99|81|L
+[Ready, Steady, Ship!](https://nintendo.com/us/store/products/ready-steady-ship-switch/)| 50%|$7.49|77|M
+[Regalia: Of Men and Monarchs - Royal Edition](https://nintendo.com/us/store/products/regalia-of-men-and-monarchs-royal-edition-switch/)| 80%|$4.99|72|
+[Revita](https://nintendo.com/us/store/products/revita-switch/)| 40%|$10.19|78|M
+[Rhythm Sprout](https://nintendo.com/us/store/products/rhythm-sprout-switch/)| 75%|$3.74|75|M
+[Rigid Force Redux](https://nintendo.com/us/store/products/rigid-force-redux-switch/)| 80%|$3.99|71|
+[Risk of Rain](https://nintendo.com/us/store/products/risk-of-rain-switch/)| 75%|$2.49|81|M
+[Risk of Rain 2](https://nintendo.com/us/store/products/risk-of-rain-2-switch/)| 75%|$6.24|79|M
+[RIVE: Ultimate Edition](https://nintendo.com/us/store/products/rive-ultimate-edition-switch/)| 87%|$1.99|82|
+[Road to Ballhalla](https://nintendo.com/us/store/products/road-to-ballhalla-switch/)| 75%|$3.74|80|M
+[RUINER](https://nintendo.com/us/store/products/ruiner-switch/)| 80%|$3.99|82|M
+[Runbow](https://nintendo.com/us/store/products/runbow-switch/)| 80%|$2.99|79|
+[Rytmos](https://nintendo.com/us/store/products/rytmos-switch/)| 70%|$4.50|80|M
+[Saga of Sins](https://nintendo.com/us/store/products/saga-of-sins-switch/)| 75%|$4.99|70|M
+[Saviorless](https://nintendo.com/us/store/products/saviorless-switch/)| 25%|$9.74|75|M
+[ScourgeBringer](https://nintendo.com/us/store/products/scourgebringer-switch/)| 75%|$4.24|80|M
+[Sherlock Holmes: Crimes and Punishments](https://nintendo.com/us/store/products/sherlock-holmes-crimes-and-punishments-switch/)| 85%|$4.49|73|M
+[Shovel Knight: Treasure Trove](https://nintendo.com/us/store/products/shovel-knight-treasure-trove-switch/)| 40%|$23.99|91|
+[Shu](https://nintendo.com/us/store/products/shu-switch/)| 80%|$1.99|72|M
+[Sid Meier’s Civilization VI](https://nintendo.com/us/store/products/sid-meiers-civilization-vi-switch/)| 85%|$4.49|86|
+[Sifu](https://nintendo.com/us/store/products/sifu-switch/)| 60%|$15.99|81|M
+[Silence](https://nintendo.com/us/store/products/silence-switch/)| 87%|$1.99|75|M
+[Silt](https://nintendo.com/us/store/products/silt-switch/)| 67%|$4.99|72|L
+[Sky Rogue](https://nintendo.com/us/store/products/sky-rogue-switch/)| 50%|$9.99|76|
+[Slime-san: Superslime Edition](https://nintendo.com/us/store/products/slime-san-switch/)| 83%|$1.99|81|M
+[Slipstream](https://nintendo.com/us/store/products/slipstream-switch/)| 55%|$4.49|70|
+[Smile For Me](https://nintendo.com/us/store/products/smile-for-me-switch/)| 40%|$8.99|81|M
+[Souldiers](https://nintendo.com/us/store/products/souldiers-switch/)| 50%|$9.99|72|M
+[Sparklite](https://nintendo.com/us/store/products/sparklite-switch/)| 85%|$3.74|75|M
+[SpeedRunners](https://nintendo.com/us/store/products/speedrunners-switch/)| 75%|$3.74|71|M
+[Splasher](https://nintendo.com/us/store/products/splasher-switch/)| 80%|$2.99|83|M
+[Spy Chameleon](https://nintendo.com/us/store/products/spy-chameleon-switch/)| 70%|$2.99|71|
+[STAR WARS Episode I Racer](https://nintendo.com/us/store/products/star-wars-episode-i-racer-switch/)| 65%|$5.24|70|M
+[STAR WARS Republic Commando](https://nintendo.com/us/store/products/star-wars-republic-commando-switch/)| 65%|$5.24|70|M
+[STAR WARS: Bounty Hunter](https://nintendo.com/us/store/products/star-wars-bounty-hunter-switch/)| 20%|$15.99|70|
+[STAR WARS: Knights of the Old Republic](https://nintendo.com/us/store/products/star-wars-knights-of-the-old-republic-switch/)| 65%|$5.24|83|M
+[STAR WARS: Knights of the Old Republic II: The Sith Lords](https://nintendo.com/us/store/products/star-wars-knights-of-the-old-republic-ii-the-sith-lords-switch/)| 65%|$5.24|76|M
+[SteamWorld Build](https://nintendo.com/us/store/products/steamworld-build-switch/)| 50%|$14.99|77|M
+[SteamWorld Dig](https://nintendo.com/us/store/products/steamworld-dig-switch/)| 80%|$1.99|75|M
+[SteamWorld Dig 2](https://nintendo.com/us/store/products/steamworld-dig-2-switch/)| 85%|$2.99|88|
+[SteamWorld Heist II](https://nintendo.com/us/store/products/steamworld-heist-ii-switch/)| 35%|$19.49|79|M
+[SteamWorld Heist: Ultimate Edition](https://nintendo.com/us/store/products/steamworld-heist-ultimate-edition-switch/)| 50%|$9.99|91|
+[SteamWorld Quest: Hand of Gilgamech](https://nintendo.com/us/store/products/steamworld-quest-hand-of-gilgamech-switch/)| 85%|$3.74|81|M
+[Steve Jackson's Sorcery!](https://nintendo.com/us/store/products/steve-jacksons-sorcery-switch/)| 60%|$9.99|86|
+[Stick It to The Man](https://nintendo.com/us/store/products/stick-it-to-the-man-switch/)| 83%|$1.99|74|M
+[Streets of Rogue](https://nintendo.com/us/store/products/streets-of-rogue-switch/)| 75%|$4.99|75|M
+[Sublevel Zero Redux](https://nintendo.com/us/store/products/sublevel-zero-redux-switch/)| 80%|$2.99|73|
+[Super Dungeon Maker](https://nintendo.com/us/store/products/super-dungeon-maker-switch/)| 85%|$2.99|70|M
+[Super Meat Boy](https://nintendo.com/us/store/products/super-meat-boy-switch/)| 55%|$6.74|84|
+[Swords & Soldiers](https://nintendo.com/us/store/products/swords-and-soldiers-switch/)| 73%|$1.99|72|
+[Swordship](https://nintendo.com/us/store/products/swordship-switch/)| 75%|$4.99|77|M
+[Tales from the Borderlands](https://nintendo.com/us/store/products/tales-from-the-borderlands-switch/)| 40%|$14.99|80|M
+[Terra Memoria](https://nintendo.com/us/store/products/terra-memoria-switch/)| 30%|$13.99|74|M
+[The Bug Butcher](https://nintendo.com/us/store/products/the-bug-butcher-switch/)| 75%|$1.99|78|M
+[The Coma 2: Vicious Sisters](https://nintendo.com/us/store/products/the-coma-2-vicious-sisters-switch/)| 80%|$2.99|74|
+[The Cosmic Wheel Sisterhood](https://nintendo.com/us/store/products/the-cosmic-wheel-sisterhood-switch/)| 50%|$8.99|87|L
+[The Count Lucanor](https://nintendo.com/us/store/products/the-count-lucanor-switch/)| 85%|$2.24|72|
+[The Cub](https://nintendo.com/us/store/products/the-cub-switch/)| 50%|$7.49|74|L
+[The Dungeon of Naheulbeuk: The Amulet of Chaos - Chicken Edition](https://nintendo.com/us/store/products/the-dungeon-of-naheulbeuk-the-amulet-of-chaos-chicken-edition-switch/)| 65%|$13.99|77|
+[The Escapists 2](https://nintendo.com/us/store/products/the-escapists-2-switch/)| 75%|$4.99|73|
+[The Final Station](https://nintendo.com/us/store/products/the-final-station-switch/)| 75%|$4.99|80|M
+[The Forest Quartet](https://nintendo.com/us/store/products/the-forest-quartet-switch/)| 80%|$1.99|71|M
+[The Gap](https://nintendo.com/us/store/products/the-gap-switch/)| 50%|$9.99|71|L
+[The Hundred Year Kingdom](https://nintendo.com/us/store/products/the-hundred-year-kingdom-switch/)| 50%|$6.49|70|M
+[The Inner World - The Last Wind Monk](https://nintendo.com/us/store/products/the-inner-world-the-last-wind-monk-switch/)| 87%|$1.99|75|M
+[The Land Beneath Us](https://nintendo.com/us/store/products/the-land-beneath-us-switch/)| 25%|$11.24|76|M
+[The Last Campfire](https://nintendo.com/us/store/products/the-last-campfire-switch/)| 87%|$1.99|83|M
+[The Last Hero of Nostalgaia](https://nintendo.com/us/store/products/the-last-hero-of-nostalgaia-switch/)| 50%|$12.49|74|M
+[The Letter: A Horror Visual Novel](https://nintendo.com/us/store/products/the-letter-a-horror-visual-novel-switch/)| 65%|$6.99|74|M
+[The Long Dark](https://nintendo.com/us/store/products/the-long-dark-switch/)| 50%|$17.49|76|
+[The Medium - Cloud Version](https://nintendo.com/us/store/products/the-medium-cloud-version-switch/)| 60%|$19.99|75|M
+[The Mooseman](https://nintendo.com/us/store/products/the-mooseman-switch/)| 50%|$3.49|70|M
+[The Next Penelope](https://nintendo.com/us/store/products/the-next-penelope-switch/)| 80%|$2.59|79|
+[The Room](https://nintendo.com/us/store/products/the-room-switch/)| 60%|$3.99|75|
+[The Witcher 3: Wild Hunt](https://nintendo.com/us/store/products/the-witcher-3-wild-hunt-switch/)| 65%|$13.99|92|L
+[The Witcher 3: Wild Hunt — Complete Edition](https://nintendo.com/us/store/products/the-witcher-3-wild-hunt-complete-edition-switch/)| 65%|$20.99|85|L
+[Thea: The Awakening](https://nintendo.com/us/store/products/thea-the-awakening-switch/)| 70%|$5.39|71|M
+[Them's Fightin' Herds](https://nintendo.com/us/store/products/thems-fightin-herds-switch/)| 75%|$4.99|83|L
+[This War of Mine: Complete Edition](https://nintendo.com/us/store/products/this-war-of-mine-complete-edition-switch/)| 90%|$3.99|80|
+[Thronebreaker: The Witcher Tales](https://nintendo.com/us/store/products/thronebreaker-the-witcher-tales-switch/)| 65%|$6.99|84|L
+[Thumper](https://nintendo.com/us/store/products/thumper-switch/)| 70%|$5.99|85|
+[Tinykin](https://nintendo.com/us/store/products/tinykin-switch/)| 75%|$6.24|87|M
+[TOEM](https://nintendo.com/us/store/products/toem-switch/)| 80%|$3.99|79|M
+[Togges](https://nintendo.com/us/store/products/togges-switch/)| 75%|$4.99|73|M
+[Toki Tori](https://nintendo.com/us/store/products/toki-tori-switch/)| 60%|$1.99|82|
+[Toki Tori 2+](https://nintendo.com/us/store/products/toki-tori-2-plus-nintendo-switch-edition-switch/)| 87%|$1.99|84|
+[Tomb Raider I-III Remastered Starring Lara Croft](https://nintendo.com/us/store/products/tomb-raider-i-iii-remastered-starring-lara-croft-switch/)| 25%|$22.49|71|
+[Top Racer Collection](https://nintendo.com/us/store/products/top-racer-collection-switch/)| 25%|$14.99|72|L
+[Train Valley](https://nintendo.com/us/store/products/train-valley-console-edition-switch/)| 70%|$3.59|79|L
+[Transcripted](https://nintendo.com/us/store/products/transcripted-switch/)| 73%|$2.15|76|
+[Tribes of Midgard](https://nintendo.com/us/store/products/tribes-of-midgard-switch/)| 70%|$5.99|71|
+[Tropico 6](https://nintendo.com/us/store/products/tropico-6-nintendo-switch-edition-switch/)| 55%|$22.49|70|M
+[Turnip Boy Commits Tax Evasion](https://nintendo.com/us/store/products/turnip-boy-commits-tax-evasion-switch/)| 75%|$3.74|74|M
+[TY the Tasmanian Tiger HD](https://nintendo.com/us/store/products/ty-the-tasmanian-tiger-hd-switch/)| 65%|$10.49|70|M
+[Undertale](https://nintendo.com/us/store/products/undertale-switch/)| 34%|$9.89|93|
+[UnMetal](https://nintendo.com/us/store/products/unmetal-switch/)| 70%|$5.99|77|
+[Vampire Survivors](https://nintendo.com/us/store/products/vampire-survivors-switch/)| 15%|$4.24|88|M
+[Vaporum](https://nintendo.com/us/store/products/vaporum-switch/)| 85%|$3.74|77|
+[VASARA Collection](https://nintendo.com/us/store/products/vasara-collection-switch/)| 50%|$4.99|74|
+[Virgo Versus The Zodiac](https://nintendo.com/us/store/products/virgo-versus-the-zodiac-switch/)| 40%|$11.99|73|M
+[Warhammer 40,000: Mechanicus](https://nintendo.com/us/store/products/warhammer-40000-mechanicus-switch/)| 75%|$9.99|72|
+[Warlock's Tower](https://nintendo.com/us/store/products/warlocks-tower-switch/)| 60%|$1.99|79|M
+[Wavetale](https://nintendo.com/us/store/products/wavetale-switch/)| 75%|$7.49|78|M
+[Werewolf: The Apocalypse — Heart of the Forest](https://nintendo.com/us/store/products/werewolf-the-apocalypse-heart-of-the-forest-switch/)| 87%|$1.99|73|L
+[What Lies in the Multiverse](https://nintendo.com/us/store/products/what-lies-in-the-multiverse-switch/)| 80%|$2.99|82|
+[Wild Bastards](https://nintendo.com/us/store/products/wild-bastards-switch/)| 30%|$24.49|77|L
+[Winds Of Change](https://nintendo.com/us/store/products/winds-of-change-switch/)| 80%|$3.99|81|L
+[WINGSPAN](https://nintendo.com/us/store/products/wingspan-switch/)| 50%|$9.99|78|M
+[Wizardry: Proving Grounds of the Mad Overlord](https://nintendo.com/us/store/products/wizardry-proving-grounds-of-the-mad-overlord-switch/)| 30%|$27.99|82|L
+[Worldless](https://nintendo.com/us/store/products/worldless-switch/)| 50%|$9.99|80|L
+[X-Morph: Defense](https://nintendo.com/us/store/products/x-morph-defense-switch/)| 80%|$3.99|75|
+[XCOM 2 Collection](https://nintendo.com/us/store/products/xcom-2-collection-switch/)| 85%|$7.49|77|
+[Xuan Yuan Sword 7](https://nintendo.com/us/store/products/xuan-yuan-sword-7-switch/)| 30%|$27.99|71|L
+[Yono and the Celestial Elephants](https://nintendo.com/us/store/products/yono-and-the-celestial-elephants-switch/)| 80%|$3.99|73|M
+[Yooka-Laylee](https://nintendo.com/us/store/products/yooka-laylee-switch/)| 80%|$3.99|75|M
+[Zombie Rollerz: Pinball Heroes](https://nintendo.com/us/store/products/zombie-rollerz-pinball-heroes/)| 85%|$2.24|74|M
+",671,0.93,130,DealsPoster,395691.0,NintendoSwitch,2024-11-01T21:16:59,https://www.reddit.com/r/NintendoSwitch/comments/1ghl8hn/nintendo_switch_digital_game_sale_on_us_eshop/,critical,False,"pc,switch",,"bug,crash,error",0.046120490620490624,0.4315526695526694
+1gjg24h,Mario & Luigi: Brothership: Review MegaThread,"# General Information
+
+Release date: November 7, 2024
+
+No. of players: Single System (1)
+
+Genre: Action, Adventure, Role-playing
+
+Publisher: Nintendo
+
+ESRB rating: Everyone
+
+Supported play modes: TV mode, Tabletop mode, Handheld mode
+
+Game file size: 9.9 GB
+
+Supported languages: Dutch, English, French, German, Italian, Japanese, Korean, Portuguese, Simplified Chinese, Spanish, Traditional Chinese
+
+Official website: https://www.nintendo.com/us/store/products/mario-and-luigi-brothership-switch/
+
+# Reviews
+
+## Aggregators
+
+* [Metacritic](https://www.metacritic.com/game/mario-and-luigi-brothership/) \- 80
+* [OpenCritic](https://opencritic.com/game/16871/mario-luigi-brothership) \- 79
+
+## Articles
+
+* CGMagazine - [8.5 / 10](https://www.cgmagonline.com/review/game/mario-luigi-brothership-nintendo-switch-review/)
+* COGconnected - [75 / 100](https://cogconnected.com/review/mario-luigi-brothership-review/)
+* Checkpoint Gaming - [7 / 10](https://checkpointgaming.net/reviews/2024/11/mario-luigi-brothership-review-a-joyous-sail-abration/)
+* Console Creatures - [9 / 10](https://www.consolecreatures.com/review-mario-and-luigi-brothership/)
+* Daily Mirror - [4 / 5 ](https://www.mirror.co.uk/gaming/mario-luigi-brothership-review--34030644)
+* Digital Trends - [2.5 / 5 ](https://www.digitaltrends.com/gaming/mario-and-luigi-brothership-review-switch/)
+* Digitec Magazine - *German* - [4 / 5](https://www.digitec.ch/de/page/mario-luigi-brothership-ist-ein-wunderschoenes-rollenspiel-fuer-das-du-viel-geduld-brauchst-35417)
+* Enternity.gr - *Greek* - [9 / 10](https://www.enternity.gr/Article/Games/Reviews/mario-luigi-brothership-review/91433.html)
+* Eurogamer - [4 / 5](https://www.eurogamer.net/mario-and-luigi-brothership-review)
+* Everyeye.it - *Italian* - [8.8 / 10](https://www.everyeye.it/articoli/recensione-mario-luigi-fraternauti-carica-fantastico-gdr-64719.html)
+* GAMES.CH - *German* - [87%](https://www.games.ch/mario-luigi-brothership/test/review-ligL/)
+* GRYOnline.pl - *Polish* - [7.5 / 10](https://www.gry-online.pl/recenzje/recenzja-gry-mario-luigi-brothership-czarujaca-przygoda-i-udane-w/zf46b3)
+* GamesRadar+ - [4 / 5 ](https://www.gamesradar.com/games/rpg/mario-luigi-brothership-review/)
+* Glitched Africa - [8 / 10](https://www.glitched.africa/mario-luigi-brothership-review/)
+* God is a Geek - [8 / 10](https://www.godisageek.com/reviews/mario-luigi-brothership-review/)
+* Hobby Consolas - *Spanish* - [82 / 100](https://www.hobbyconsolas.com/reviews/analisis-mario-luigi-conexion-fraternal-juego-navega-oceano-rpgs-diversion-variedad-bandera-1416080)
+* IGN - [5 / 10](https://www.ign.com/articles/mario-and-luigi-brothership-review)
+* IGN Italy - *Italian* - [7.5 / 10](https://it.ign.com/mario-luigi-brothership/214299/review/mario-luigi-fraternauti-alla-carica-la-recensione)
+* LevelUp - *Spanish* - [9 / 10](https://www.levelup.com/Nintendo-Switch/juegos/795489/Mario-Luigi-Brothership/review)
+* Metro GameCentral - [7 / 10](https://metro.co.uk/2024/11/04/mario-luigi-brothership-review-last-nintendo-switch-game-21919814/)
+* Nintendo Life - [9 / 10](https://www.nintendolife.com/reviews/nintendo-switch/mario-and-luigi-brothership)
+* Press Start - [7.5 / 10](https://press-start.com.au/reviews/nintendo-switch/2024/11/04/mario-luigi-brothership-review-a-rocky-journey/)
+* SECTOR.sk - *Slovak* - [9 / 10](https://www.sector.sk/recenzia/39667/mario-a-luigi-brothership.htm)
+* Saudi Gamer - *Arabic* - [7 / 10](https://www.saudigamer.com/review/mario-luigi-brothership/)
+* Shacknews - [9 / 10](https://www.shacknews.com/article/142095/mario-and-luigi-brothership-review-score)
+* Siliconera - [7 / 10](https://www.siliconera.com/review-explore-the-currents-in-mario-luigi-brothership/)
+* Spaziogames - *Italian* - [8.7 / 10](https://www.spaziogames.it/articoli/mario-luigi-fraternauti-alla-carica-recensione)
+* Stevivor - [9.5 / 10](https://stevivor.com/reviews/mario-luigi-brothership-review/)
+* TheGamer - [4.5 / 5 ](https://www.thegamer.com/mario-luigi-brothership-review/)
+* TheSixthAxis - [7 / 10](https://www.thesixthaxis.com/2024/11/04/mario-luigi-brothership-review/)
+* VGC - [4 / 5 ](https://www.videogameschronicle.com/review/mario-luigi-brothership-2/)
+* Wccftech - [7.5 / 10](https://wccftech.com/review/mario-and-luigi-brothership/)
+* WellPlayed - [8 / 10](https://www.well-played.com.au/mario-luigi-brothership-review/)
+
+^(This list was generated via manual export from OpenCritic. Last updated: 11/4/2024 9:49am E.T.)
+
+Cheers,
+
+The [r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/) mod team",665,0.94,693,NintendoSwitchMods,146678.0,NintendoSwitch,2024-11-04T09:51:02,https://www.reddit.com/r/NintendoSwitch/comments/1gjg24h/mario_luigi_brothership_review_megathread/,medium,False,switch,,glitch,-0.004857142857142855,0.09723809523809525
+1gcaaag,"For those wondering about the issues with Version 19.0.0, I managed to call support and speak with a supervisor.","The supervisor I got to talk to said he was going to relay the info as feedback to Nintendo. I made sure to explain that stuff like overheating and sleep mode not working right was happening to others, but also had to clarify that I'm having similar issues with my Switch. He said this was the first he heard of it, and thought the issue probably isn't as widespread as it seemed. I clarified I felt it wasn't widespread but was enough of an issue as it affected multiple people. I should also note that my brother has a Switch, and he didn't have any issues like these. Granted, he primarily plays the Switch docked, but still.
+
+So, yeah, here's hoping this can lead to a potential fix for the firmware. I also wanna mention that the supervisor in question is a pretty chill guy. Very understanding, considerate, and wanted to make sure to explore all options, including suggesting that I send the console in for repair *juuuuuuuust* in case the firmware isn't the main cause of it.
+
+I'm gonna be keeping an eye on my Switch for the time being, as well, and will turn it off completely after use just to be safe.
+
+Update: 19.0.1 has come, but it looks like, at least in my case, there are still issues. Battery still drains a bit quickly even in sleep mode, and I had a game paused during the credits with the Switch on the home menu. When I got back to it, it was further ahead in the credits. Not by a lot as it went slowly, but still an issue. Will put in a support request at [support.nintendo.com](http://support.nintendo.com) tomorrow. If you're still having issues, especially ones like this, I suggest you do the same. The more people tell them about this, the more likely a fix will happen.",464,0.89,171,crazyseandx,21840.0,NintendoSwitch,2024-10-25T21:40:29,https://www.reddit.com/r/NintendoSwitch/comments/1gcaaag/for_those_wondering_about_the_issues_with_version/,medium,False,switch,,"issue,not working,fix",0.13942857142857143,0.5162063492063492
+1gm4390,"Thank the heavens! Mario & Luigi Brothership has large, readable text! Please developers, make your text readable on the Switch!","I'm so tired of playing RPGs and text-heavy games where you have to squint to read the text in handheld or you can't play it from for far away on the TV because the text is tiny! I was surprised when even some Nintendo and Square Enix titles had this problem (you know you would think they would know best from their long production of text-heavy games and heavy experience with handheld and mobile titles). 
+
+I've been playing Brothership and other than the shockingly great soundtrack (every track has stood out so far as stunning) and the vibrant coloring and animation, what I instantly noticed is it's so good to see large, easily readable text in this game. When I first saw the first dialogue encounters and tutorial text, I was so relieved. I couldn't believe that even in some Nintendo titles this generation they seemed to have forgotten their UI design from previous titles (maybe a part of Nintendo who had never worked in the handheld division).
+
+I hope going forward this is a sign that Nintendo and other developers won't make the same mistakes on the Switch successor. I'm tired of the myriad games that simply assume you're playing up close at your desk on a PC monitor and how they design UIs to fit the most information possible in the smallest space rather than to be readable. It's especially appreciated when text is large because complex Chinese characters are a lot harder to read when they're squished together.",397,0.93,49,RyanoftheStars,14021.0,NintendoSwitch,2024-11-07T18:13:56,https://www.reddit.com/r/NintendoSwitch/comments/1gm4390/thank_the_heavens_mario_luigi_brothership_has/,medium,False,"pc,switch","up close at your desk on a PC monitor and how they design UIs to fit the most information possible in the smallest space rather than to be readable,this,RPGs and text,Brothership and other than the shockingly great soundtrack ",problem,0.12717352092352097,0.4980158730158729
+1geidq9,Firmware 19.0.1 released fixes GameCube controllers connection and Sleep mode downloads,,376,0.95,81,Dragontech97,344.0,NintendoSwitch,2024-10-28T20:55:10,https://x.com/oatmealdome/status/1851060957092454682,unspecified,False,unspecified,,fix,0.0,0.0
