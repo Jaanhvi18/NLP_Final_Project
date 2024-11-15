@@ -16,7 +16,7 @@ class GameContentFinder:
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
         }
 
-    def search_content(self, game_name, page_depth=3):
+    def search_content(self, game_name, page_depth=6):
         """Search for any content related to the game across multiple pages"""
         all_results = []
         search_url = "https://html.duckduckgo.com/html/"
@@ -131,43 +131,43 @@ class GameContentFinder:
             return "Medium"
         return "Low"
 
-    def save_to_database(self, all_content):
-        """Save data to SQLite database"""
-        conn = sqlite3.connect("game_content.db")
-        cursor = conn.cursor()
+    # def save_to_database(self, all_content):
+    #     """Save data to SQLite database"""
+    #     conn = sqlite3.connect("game_content.db")
+    #     cursor = conn.cursor()
 
-        cursor.execute(
-            """
-            CREATE TABLE IF NOT EXISTS content (
-                game TEXT, title TEXT, description TEXT, url TEXT, 
-                source TEXT, date_found TEXT, date_published TEXT, author TEXT, 
-                content_type TEXT, platform TEXT, severity TEXT
-            )
-        """
-        )
+    #     cursor.execute(
+    #         """
+    #         CREATE TABLE IF NOT EXISTS content (
+    #             game TEXT, title TEXT, description TEXT, url TEXT, 
+    #             source TEXT, date_found TEXT, date_published TEXT, author TEXT, 
+    #             content_type TEXT, platform TEXT, severity TEXT
+    #         )
+    #     """
+    #     )
 
-        for content in all_content:
-            cursor.execute(
-                """
-                INSERT INTO content VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """,
-                (
-                    content["game"],
-                    content["title"],
-                    content["description"],
-                    content["url"],
-                    content["source"],
-                    content["date_found"],
-                    content["date_published"],
-                    content["author"],
-                    content["content_type"],
-                    content.get("platform"),
-                    content.get("severity"),
-                ),
-            )
+    #     for content in all_content:
+    #         cursor.execute(
+    #             """
+    #             INSERT INTO content VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    #         """,
+    #             (
+    #                 content["game"],
+    #                 content["title"],
+    #                 content["description"],
+    #                 content["url"],
+    #                 content["source"],
+    #                 content["date_found"],
+    #                 content["date_published"],
+    #                 content["author"],
+    #                 content["content_type"],
+    #                 content.get("platform"),
+    #                 content.get("severity"),
+    #             ),
+    #         )
 
-        conn.commit()
-        conn.close()
+    #     conn.commit()
+    #     conn.close()
 
 
 def clean_content(content):
@@ -193,9 +193,7 @@ def main():
         game_content = finder.search_content(game)
         game_content = [
             clean_content(item) for item in game_content
-        ]  # Clean content here
-
-        # Check the structure of each content item
+        ]  
         for i, content in enumerate(game_content):
             print(f"Item {i}: {content}")  # Inspect each item
 
@@ -213,7 +211,7 @@ def main():
             print(f"\nSaved {len(all_content)} total items")
             print("File saved: game_content.json")
 
-            finder.save_to_database(all_content)
+            # finder.save_to_database(all_content)
 
             # Display some basic information about the content
             content_types = [
