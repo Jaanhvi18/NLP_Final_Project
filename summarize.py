@@ -179,14 +179,14 @@ Metrics:
   * Neutral: {summary_result['metrics']['sentiment_distribution']['neutral']}
 """)
         
-   
+        # Save TSV file
         tsv_file = Path(output_dir) / f"game_discussion_summary_{timestamp}.tsv"
         with open(tsv_file, 'w', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=tsv_rows[0].keys(), delimiter='\t')
             writer.writeheader()
             writer.writerows(tsv_rows)
             
-
+        # Save detailed text report
         text_file = Path(output_dir) / f"game_discussion_detailed_{timestamp}.txt"
         with open(text_file, 'w') as f:
             f.write("Game Development Discussions Analysis\n")
@@ -206,7 +206,7 @@ Metrics:
 
 if __name__ == "__main__":
     try:
-        input_file = "game_bugs_data.json" 
+        input_file = "game_bugs_data.json"  # Replace with your input file
         result = generate_and_save_reports(input_file)
         print(f"""
 Reports generated successfully!
