@@ -13,6 +13,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
+
 class ExtractiveSummarizer:
     def __init__(self):
         try:
@@ -96,15 +97,18 @@ class ExtractiveSummarizer:
 
         sentiments = {
             "positive": sum(
-                1 for c in valid_comments
+                1
+                for c in valid_comments
                 if c.get("sentiment", {}).get("polarity", 0) > 0
             ),
             "negative": sum(
-                1 for c in valid_comments
+                1
+                for c in valid_comments
                 if c.get("sentiment", {}).get("polarity", 0) < 0
             ),
             "neutral": sum(
-                1 for c in valid_comments
+                1
+                for c in valid_comments
                 if c.get("sentiment", {}).get("polarity", 0) == 0
             ),
         }
@@ -119,52 +123,60 @@ class ExtractiveSummarizer:
             },
         }
 
+
 def generate_and_save_reports(input_file, output_dir="reports"):
     try:
         # Create output directory if it doesn't exist
         Path(output_dir).mkdir(parents=True, exist_ok=True)
-        
+
         # Generate timestamp for file names
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        
+
         # Read input data
-        with open(input_file, 'r') as f:
+        with open(input_file, "r") as f:
             data = json.load(f)
-        
+
         summarizer = ExtractiveSummarizer()
-        
+
         # Prepare data for TSV
         tsv_rows = []
         text_report = []
-        
+
         # Convert input to list if it's a single dictionary
         if isinstance(data, dict):
             data = [data]
-            
+
         # Process each discussion
         for idx, entry in enumerate(data):
             if not isinstance(entry, dict):
                 continue
-                
+
             title = entry.get("title", f"Discussion {idx + 1}")
             comments = entry.get("comments", [])
-            
+
             summary_result = summarizer.summarize(comments, title)
-            
+
             # Prepare TSV row
             tsv_row = {
-                'Title': title,
-                'Total Comments': summary_result['metrics']['total_comments'],
-                'Average Score': f"{summary_result['metrics']['average_score']:.2f}",
-                'Positive Comments': summary_result['metrics']['sentiment_distribution']['positive'],
-                'Negative Comments': summary_result['metrics']['sentiment_distribution']['negative'],
-                'Neutral Comments': summary_result['metrics']['sentiment_distribution']['neutral'],
-                'Key Points': ' | '.join(summary_result['summary'])
+                "Title": title,
+                "Total Comments": summary_result["metrics"]["total_comments"],
+                "Average Score": f"{summary_result['metrics']['average_score']:.2f}",
+                "Positive Comments": summary_result["metrics"][
+                    "sentiment_distribution"
+                ]["positive"],
+                "Negative Comments": summary_result["metrics"][
+                    "sentiment_distribution"
+                ]["negative"],
+                "Neutral Comments": summary_result["metrics"]["sentiment_distribution"][
+                    "neutral"
+                ],
+                "Key Points": " | ".join(summary_result["summary"]),
             }
             tsv_rows.append(tsv_row)
-            
+
             # Prepare text report
-            text_report.append(f"""
+            text_report.append(
+                f"""
 Discussion: {title}
 {'=' * (len(title) + 11)}
 Key Points:
@@ -177,43 +189,47 @@ Metrics:
   * Positive: {summary_result['metrics']['sentiment_distribution']['positive']}
   * Negative: {summary_result['metrics']['sentiment_distribution']['negative']}
   * Neutral: {summary_result['metrics']['sentiment_distribution']['neutral']}
-""")
-        
+"""
+            )
+
         # Save TSV file
         tsv_file = Path(output_dir) / f"game_discussion_summary_{timestamp}.tsv"
-        with open(tsv_file, 'w', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=tsv_rows[0].keys(), delimiter='\t')
+        with open(tsv_file, "w", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=tsv_rows[0].keys(), delimiter="\t")
             writer.writeheader()
             writer.writerows(tsv_rows)
-            
+
         # Save detailed text report
         text_file = Path(output_dir) / f"game_discussion_detailed_{timestamp}.txt"
-        with open(text_file, 'w') as f:
+        with open(text_file, "w") as f:
             f.write("Game Development Discussions Analysis\n")
             f.write("=" * 35 + "\n")
             f.write(f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
             f.write("\n".join(text_report))
-            
+
         return {
-            'tsv_file': str(tsv_file),
-            'text_file': str(text_file),
-            'processed_discussions': len(tsv_rows)
+            "tsv_file": str(tsv_file),
+            "text_file": str(text_file),
+            "processed_discussions": len(tsv_rows),
         }
-            
+
     except Exception as e:
         logging.error(f"Error generating reports: {str(e)}")
         raise
+
 
 if __name__ == "__main__":
     try:
         input_file = "game_bugs_data.json"  # Replace with your input file
         result = generate_and_save_reports(input_file)
-        print(f"""
+        print(
+            f"""
 Reports generated successfully!
 - TSV Summary: {result['tsv_file']}
 - Detailed Report: {result['text_file']}
 - Processed {result['processed_discussions']} discussions
-""")
+"""
+        )
     except FileNotFoundError:
         print(f"Error: Input file not found.")
     except json.JSONDecodeError:
