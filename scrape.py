@@ -10,7 +10,6 @@ import spacy  # Add spaCy for NER
 import numpy as np
 
 
-
 class RedditGameScraper:
     def __init__(self, client_id, client_secret, user_agent):
         """Initialize the scraper with Reddit API credentials and spaCy NER model"""
@@ -153,7 +152,7 @@ class RedditGameScraper:
         try:
             subreddit = self.reddit.subreddit(subreddit_name)
             posts_data = []
-dhjkkjdsmjlkb
+
             subreddit.id
 
             # Get posts from subreddit based on time filter
