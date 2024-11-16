@@ -302,6 +302,18 @@ class RedditGameScraper:
 
         except Exception as e:
             print(f"Error saving data: {str(e)}")
+    
+def create_subList(subreddsF):
+    extracted_subreddits = []
+
+    file_path = subreddsF  
+    with open(file_path, 'r') as file:
+        for line in file:
+            if "r/" in line:
+                subreddit = line.split("r/")[-1].strip()
+                extracted_subreddits.append(subreddit)
+
+    return extracted_subreddits
 
 
 def main():
@@ -313,6 +325,9 @@ def main():
     )
 
     # List of gaming subreddits to scrape
+
+    many_subs = create_subList("game_subreddits_clean.txt")
+
     subreddits = [
         "gaming",
         # "pcgaming",
@@ -331,6 +346,8 @@ def main():
         # Gaming4Gamers
     ]
 
+    subreddit += many_subs
+
     all_posts = []
 
     # Scrape each subreddit
@@ -338,7 +355,7 @@ def main():
         print(f"Scraping r/{subreddit}...")
         posts = scraper.get_subreddit_posts(
             subreddit,
-            post_limit=100,
+            post_limit=1000,
             time_filter="year",
             min_score=1,
             min_comments=1,

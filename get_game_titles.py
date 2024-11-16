@@ -8,19 +8,20 @@ def click_show_more_button(driver):
     """
     Attempts to click the 'Show More' button if it exists.
     """
+
     try:
         show_more_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Show more')]")
         driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", show_more_button)
         time.sleep(1)  
         driver.execute_script("arguments[0].click();", show_more_button)
         print("Successfully clicked 'Show More' button.")
-    except Exception as e:
-        print(f"No 'Show More' button found or could not click: {e}")
+    except Exception as e: 
+        print(f"No 'Show More' button found or could not click: {e}") 
+
 
 def scrape_multiplayer_games(max_games):
     print(f"Scraping up to {max_games} multiplayer games from Steam...")
     games = []
-
     driver = webdriver.Chrome()  
     driver.get("https://store.steampowered.com/category/multiplayer/?flavor=contenthub_all&facets13268=6%3A4")
     time.sleep(10)  
@@ -36,13 +37,11 @@ def scrape_multiplayer_games(max_games):
                     games.append(game_title) 
                     print(f"Scraped: {game_title}")
 
-                # Stop if we reach the desired number of games
                 if len(games) >= max_games:
                     break
 
             print(f"Scraped {len(game_elements)} games on this page. Total so far: {len(games)}")
 
-            # Try to click the "Show More" button
             click_show_more_button(driver)
 
     except Exception as e:
@@ -50,12 +49,11 @@ def scrape_multiplayer_games(max_games):
     finally:
         driver.quit()
 
-    # Return the list of games
     return games
 
 if __name__ == "__main__":
     # Specify how many games you want to scrape
-    max_games = 100
+    max_games = 1000
     games = scrape_multiplayer_games(max_games)
 
     # Print the scraped games
