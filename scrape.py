@@ -346,7 +346,7 @@ def main():
         # Gaming4Gamers
     ]
 
-    subreddit += many_subs
+    subreddits += many_subs
 
     all_posts = []
 
