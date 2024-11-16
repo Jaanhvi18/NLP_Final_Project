@@ -304,14 +304,21 @@ class RedditGameScraper:
             print(f"Error saving data: {str(e)}")
     
 def create_subList(subreddsF):
+    import os  # Ensure os is imported for path handling
     extracted_subreddits = []
 
-    file_path = subreddsF  
-    with open(file_path, 'r') as file:
-        for line in file:
-            if "r/" in line:
-                subreddit = line.split("r/")[-1].strip()
-                extracted_subreddits.append(subreddit)
+    # Use the absolute path to ensure the file is located
+    file_path = os.path.join(os.path.dirname(__file__), subreddsF)
+    
+    try:
+        with open(file_path, 'r') as file:
+            for line in file:
+                if "r/" in line:
+                    subreddit = line.split("r/")[-1].strip()
+                    extracted_subreddits.append(subreddit)
+    except FileNotFoundError:
+        print(f"Error: File {subreddsF} not found in {file_path}")
+        raise
 
     return extracted_subreddits
 
