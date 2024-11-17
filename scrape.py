@@ -141,7 +141,7 @@ class RedditGameScraper:
     def get_subreddit_posts(
         self,
         subreddit_name,
-        post_limit=1000000,
+        post_limit=1000,
         time_filter="year",
         min_score=10,
         min_comments=5,
