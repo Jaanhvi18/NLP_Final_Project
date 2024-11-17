@@ -303,12 +303,13 @@ class RedditGameScraper:
         except Exception as e:
             print(f"Error saving data: {str(e)}")
     
-def create_subList(subreddsF):
-    import os  # Ensure os is imported for path handling
+def create_subList(subreddsF, num_of_subs):
+    import os  
     extracted_subreddits = []
 
-    # Use the absolute path to ensure the file is located
     file_path = os.path.join(os.path.dirname(__file__), subreddsF)
+
+    current_subs = 0
     
     try:
         with open(file_path, 'r') as file:
@@ -316,6 +317,9 @@ def create_subList(subreddsF):
                 if "r/" in line:
                     subreddit = line.split("r/")[-1].strip()
                     extracted_subreddits.append(subreddit)
+                    current_subs += 1
+                    if (current_subs >= num_of_subs):
+                        break
     except FileNotFoundError:
         print(f"Error: File {subreddsF} not found in {file_path}")
         raise
@@ -333,7 +337,7 @@ def main():
 
     # List of gaming subreddits to scrape
 
-    many_subs = create_subList("game_subreddits_clean.txt")
+    many_subs = create_subList("game_subreddits_clean.txt", 20)
 
     subreddits = [
         "gaming",
@@ -369,6 +373,7 @@ def main():
         )
         all_posts.extend(posts)
         print(f"Found {len(posts)} bug-related posts in r/{subreddit}")
+        print(f"r/{subreddit} done")
 
     scraper.save_data(all_posts, "json")
     scraper.save_data(all_posts, "csv")
