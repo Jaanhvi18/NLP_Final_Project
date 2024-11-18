@@ -17,7 +17,6 @@ class RedditGameScraper:
             client_id=client_id, client_secret=client_secret, user_agent=user_agent
         )
 
-
         self.nlp = spacy.load("en_core_web_sm")
 
         self.bug_keywords = [
@@ -189,13 +188,11 @@ class RedditGameScraper:
                             keyword in full_text.lower()
                             for keyword in ["resolved", "fixed", "solved"]
                         ),
-                        "comments": self.process_comments(
-                            post
-                        ),  
+                        "comments": self.process_comments(post),
                     }
 
                     posts_data.append(post_data)
-                    sleep(1)  
+                    sleep(1)
 
                 except Exception as e:
                     print(f"Error processing post in r/{subreddit_name}: {str(e)}")
@@ -214,7 +211,7 @@ class RedditGameScraper:
         try:
             post.comments.replace_more(limit=0)
             for comment in post.comments[
-                :1000
+                :100
             ]:  # need to prob limit to the most recent comments
                 try:
                     # Skip deleted/removed comments
@@ -341,20 +338,112 @@ def main():
 
     subreddits = [
         "gaming",
-        # "pcgaming",
-        # "GameBugs",
-        # "PS5",
-        # "XboxSeriesX",
-        # "NintendoSwitch",
-        # "PlayStation5",
-        # "PlayStation5Pro",
-        # "XboxSeriesXSeriesX",
-        # "XboxSeriesXSeriesS",
-        # "NintendoSwitch2",
-        # "Valorant",
+        "pcgaming",
+        "GameBugs",
+        "PS5",
+        "XboxSeriesX",
+        "NintendoSwitch",
+        "PlayStation5",
+        "PlayStation5Pro",
+        "XboxSeriesXSeriesX",
+        "XboxSeriesXSeriesS",
+        "NintendoSwitch2",
+        "Valorant",
         "VALORANT",
-        # "Diablo"
-        # Gaming4Gamers
+        "Diablo" "Gaming4Gamers",
+        "blackops6",
+        "CallOfDuty",
+        "farmingsimulator25",
+        "throneandliberty",
+        "hoi4",
+        "counterstrike2",
+        "Warframe",
+        "Enshrouded",
+        "MicrosoftFlightSim",
+        "apexlegends",
+        "factorio",
+        "BaldursGate3",
+        "Astroneer",
+        "helldivers2",
+        "SpaceMarine_2",
+        "EASportsFC",
+        "DragonBallSparking",
+        "rust",
+        "deadbydaylight",
+        "Grounded",
+        "factorio",
+        "RogueTraderCRPG",
+        "destiny2",
+        "MagicArena",
+        "webfishing",
+        "Eldenring",
+        "PlanetCoaster2",
+        "OnceHuman",
+        "phasmophobia",
+        "newworldgame",
+        "NBA2K25",
+        "FinalFantasyOnline",
+        "GrandTheftAutoV",
+        "TeamFortress2",
+        "LostArk",
+        "PUBATTLEGROUNDS",
+        "blackdesert",
+        "MonsterHunterWorld",
+        "LiarsBar",
+        "YuGiOhMasterDuel",
+        "RainbowSixSiege",
+        "TheElderScrollsOnline",
+        "Vermintide",
+        "DotA2",
+        "AOW4",
+        "overwatch2",
+        "dayz",
+        "MonsterHunterWilds",
+        "TheFirstDescendant",
+        "borderlands3",
+        "satisfactory",
+        "sixdaysinfallujah",
+        "bodycam",
+        "Stellaris",
+        "CrusaderKings",
+        "MaddenMobileForums",
+        "StardewValley",
+        "arma3",
+        "WorldOfWarships",
+        "ArkSurvivalAscended",
+        "ReadyOrNotGame",
+        "reddeadredemption2",
+        "diabloiv",
+        "RivalsOfAether",
+        "americantruck",
+        "TMNT",
+        "LockdownProtocol",
+        "ICARUS",
+        "projectzomboid",
+        "PlateUp",
+        "GoldandBlack",
+        "undisputedboxing",
+        "MonsterHunter",
+        "legoHorizonZeroDawn",
+        "aoe2",
+        "lethalcompany",
+        "OvercookedGame",
+        "ArmaReforger",
+        "fo76",
+        "SonsOfTheForest",
+        "Breath_of_the_Wild",
+        "PlayTemtem",
+        "thefinals",
+        "ghostoftsushima",
+        "BlackMesa",
+        "40kinquisitor",
+        "HellLetLoose",
+        "Palworld",
+        "swtor",
+        "Eldenring",
+        "HalfLife",
+        "RiskOfRain2",
+        "Seaofthieves",
     ]
 
     subreddits += many_subs
@@ -394,7 +483,6 @@ def main():
     print("\nSeverity distribution:")
     for severity, count in severity_counts.most_common():
         print(f"- {severity}: {count}")
-
 
     scraper.aggregate_sentiment_by_severity(all_posts)
 
