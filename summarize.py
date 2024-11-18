@@ -10,19 +10,26 @@ from string import punctuation
 from collections import defaultdict
 import numpy as np
 import logging
+import warnings
+from transformers import pipeline
+warnings.filterwarnings("ignore", category=UserWarning)
 
 logging.basicConfig(level=logging.INFO)
 
 
 class ExtractiveSummarizer:
     def __init__(self):
+
+        self.sentiment_analyzer = pipeline(
+            "sentiment-analysis",
+            model="distilbert-base-uncased-finetuned-sst-2-english",
+            device=0,  
+        )
+
         try:
-            nltk.data.find("tokenizers/punkt")
             nltk.data.find("corpora/stopwords")
         except LookupError:
-            nltk.download("punkt")
             nltk.download("stopwords")
-
         self.stop_words = set(stopwords.words("english") + list(punctuation))
 
     @staticmethod
@@ -65,6 +72,24 @@ class ExtractiveSummarizer:
             and comment.get("text", "").strip() not in ["[deleted]", "[removed]"]
         ]
 
+        # Analyze sentiment for each comment
+        for comment in comments:
+            try:
+                sentiment_result = self.sentiment_analyzer(
+                    comment["text"][:512]
+                )  # transfomer models have a token limit
+                sentiment_label = sentiment_result[0][
+                    "label"
+                ].lower()  # 'LABEL_0', 'LABEL_1', etc.
+                sentiment_score = sentiment_result[0]["score"]
+                comment["sentiment"] = {
+                    "label": sentiment_label,
+                    "score": sentiment_score,
+                }
+            except Exception as e:
+                logging.warning(f"Error analyzing sentiment: {str(e)}")
+                comment["sentiment"] = {"label": "neutral", "score": 0.0}
+
         all_text = " ".join(comment.get("text", "") for comment in comments)
         if not all_text.strip():
             return {
@@ -97,20 +122,12 @@ class ExtractiveSummarizer:
 
         sentiments = {
             "positive": sum(
-                1
-                for c in valid_comments
-                if c.get("sentiment", {}).get("polarity", 0) > 0
+                1 for c in comments if c["sentiment"]["label"] == "positive"
             ),
             "negative": sum(
-                1
-                for c in valid_comments
-                if c.get("sentiment", {}).get("polarity", 0) < 0
+                1 for c in comments if c["sentiment"]["label"] == "negative"
             ),
-            "neutral": sum(
-                1
-                for c in valid_comments
-                if c.get("sentiment", {}).get("polarity", 0) == 0
-            ),
+            "neutral": sum(1 for c in comments if c["sentiment"]["label"] == "neutral"),
         }
 
         return {
@@ -126,10 +143,8 @@ class ExtractiveSummarizer:
 
 def generate_and_save_reports(input_file, output_dir="reports"):
     try:
-        # Create output directory if it doesn't exist
         Path(output_dir).mkdir(parents=True, exist_ok=True)
 
-        # Generate timestamp for file names
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
         # Read input data
@@ -137,12 +152,10 @@ def generate_and_save_reports(input_file, output_dir="reports"):
             data = json.load(f)
 
         summarizer = ExtractiveSummarizer()
-
-        # Prepare data for TSV
         tsv_rows = []
         text_report = []
 
-        # Convert input to list if it's a single dictionary
+        # convert input to list if it's a single dictionary
         if isinstance(data, dict):
             data = [data]
 
@@ -156,7 +169,6 @@ def generate_and_save_reports(input_file, output_dir="reports"):
 
             summary_result = summarizer.summarize(comments, title)
 
-            # Prepare TSV row
             tsv_row = {
                 "Title": title,
                 "Total Comments": summary_result["metrics"]["total_comments"],
@@ -174,7 +186,6 @@ def generate_and_save_reports(input_file, output_dir="reports"):
             }
             tsv_rows.append(tsv_row)
 
-            # Prepare text report
             text_report.append(
                 f"""
 Discussion: {title}
@@ -192,14 +203,14 @@ Metrics:
 """
             )
 
-        # Save TSV file
+ 
         tsv_file = Path(output_dir) / f"game_discussion_summary_{timestamp}.tsv"
         with open(tsv_file, "w", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=tsv_rows[0].keys(), delimiter="\t")
             writer.writeheader()
             writer.writerows(tsv_rows)
 
-        # Save detailed text report
+
         text_file = Path(output_dir) / f"game_discussion_detailed_{timestamp}.txt"
         with open(text_file, "w") as f:
             f.write("Game Development Discussions Analysis\n")
@@ -220,7 +231,7 @@ Metrics:
 
 if __name__ == "__main__":
     try:
-        input_file = "game_bugs_data.json"  # Replace with your input file
+        input_file = "game_bugs_data.json"  
         result = generate_and_save_reports(input_file)
         print(
             f"""
