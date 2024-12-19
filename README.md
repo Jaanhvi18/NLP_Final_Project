@@ -3,23 +3,13 @@
 
 ## Valorant Game Outcome Classification
 
-This repository contains the steps to train and evaluate a text classification model to predict Valorant game outcomes based on game commentary.
+Since some of the files are too big to be in the github, all of them can be found in this linked google drive: https://drive.google.com/drive/folders/1Yq1FoID2--xH3WDt12w25N4uAWQiM4zE?usp=sharing
 
-### Getting Started
-1. Clone the repository.
-2. Install dependencies, including NLPScholar and HuggingFace transformers.
+Many of the files are found in the zip which you have to unzip:
 
-### Data Preparation
-- Sample TSV files in `data/` demonstrate the required structure.
+The models we used for sentiment analysis are as follows:
+- distilbert/distilbert-base-uncased-finetuned-sst-2-english
+- cardiffnlp/twitter-roberta-base-sentiment-latest
+- siebert/sentiment-roberta-large-english
 
-### Configurations
-- `configs/` contains YAML files for each step (training and evaluation).
-
-### Job Submission
-- `job_scripts/` includes submission scripts for training and evaluation on Turing.
-
-### Results and Analysis
-- Check `results/README_results.md` for processing and evaluation instructions.
-
-### Contributing
-- Ensure all files are in the required format before pushing changes.
+To get the roberta twitter model finetuned on Reddit you will have to run the file which first finetunes the model and creates is as a folder and then use that as your model path.
