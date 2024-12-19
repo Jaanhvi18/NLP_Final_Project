@@ -5,7 +5,7 @@
 
 Since some of the files are too big to be in the github, all of them can be found in this linked google drive: https://drive.google.com/drive/folders/1Yq1FoID2--xH3WDt12w25N4uAWQiM4zE?usp=sharing
 
-Many of the files are found in the zip which you have to unzip:
+Many of the files are found in the TweeBankNLP zip which you have to unzip:
 
 The models we used for sentiment analysis are as follows:
 - distilbert/distilbert-base-uncased-finetuned-sst-2-english
