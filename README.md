@@ -12,4 +12,4 @@ The models we used for sentiment analysis are as follows:
 - cardiffnlp/twitter-roberta-base-sentiment-latest
 - siebert/sentiment-roberta-large-english
 
-To get the roberta twitter model finetuned on Reddit you will have to run the file which first finetunes the model and creates is as a folder and then use that as your model path.
+To get the roberta twitter model finetuned on Reddit you will have to run the file which first finetunes the model and creates it as a folder and then use that as your model path.
