@@ -36,4 +36,4 @@ To get the `roberta` Twitter model fine-tuned on Reddit:
    - Use `model.py` to perform sentiment analysis with the specified models.
 
 4. **Evaluation**:
-   - Use `eval.py` to compute the ROUGE score for performance evaluation.
+   - Use `eval_data.py` to compute the ROUGE score for performance evaluation.
